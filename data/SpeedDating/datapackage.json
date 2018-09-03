@@ -1,1 +1,656 @@
-{"name": "speeddating", "title": "Speeddating", "resources": [{"path": "SpeedDating.arff", "pathType": "local", "name": "speeddating", "format": "arff", "encoding": "ISO-8859-9"}, {"path": "SpeedDating.csv", "pathType": "local", "name": "speeddating", "format": "csv", "mediatype": "text/csv", "encoding": "ISO-8859-9", "dialect": {"delimiter": ",", "quoteChar": "'"}, "schema": {"fields": [{"name": "has_null", "type": "number", "format": "default"}, {"name": "wave", "type": "number", "format": "default"}, {"name": "gender", "type": "string", "format": "default"}, {"name": "age", "type": "number", "format": "default"}, {"name": "age_o", "type": "number", "format": "default"}, {"name": "d_age", "type": "number", "format": "default"}, {"name": "d_d_age", "type": "string", "format": "default"}, {"name": "race", "type": "string", "format": "default"}, {"name": "race_o", "type": "string", "format": "default"}, {"name": "samerace", "type": "number", "format": "default"}, {"name": "importance_same_race", "type": "number", "format": "default"}, {"name": "importance_same_religion", "type": "number", "format": "default"}, {"name": "d_importance_same_race", "type": "string", "format": "default"}, {"name": "d_importance_same_religion", "type": "string", "format": "default"}, {"name": "field", "type": "string", "format": "default"}, {"name": "pref_o_attractive", "type": "number", "format": "default"}, {"name": "pref_o_sincere", "type": "number", "format": "default"}, {"name": "pref_o_intelligence", "type": "number", "format": "default"}, {"name": "pref_o_funny", "type": "number", "format": "default"}, {"name": "pref_o_ambitious", "type": "number", "format": "default"}, {"name": "pref_o_shared_interests", "type": "number", "format": "default"}, {"name": "d_pref_o_attractive", "type": "string", "format": "default"}, {"name": "d_pref_o_sincere", "type": "string", "format": "default"}, {"name": "d_pref_o_intelligence", "type": "string", "format": "default"}, {"name": "d_pref_o_funny", "type": "string", "format": "default"}, {"name": "d_pref_o_ambitious", "type": "string", "format": "default"}, {"name": "d_pref_o_shared_interests", "type": "string", "format": "default"}, {"name": "attractive_o", "type": "number", "format": "default"}, {"name": "sinsere_o", "type": "number", "format": "default"}, {"name": "intelligence_o", "type": "number", "format": "default"}, {"name": "funny_o", "type": "number", "format": "default"}, {"name": "ambitous_o", "type": "number", "format": "default"}, {"name": "shared_interests_o", "type": "number", "format": "default"}, {"name": "d_attractive_o", "type": "string", "format": "default"}, {"name": "d_sinsere_o", "type": "string", "format": "default"}, {"name": "d_intelligence_o", "type": "string", "format": "default"}, {"name": "d_funny_o", "type": "string", "format": "default"}, {"name": "d_ambitous_o", "type": "string", "format": "default"}, {"name": "d_shared_interests_o", "type": "string", "format": "default"}, {"name": "attractive_important", "type": "number", "format": "default"}, {"name": "sincere_important", "type": "number", "format": "default"}, {"name": "intellicence_important", "type": "number", "format": "default"}, {"name": "funny_important", "type": "number", "format": "default"}, {"name": "ambtition_important", "type": "number", "format": "default"}, {"name": "shared_interests_important", "type": "number", "format": "default"}, {"name": "d_attractive_important", "type": "string", "format": "default"}, {"name": "d_sincere_important", "type": "string", "format": "default"}, {"name": "d_intellicence_important", "type": "string", "format": "default"}, {"name": "d_funny_important", "type": "string", "format": "default"}, {"name": "d_ambtition_important", "type": "string", "format": "default"}, {"name": "d_shared_interests_important", "type": "string", "format": "default"}, {"name": "attractive", "type": "number", "format": "default"}, {"name": "sincere", "type": "number", "format": "default"}, {"name": "intelligence", "type": "number", "format": "default"}, {"name": "funny", "type": "number", "format": "default"}, {"name": "ambition", "type": "number", "format": "default"}, {"name": "d_attractive", "type": "string", "format": "default"}, {"name": "d_sincere", "type": "string", "format": "default"}, {"name": "d_intelligence", "type": "string", "format": "default"}, {"name": "d_funny", "type": "string", "format": "default"}, {"name": "d_ambition", "type": "string", "format": "default"}, {"name": "attractive_partner", "type": "number", "format": "default"}, {"name": "sincere_partner", "type": "number", "format": "default"}, {"name": "intelligence_partner", "type": "number", "format": "default"}, {"name": "funny_partner", "type": "number", "format": "default"}, {"name": "ambition_partner", "type": "number", "format": "default"}, {"name": "shared_interests_partner", "type": "number", "format": "default"}, {"name": "d_attractive_partner", "type": "string", "format": "default"}, {"name": "d_sincere_partner", "type": "string", "format": "default"}, {"name": "d_intelligence_partner", "type": "string", "format": "default"}, {"name": "d_funny_partner", "type": "string", "format": "default"}, {"name": "d_ambition_partner", "type": "string", "format": "default"}, {"name": "d_shared_interests_partner", "type": "string", "format": "default"}, {"name": "sports", "type": "number", "format": "default"}, {"name": "tvsports", "type": "number", "format": "default"}, {"name": "exercise", "type": "number", "format": "default"}, {"name": "dining", "type": "number", "format": "default"}, {"name": "museums", "type": "number", "format": "default"}, {"name": "art", "type": "number", "format": "default"}, {"name": "hiking", "type": "number", "format": "default"}, {"name": "gaming", "type": "number", "format": "default"}, {"name": "clubbing", "type": "number", "format": "default"}, {"name": "reading", "type": "number", "format": "default"}, {"name": "tv", "type": "number", "format": "default"}, {"name": "theater", "type": "number", "format": "default"}, {"name": "movies", "type": "number", "format": "default"}, {"name": "concerts", "type": "number", "format": "default"}, {"name": "music", "type": "number", "format": "default"}, {"name": "shopping", "type": "number", "format": "default"}, {"name": "yoga", "type": "number", "format": "default"}, {"name": "d_sports", "type": "string", "format": "default"}, {"name": "d_tvsports", "type": "string", "format": "default"}, {"name": "d_exercise", "type": "string", "format": "default"}, {"name": "d_dining", "type": "string", "format": "default"}, {"name": "d_museums", "type": "string", "format": "default"}, {"name": "d_art", "type": "string", "format": "default"}, {"name": "d_hiking", "type": "string", "format": "default"}, {"name": "d_gaming", "type": "string", "format": "default"}, {"name": "d_clubbing", "type": "string", "format": "default"}, {"name": "d_reading", "type": "string", "format": "default"}, {"name": "d_tv", "type": "string", "format": "default"}, {"name": "d_theater", "type": "string", "format": "default"}, {"name": "d_movies", "type": "string", "format": "default"}, {"name": "d_concerts", "type": "string", "format": "default"}, {"name": "d_music", "type": "string", "format": "default"}, {"name": "d_shopping", "type": "string", "format": "default"}, {"name": "d_yoga", "type": "string", "format": "default"}, {"name": "interests_correlate", "type": "number", "format": "default"}, {"name": "d_interests_correlate", "type": "string", "format": "default"}, {"name": "expected_happy_with_sd_people", "type": "number", "format": "default"}, {"name": "expected_num_interested_in_me", "type": "number", "format": "default"}, {"name": "expected_num_matches", "type": "number", "format": "default"}, {"name": "d_expected_happy_with_sd_people", "type": "string", "format": "default"}, {"name": "d_expected_num_interested_in_me", "type": "string", "format": "default"}, {"name": "d_expected_num_matches", "type": "string", "format": "default"}, {"name": "like", "type": "number", "format": "default"}, {"name": "guess_prob_liked", "type": "number", "format": "default"}, {"name": "d_like", "type": "string", "format": "default"}, {"name": "d_guess_prob_liked", "type": "string", "format": "default"}, {"name": "met", "type": "number", "format": "default"}, {"name": "decision", "type": "number", "format": "default"}, {"name": "decision_o", "type": "number", "format": "default"}, {"name": "match", "type": "number", "format": "default"}], "missingValues": [""]}}], "readme": "The resources for this dataset can be found at https://www.openml.org/d/40536\n\nAuthor: Ray Fisman and Sheena Iyengar  \nSource: [Columbia Business School](http://www.stat.columbia.edu/~gelman/arm/examples/speed.dating/) - 2004  \nPlease cite: None  \n\nThis data was gathered from participants in experimental speed dating events from 2002-2004. During the events, the attendees would have a four-minute \"first date\" with every other participant of the opposite sex. At the end of their four minutes, participants were asked if they would like to see their date again. They were also asked to rate their date on six attributes: Attractiveness, Sincerity, Intelligence, Fun, Ambition, and Shared Interests. The dataset also includes questionnaire data gathered from participants at different points in the process. These fields include: demographics, dating habits, self-perception across key attributes, beliefs on what others find valuable in a mate, and lifestyle information. \n\n### Attribute Information\n```\n * gender: Gender of self  \n * age: Age of self  \n * age_o: Age of partner  \n * d_age: Difference in age  \n * race: Race of self  \n * race_o: Race of partner  \n * samerace: Whether the two persons have the same race or not.  \n * importance_same_race: How important is it that partner is of same race?  \n * importance_same_religion: How important is it that partner has same religion?  \n * field: Field of study  \n * pref_o_attractive: How important does partner rate attractiveness  \n * pref_o_sinsere: How important does partner rate sincerity  \n * pref_o_intelligence: How important does partner rate intelligence  \n * pref_o_funny: How important does partner rate being funny  \n * pref_o_ambitious: How important does partner rate ambition  \n * pref_o_shared_interests: How important does partner rate having shared interests  \n * attractive_o: Rating by partner (about me) at night of event on attractiveness  \n * sincere_o: Rating by partner (about me) at night of event on sincerity  \n * intelligence_o: Rating by partner (about me) at night of event on intelligence  \n * funny_o: Rating by partner (about me) at night of event on being funny  \n * ambitous_o: Rating by partner (about me) at night of event on being ambitious  \n * shared_interests_o: Rating by partner (about me) at night of event on shared interest  \n * attractive_important: What do you look for in a partner - attractiveness  \n * sincere_important: What do you look for in a partner - sincerity  \n * intellicence_important: What do you look for in a partner - intelligence  \n * funny_important: What do you look for in a partner - being funny  \n * ambtition_important: What do you look for in a partner - ambition  \n * shared_interests_important: What do you look for in a partner - shared interests  \n * attractive: Rate yourself - attractiveness  \n * sincere: Rate yourself - sincerity   \n * intelligence: Rate yourself - intelligence   \n * funny: Rate yourself - being funny   \n * ambition: Rate yourself - ambition  \n * attractive_partner: Rate your partner - attractiveness  \n * sincere_partner: Rate your partner - sincerity   \n * intelligence_partner: Rate your partner - intelligence   \n * funny_partner: Rate your partner - being funny   \n * ambition_partner: Rate your partner - ambition   \n * shared_interests_partner: Rate your partner - shared interests  \n * sports: Your own interests [1-10]  \n * tvsports  \n * exercise  \n * dining  \n * museums  \n * art  \n * hiking  \n * gaming  \n * clubbing  \n * reading  \n * tv  \n * theater  \n * movies  \n * concerts  \n * music  \n * shopping  \n * yoga  \n * interests_correlate: Correlation between participant\u2019s and partner\u2019s ratings of interests.  \n * expected_happy_with_sd_people: How happy do you expect to be with the people you meet during the speed-dating event?  \n * expected_num_interested_in_me: Out of the 20 people you will meet, how many do you expect will be interested in dating you?  \n * expected_num_matches: How many matches do you expect to get?  \n * like: Did you like your partner?  \n * guess_prob_liked: How likely do you think it is that your partner likes you?   \n * met: Have you met your partner before?  \n * decision: Decision at night of event.\n * decision_o: Decision of partner at night of event.  \n * match: Match (yes/no)\n```\n\n### Relevant paper\n\nRaymond Fisman; Sheena S. Iyengar; Emir Kamenica; Itamar Simonson.   \nGender Differences in Mate Selection: Evidence From a Speed Dating Experiment.   \nThe Quarterly Journal of Economics, Volume 121, Issue 2, 1 May 2006, Pages 673\u2013697,   \n[https://doi.org/10.1162/qjec.2006.121.2.673](https://doi.org/10.1162/qjec.2006.121.2.673)\n\n", "description": "The resources for this dataset can be found at https://www.openml.org/d/40536\n\nAuthor: Ray Fisman an", "licenses": [{"name": "ODC-PDDL", "path": "http://opendatacommons.org/licenses/pddl/", "title": "Open Data Commons Public Domain Dedication and License"}]}
+{
+   "name": "speeddating",
+   "title": "Speeddating",
+   "resources": [
+      {
+         "path": "SpeedDating.arff",
+         "pathType": "local",
+         "name": "speeddating",
+         "format": "arff",
+         "encoding": "ISO-8859-9"
+      },
+      {
+         "path": "SpeedDating.csv",
+         "pathType": "local",
+         "name": "speeddating",
+         "format": "csv",
+         "mediatype": "text/csv",
+         "encoding": "ISO-8859-9",
+         "dialect": {
+            "delimiter": ",",
+            "quoteChar": "'"
+         },
+         "schema": {
+            "fields": [
+               {
+                  "name": "has_null",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "wave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "gender",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "age",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "age_o",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "d_age",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "d_d_age",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "race",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "race_o",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "samerace",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "importance_same_race",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "importance_same_religion",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "d_importance_same_race",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_importance_same_religion",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "field",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "pref_o_attractive",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "pref_o_sincere",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "pref_o_intelligence",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "pref_o_funny",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "pref_o_ambitious",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "pref_o_shared_interests",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "d_pref_o_attractive",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_pref_o_sincere",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_pref_o_intelligence",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_pref_o_funny",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_pref_o_ambitious",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_pref_o_shared_interests",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "attractive_o",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "sinsere_o",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "intelligence_o",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "funny_o",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "ambitous_o",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "shared_interests_o",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "d_attractive_o",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_sinsere_o",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_intelligence_o",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_funny_o",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_ambitous_o",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_shared_interests_o",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "attractive_important",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "sincere_important",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "intellicence_important",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "funny_important",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "ambtition_important",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "shared_interests_important",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "d_attractive_important",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_sincere_important",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_intellicence_important",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_funny_important",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_ambtition_important",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_shared_interests_important",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "attractive",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "sincere",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "intelligence",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "funny",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "ambition",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "d_attractive",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_sincere",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_intelligence",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_funny",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_ambition",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "attractive_partner",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "sincere_partner",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "intelligence_partner",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "funny_partner",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "ambition_partner",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "shared_interests_partner",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "d_attractive_partner",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_sincere_partner",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_intelligence_partner",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_funny_partner",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_ambition_partner",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_shared_interests_partner",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "sports",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "tvsports",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "exercise",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "dining",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "museums",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "art",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "hiking",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "gaming",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "clubbing",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "reading",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "tv",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "theater",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "movies",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "concerts",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "music",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "shopping",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "yoga",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "d_sports",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_tvsports",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_exercise",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_dining",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_museums",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_art",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_hiking",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_gaming",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_clubbing",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_reading",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_tv",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_theater",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_movies",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_concerts",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_music",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_shopping",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_yoga",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "interests_correlate",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "d_interests_correlate",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "expected_happy_with_sd_people",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "expected_num_interested_in_me",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "expected_num_matches",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "d_expected_happy_with_sd_people",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_expected_num_interested_in_me",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_expected_num_matches",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "like",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "guess_prob_liked",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "d_like",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "d_guess_prob_liked",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "met",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "decision",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "decision_o",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "match",
+                  "type": "number",
+                  "format": "default"
+               }
+            ],
+            "missingValues": [
+               ""
+            ]
+         }
+      }
+   ],
+   "readme": "The resources for this dataset can be found at https://www.openml.org/d/40536\n\nAuthor: Ray Fisman and Sheena Iyengar  \nSource: [Columbia Business School](http://www.stat.columbia.edu/~gelman/arm/examples/speed.dating/) - 2004  \nPlease cite: None  \n\nThis data was gathered from participants in experimental speed dating events from 2002-2004. During the events, the attendees would have a four-minute \"first date\" with every other participant of the opposite sex. At the end of their four minutes, participants were asked if they would like to see their date again. They were also asked to rate their date on six attributes: Attractiveness, Sincerity, Intelligence, Fun, Ambition, and Shared Interests. The dataset also includes questionnaire data gathered from participants at different points in the process. These fields include: demographics, dating habits, self-perception across key attributes, beliefs on what others find valuable in a mate, and lifestyle information. \n\n### Attribute Information\n```\n * gender: Gender of self  \n * age: Age of self  \n * age_o: Age of partner  \n * d_age: Difference in age  \n * race: Race of self  \n * race_o: Race of partner  \n * samerace: Whether the two persons have the same race or not.  \n * importance_same_race: How important is it that partner is of same race?  \n * importance_same_religion: How important is it that partner has same religion?  \n * field: Field of study  \n * pref_o_attractive: How important does partner rate attractiveness  \n * pref_o_sinsere: How important does partner rate sincerity  \n * pref_o_intelligence: How important does partner rate intelligence  \n * pref_o_funny: How important does partner rate being funny  \n * pref_o_ambitious: How important does partner rate ambition  \n * pref_o_shared_interests: How important does partner rate having shared interests  \n * attractive_o: Rating by partner (about me) at night of event on attractiveness  \n * sincere_o: Rating by partner (about me) at night of event on sincerity  \n * intelligence_o: Rating by partner (about me) at night of event on intelligence  \n * funny_o: Rating by partner (about me) at night of event on being funny  \n * ambitous_o: Rating by partner (about me) at night of event on being ambitious  \n * shared_interests_o: Rating by partner (about me) at night of event on shared interest  \n * attractive_important: What do you look for in a partner - attractiveness  \n * sincere_important: What do you look for in a partner - sincerity  \n * intellicence_important: What do you look for in a partner - intelligence  \n * funny_important: What do you look for in a partner - being funny  \n * ambtition_important: What do you look for in a partner - ambition  \n * shared_interests_important: What do you look for in a partner - shared interests  \n * attractive: Rate yourself - attractiveness  \n * sincere: Rate yourself - sincerity   \n * intelligence: Rate yourself - intelligence   \n * funny: Rate yourself - being funny   \n * ambition: Rate yourself - ambition  \n * attractive_partner: Rate your partner - attractiveness  \n * sincere_partner: Rate your partner - sincerity   \n * intelligence_partner: Rate your partner - intelligence   \n * funny_partner: Rate your partner - being funny   \n * ambition_partner: Rate your partner - ambition   \n * shared_interests_partner: Rate your partner - shared interests  \n * sports: Your own interests [1-10]  \n * tvsports  \n * exercise  \n * dining  \n * museums  \n * art  \n * hiking  \n * gaming  \n * clubbing  \n * reading  \n * tv  \n * theater  \n * movies  \n * concerts  \n * music  \n * shopping  \n * yoga  \n * interests_correlate: Correlation between participant\u2019s and partner\u2019s ratings of interests.  \n * expected_happy_with_sd_people: How happy do you expect to be with the people you meet during the speed-dating event?  \n * expected_num_interested_in_me: Out of the 20 people you will meet, how many do you expect will be interested in dating you?  \n * expected_num_matches: How many matches do you expect to get?  \n * like: Did you like your partner?  \n * guess_prob_liked: How likely do you think it is that your partner likes you?   \n * met: Have you met your partner before?  \n * decision: Decision at night of event.\n * decision_o: Decision of partner at night of event.  \n * match: Match (yes/no)\n```\n\n### Relevant paper\n\nRaymond Fisman; Sheena S. Iyengar; Emir Kamenica; Itamar Simonson.   \nGender Differences in Mate Selection: Evidence From a Speed Dating Experiment.   \nThe Quarterly Journal of Economics, Volume 121, Issue 2, 1 May 2006, Pages 673\u2013697,   \n[https://doi.org/10.1162/qjec.2006.121.2.673](https://doi.org/10.1162/qjec.2006.121.2.673)\n\n",
+   "description": "The resources for this dataset can be found at https://www.openml.org/d/40536\n\nAuthor: Ray Fisman an",
+   "licenses": [
+      {
+         "name": "ODC-PDDL",
+         "path": "http://opendatacommons.org/licenses/pddl/",
+         "title": "Open Data Commons Public Domain Dedication and License"
+      }
+   ]
+}

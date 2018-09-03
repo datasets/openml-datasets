@@ -1,1 +1,66 @@
-{"name": "iris", "title": "Iris", "resources": [{"path": "iris.arff", "pathType": "local", "name": "iris", "format": "arff", "encoding": "ISO-8859-1"}, {"path": "iris.csv", "pathType": "local", "name": "iris", "format": "csv", "mediatype": "text/csv", "encoding": "ISO-8859-1", "dialect": {"delimiter": ",", "quoteChar": "\""}, "schema": {"fields": [{"name": "sepallength", "type": "number", "format": "default"}, {"name": "sepalwidth", "type": "number", "format": "default"}, {"name": "petallength", "type": "number", "format": "default"}, {"name": "petalwidth", "type": "number", "format": "default"}, {"name": "class", "type": "string", "format": "default"}], "missingValues": [""]}}], "readme": "The resources for this dataset can be found at https://www.openml.org/d/61\n\nAuthor: R.A. Fisher  \nSource: [UCI](https://archive.ics.uci.edu/ml/datasets/Iris) - 1936 - Donated by Michael Marshall  \nPlease cite:   \n\nIris Plants Database  \nThis is perhaps the best known database to be found in the pattern recognition literature.  Fisher's paper is a classic in the field and is referenced frequently to this day.  (See Duda & Hart, for example.)  The data set contains 3 classes of 50 instances each, where each class refers to a type of iris plant.  One class is     linearly separable from the other 2; the latter are NOT linearly separable from each other.\n\nPredicted attribute: class of iris plant.  \nThis is an exceedingly simple domain.  \n \n### Attribute Information:\n    1. sepal length in cm\n    2. sepal width in cm\n    3. petal length in cm\n    4. petal width in cm\n    5. class: \n       -- Iris Setosa\n       -- Iris Versicolour\n       -- Iris Virginica", "description": "The resources for this dataset can be found at https://www.openml.org/d/61\n\nAuthor: R.A. Fisher  \nSo", "licenses": [{"name": "ODC-PDDL", "path": "http://opendatacommons.org/licenses/pddl/", "title": "Open Data Commons Public Domain Dedication and License"}]}
+{
+   "name": "iris",
+   "title": "Iris",
+   "resources": [
+      {
+         "path": "iris.arff",
+         "pathType": "local",
+         "name": "iris",
+         "format": "arff",
+         "encoding": "ISO-8859-1"
+      },
+      {
+         "path": "iris.csv",
+         "pathType": "local",
+         "name": "iris",
+         "format": "csv",
+         "mediatype": "text/csv",
+         "encoding": "ISO-8859-1",
+         "dialect": {
+            "delimiter": ",",
+            "quoteChar": "\""
+         },
+         "schema": {
+            "fields": [
+               {
+                  "name": "sepallength",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "sepalwidth",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "petallength",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "petalwidth",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "class",
+                  "type": "string",
+                  "format": "default"
+               }
+            ],
+            "missingValues": [
+               ""
+            ]
+         }
+      }
+   ],
+   "readme": "The resources for this dataset can be found at https://www.openml.org/d/61\n\nAuthor: R.A. Fisher  \nSource: [UCI](https://archive.ics.uci.edu/ml/datasets/Iris) - 1936 - Donated by Michael Marshall  \nPlease cite:   \n\nIris Plants Database  \nThis is perhaps the best known database to be found in the pattern recognition literature.  Fisher's paper is a classic in the field and is referenced frequently to this day.  (See Duda & Hart, for example.)  The data set contains 3 classes of 50 instances each, where each class refers to a type of iris plant.  One class is     linearly separable from the other 2; the latter are NOT linearly separable from each other.\n\nPredicted attribute: class of iris plant.  \nThis is an exceedingly simple domain.  \n \n### Attribute Information:\n    1. sepal length in cm\n    2. sepal width in cm\n    3. petal length in cm\n    4. petal width in cm\n    5. class: \n       -- Iris Setosa\n       -- Iris Versicolour\n       -- Iris Virginica",
+   "description": "The resources for this dataset can be found at https://www.openml.org/d/61\n\nAuthor: R.A. Fisher  \nSo",
+   "licenses": [
+      {
+         "name": "ODC-PDDL",
+         "path": "http://opendatacommons.org/licenses/pddl/",
+         "title": "Open Data Commons Public Domain Dedication and License"
+      }
+   ]
+}

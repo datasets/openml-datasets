@@ -1,1 +1,686 @@
-{"name": "gas-drift", "title": "Gas drift", "resources": [{"path": "gas-drift.csv", "pathType": "local", "name": "gas-drift", "format": "csv", "mediatype": "text/csv", "encoding": "ISO-8859-2", "dialect": {"delimiter": ",", "quoteChar": "\""}, "schema": {"fields": [{"name": "V1", "type": "number", "format": "default"}, {"name": "V2", "type": "number", "format": "default"}, {"name": "V3", "type": "number", "format": "default"}, {"name": "V4", "type": "number", "format": "default"}, {"name": "V5", "type": "number", "format": "default"}, {"name": "V6", "type": "number", "format": "default"}, {"name": "V7", "type": "number", "format": "default"}, {"name": "V8", "type": "number", "format": "default"}, {"name": "V9", "type": "number", "format": "default"}, {"name": "V10", "type": "number", "format": "default"}, {"name": "V11", "type": "number", "format": "default"}, {"name": "V12", "type": "number", "format": "default"}, {"name": "V13", "type": "number", "format": "default"}, {"name": "V14", "type": "number", "format": "default"}, {"name": "V15", "type": "number", "format": "default"}, {"name": "V16", "type": "number", "format": "default"}, {"name": "V17", "type": "number", "format": "default"}, {"name": "V18", "type": "number", "format": "default"}, {"name": "V19", "type": "number", "format": "default"}, {"name": "V20", "type": "number", "format": "default"}, {"name": "V21", "type": "number", "format": "default"}, {"name": "V22", "type": "number", "format": "default"}, {"name": "V23", "type": "number", "format": "default"}, {"name": "V24", "type": "number", "format": "default"}, {"name": "V25", "type": "number", "format": "default"}, {"name": "V26", "type": "number", "format": "default"}, {"name": "V27", "type": "number", "format": "default"}, {"name": "V28", "type": "number", "format": "default"}, {"name": "V29", "type": "number", "format": "default"}, {"name": "V30", "type": "number", "format": "default"}, {"name": "V31", "type": "number", "format": "default"}, {"name": "V32", "type": "number", "format": "default"}, {"name": "V33", "type": "number", "format": "default"}, {"name": "V34", "type": "number", "format": "default"}, {"name": "V35", "type": "number", "format": "default"}, {"name": "V36", "type": "number", "format": "default"}, {"name": "V37", "type": "number", "format": "default"}, {"name": "V38", "type": "number", "format": "default"}, {"name": "V39", "type": "number", "format": "default"}, {"name": "V40", "type": "number", "format": "default"}, {"name": "V41", "type": "number", "format": "default"}, {"name": "V42", "type": "number", "format": "default"}, {"name": "V43", "type": "number", "format": "default"}, {"name": "V44", "type": "number", "format": "default"}, {"name": "V45", "type": "number", "format": "default"}, {"name": "V46", "type": "number", "format": "default"}, {"name": "V47", "type": "number", "format": "default"}, {"name": "V48", "type": "number", "format": "default"}, {"name": "V49", "type": "number", "format": "default"}, {"name": "V50", "type": "number", "format": "default"}, {"name": "V51", "type": "number", "format": "default"}, {"name": "V52", "type": "number", "format": "default"}, {"name": "V53", "type": "number", "format": "default"}, {"name": "V54", "type": "number", "format": "default"}, {"name": "V55", "type": "number", "format": "default"}, {"name": "V56", "type": "number", "format": "default"}, {"name": "V57", "type": "number", "format": "default"}, {"name": "V58", "type": "number", "format": "default"}, {"name": "V59", "type": "number", "format": "default"}, {"name": "V60", "type": "number", "format": "default"}, {"name": "V61", "type": "number", "format": "default"}, {"name": "V62", "type": "number", "format": "default"}, {"name": "V63", "type": "number", "format": "default"}, {"name": "V64", "type": "number", "format": "default"}, {"name": "V65", "type": "number", "format": "default"}, {"name": "V66", "type": "number", "format": "default"}, {"name": "V67", "type": "number", "format": "default"}, {"name": "V68", "type": "number", "format": "default"}, {"name": "V69", "type": "number", "format": "default"}, {"name": "V70", "type": "number", "format": "default"}, {"name": "V71", "type": "number", "format": "default"}, {"name": "V72", "type": "number", "format": "default"}, {"name": "V73", "type": "number", "format": "default"}, {"name": "V74", "type": "number", "format": "default"}, {"name": "V75", "type": "number", "format": "default"}, {"name": "V76", "type": "number", "format": "default"}, {"name": "V77", "type": "number", "format": "default"}, {"name": "V78", "type": "number", "format": "default"}, {"name": "V79", "type": "number", "format": "default"}, {"name": "V80", "type": "number", "format": "default"}, {"name": "V81", "type": "number", "format": "default"}, {"name": "V82", "type": "number", "format": "default"}, {"name": "V83", "type": "number", "format": "default"}, {"name": "V84", "type": "number", "format": "default"}, {"name": "V85", "type": "number", "format": "default"}, {"name": "V86", "type": "number", "format": "default"}, {"name": "V87", "type": "number", "format": "default"}, {"name": "V88", "type": "number", "format": "default"}, {"name": "V89", "type": "number", "format": "default"}, {"name": "V90", "type": "number", "format": "default"}, {"name": "V91", "type": "number", "format": "default"}, {"name": "V92", "type": "number", "format": "default"}, {"name": "V93", "type": "number", "format": "default"}, {"name": "V94", "type": "number", "format": "default"}, {"name": "V95", "type": "number", "format": "default"}, {"name": "V96", "type": "number", "format": "default"}, {"name": "V97", "type": "number", "format": "default"}, {"name": "V98", "type": "number", "format": "default"}, {"name": "V99", "type": "number", "format": "default"}, {"name": "V100", "type": "number", "format": "default"}, {"name": "V101", "type": "number", "format": "default"}, {"name": "V102", "type": "number", "format": "default"}, {"name": "V103", "type": "number", "format": "default"}, {"name": "V104", "type": "number", "format": "default"}, {"name": "V105", "type": "number", "format": "default"}, {"name": "V106", "type": "number", "format": "default"}, {"name": "V107", "type": "number", "format": "default"}, {"name": "V108", "type": "number", "format": "default"}, {"name": "V109", "type": "number", "format": "default"}, {"name": "V110", "type": "number", "format": "default"}, {"name": "V111", "type": "number", "format": "default"}, {"name": "V112", "type": "number", "format": "default"}, {"name": "V113", "type": "number", "format": "default"}, {"name": "V114", "type": "number", "format": "default"}, {"name": "V115", "type": "number", "format": "default"}, {"name": "V116", "type": "number", "format": "default"}, {"name": "V117", "type": "number", "format": "default"}, {"name": "V118", "type": "number", "format": "default"}, {"name": "V119", "type": "number", "format": "default"}, {"name": "V120", "type": "number", "format": "default"}, {"name": "V121", "type": "number", "format": "default"}, {"name": "V122", "type": "number", "format": "default"}, {"name": "V123", "type": "number", "format": "default"}, {"name": "V124", "type": "number", "format": "default"}, {"name": "V125", "type": "number", "format": "default"}, {"name": "V126", "type": "number", "format": "default"}, {"name": "V127", "type": "number", "format": "default"}, {"name": "V128", "type": "number", "format": "default"}, {"name": "Class", "type": "number", "format": "default"}], "missingValues": [""]}}, {"path": "gas-drift.arff", "pathType": "local", "name": "gas-drift", "format": "arff", "encoding": "UTF-8"}], "readme": "The resources for this dataset can be found at https://www.openml.org/d/1476\n\nAuthor: Alexander Vergara  \nSource: [UCI](https://archive.ics.uci.edu/ml/datasets/gas+sensor+array+drift+dataset) - 2012    \nPlease cite: Alexander Vergara, Shankar Vembu, Tuba Ayhan, Margaret A. Ryan, Margie L. Homer, Ram\u00f3n Huerta. Chemical gas sensor drift compensation using classifier ensembles, Sensors and Actuators B: Chemical (2012) doi: 10.1016/j.snb.2012.01.074.   \n\n### Description\nGas Sensor Array Drift Dataset Data Set\n\n### Sources\n```\n(a) Creators: Alexander Vergara (vergara '@' ucsd.edu) \nBioCircutis Institute \nUniversity of California San Diego \nSan Diego, California, USA \n\n(b) Donors: Alexander Vergara (vergara '@' ucsd.edu) \nRamon Huerta (rhuerta '@' ucsd.edu) \n```\n\n### Dataset Information\n\nThis archive contains 13910 measurements from 16 chemical sensors utilized in simulations for drift compensation in a discrimination task of 6 gases at various levels of concentrations.  \nThe goal is to achieve good performance (or as low degradation as possible) over time, as reported in the paper mentioned below in Section 2: Data collection. \n\nThe primary purpose of providing this dataset is to make it freely accessible online to the chemo-sensor research community and artificial intelligence to develop strategies to cope with sensor/concept drift. The dataset can be used exclusively for research purposes. Commercial purposes are fully excluded.\n\nThe dataset was gathered within January 2007 to February 2011 (36 months) in a gas delivery platform facility situated at the ChemoSignals Laboratory in the BioCircuits Institute, University of California San Diego. \n\nBeing completely operated by a fully computerized environment controlled by a LabVIEW's National Instruments software on a PC fitted with the appropriate serial data acquisition boards. The measurement system platform provides versatility for obtaining the desired concentrations of the chemical substances of interest with high accuracy and in a highly reproducible manner, minimizing thereby the common mistakes caused by human intervention and making it possible to exclusively concentrate on the chemical sensors for compensating real drift.\n\nThe resulting dataset comprises recordings from six distinct pure gaseous substances, namely Ammonia, Acetaldehyde, Acetone, Ethylene, Ethanol, and Toluene, each dosed at a wide variety of concentration values ranging from 5 to 1000 ppmv. An extension of this dataset with the concentration values is available at [Gas Sensor Array Drift Dataset at Different Concentrations Data Set](http://archive.ics.uci.edu/ml/datasets/Gas+Sensor+Array+Drift+Dataset+at+Different+Concentrations).\n\n\n### Attribute Information\n\nThe response of the said sensors is read-out in the form of the resistance across the active layer of each sensor. Hence each measurement produced a 16-channel time series, each of which represented by an aggregate of features reflecting all the dynamic processes occurring at the sensor surface in reaction to the chemical substance being evaluated. \n\nIn particular, two distinct types of features were considered in the creation of this dataset: \n(i) The so-called steady-state feature (\u00ce\u201dR), defined as the difference of the maximal resistance change and the baseline and its normalized version expressed by the ratio of the maximal resistance and the baseline values when the chemical vapor is present in the test chamber; and \n(ii) an aggregate of features reflecting the sensor dynamics of the increasing/decaying transient portion of the sensor response during the entire measurement procedure under controlled conditions, namely the exponential moving average (ema\u00ce\u00b1). These aggregate of features is a transform, borrowed from the field of econometrics originally introduced to the chemo-sensing community by Muezzinoglu et al. (2009), that converts the said transient portion into a real scalar, by estimating the maximum value \u00e2\u20ac\u201dminimum for the decaying portion of the sensor response\u00e2\u20ac\u201d of its exponential moving average (ema\u00ce\u00b1), with an initial condition set to zero and a scalar smoothing parameter of the operator, \u00ce\u00b1, that defines both the quality of the feature and the time of its occurrence along the time series the scalar, set to range between 0 and 1. In particular, three different values for \u00ce\u00b1 were set to obtain three different feature values from the pre-recorded rising portion of the sensor response and three additional features with the same \u00ce\u00b1 values but for the decaying portion of the sensor response, covering thus the entire sensor response dynamics. \n\nFor a more detailed analysis and discussion on these features as well as a graphical illustration of them please refer to Section 2.3 and Figure 2, respectively of the annotated manuscript.\n\nOnce the abovementioned features are calculated, one is to form a feature vector containing the 8 features extracted from each particular sensor multiplied by the 16 sensors considered here. In the end, there is a resulting 128-dimensional feature vector containing all the features indicated above.\n\nThere are six possible classes: \n```\n1: Ethanol \n2: Ethylene  \n3: Ammonia \n4: Acetaldehyde \n5: Acetone \n6: Toluene\n```\n### Relevant Papers\n\nAlexander Vergara, Shankar Vembu, Tuba Ayhan, Margaret A. Ryan, Margie L. Homer and Ram\u00f3n Huerta, Chemical gas sensor drift compensation using classifier ensembles, Sensors and Actuators B: Chemical (2012) doi: 10.1016/j.snb.2012.01.074. \n", "description": "The resources for this dataset can be found at https://www.openml.org/d/1476\n\nAuthor: Alexander Verg", "licenses": [{"name": "ODC-PDDL", "path": "http://opendatacommons.org/licenses/pddl/", "title": "Open Data Commons Public Domain Dedication and License"}]}
+{
+   "name": "gas-drift",
+   "title": "Gas drift",
+   "resources": [
+      {
+         "path": "gas-drift.csv",
+         "pathType": "local",
+         "name": "gas-drift",
+         "format": "csv",
+         "mediatype": "text/csv",
+         "encoding": "ISO-8859-2",
+         "dialect": {
+            "delimiter": ",",
+            "quoteChar": "\""
+         },
+         "schema": {
+            "fields": [
+               {
+                  "name": "V1",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V2",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V3",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V4",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V5",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V6",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V7",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V8",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V9",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V10",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V11",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V12",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V13",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V14",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V15",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V16",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V17",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V18",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V19",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V20",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V21",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V22",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V23",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V24",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V25",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V26",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V27",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V28",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V29",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V30",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V31",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V32",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V33",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V34",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V35",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V36",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V37",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V38",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V39",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V40",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V41",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V42",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V43",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V44",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V45",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V46",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V47",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V48",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V49",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V50",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V51",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V52",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V53",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V54",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V55",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V56",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V57",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V58",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V59",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V60",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V61",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V62",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V63",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V64",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V65",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V66",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V67",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V68",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V69",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V70",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V71",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V72",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V73",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V74",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V75",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V76",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V77",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V78",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V79",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V80",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V81",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V82",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V83",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V84",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V85",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V86",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V87",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V88",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V89",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V90",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V91",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V92",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V93",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V94",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V95",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V96",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V97",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V98",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V99",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V100",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V101",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V102",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V103",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V104",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V105",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V106",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V107",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V108",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V109",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V110",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V111",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V112",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V113",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V114",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V115",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V116",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V117",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V118",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V119",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V120",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V121",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V122",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V123",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V124",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V125",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V126",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V127",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V128",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "Class",
+                  "type": "number",
+                  "format": "default"
+               }
+            ],
+            "missingValues": [
+               ""
+            ]
+         }
+      },
+      {
+         "path": "gas-drift.arff",
+         "pathType": "local",
+         "name": "gas-drift",
+         "format": "arff",
+         "encoding": "UTF-8"
+      }
+   ],
+   "readme": "The resources for this dataset can be found at https://www.openml.org/d/1476\n\nAuthor: Alexander Vergara  \nSource: [UCI](https://archive.ics.uci.edu/ml/datasets/gas+sensor+array+drift+dataset) - 2012    \nPlease cite: Alexander Vergara, Shankar Vembu, Tuba Ayhan, Margaret A. Ryan, Margie L. Homer, Ram\u00f3n Huerta. Chemical gas sensor drift compensation using classifier ensembles, Sensors and Actuators B: Chemical (2012) doi: 10.1016/j.snb.2012.01.074.   \n\n### Description\nGas Sensor Array Drift Dataset Data Set\n\n### Sources\n```\n(a) Creators: Alexander Vergara (vergara '@' ucsd.edu) \nBioCircutis Institute \nUniversity of California San Diego \nSan Diego, California, USA \n\n(b) Donors: Alexander Vergara (vergara '@' ucsd.edu) \nRamon Huerta (rhuerta '@' ucsd.edu) \n```\n\n### Dataset Information\n\nThis archive contains 13910 measurements from 16 chemical sensors utilized in simulations for drift compensation in a discrimination task of 6 gases at various levels of concentrations.  \nThe goal is to achieve good performance (or as low degradation as possible) over time, as reported in the paper mentioned below in Section 2: Data collection. \n\nThe primary purpose of providing this dataset is to make it freely accessible online to the chemo-sensor research community and artificial intelligence to develop strategies to cope with sensor/concept drift. The dataset can be used exclusively for research purposes. Commercial purposes are fully excluded.\n\nThe dataset was gathered within January 2007 to February 2011 (36 months) in a gas delivery platform facility situated at the ChemoSignals Laboratory in the BioCircuits Institute, University of California San Diego. \n\nBeing completely operated by a fully computerized environment controlled by a LabVIEW's National Instruments software on a PC fitted with the appropriate serial data acquisition boards. The measurement system platform provides versatility for obtaining the desired concentrations of the chemical substances of interest with high accuracy and in a highly reproducible manner, minimizing thereby the common mistakes caused by human intervention and making it possible to exclusively concentrate on the chemical sensors for compensating real drift.\n\nThe resulting dataset comprises recordings from six distinct pure gaseous substances, namely Ammonia, Acetaldehyde, Acetone, Ethylene, Ethanol, and Toluene, each dosed at a wide variety of concentration values ranging from 5 to 1000 ppmv. An extension of this dataset with the concentration values is available at [Gas Sensor Array Drift Dataset at Different Concentrations Data Set](http://archive.ics.uci.edu/ml/datasets/Gas+Sensor+Array+Drift+Dataset+at+Different+Concentrations).\n\n\n### Attribute Information\n\nThe response of the said sensors is read-out in the form of the resistance across the active layer of each sensor. Hence each measurement produced a 16-channel time series, each of which represented by an aggregate of features reflecting all the dynamic processes occurring at the sensor surface in reaction to the chemical substance being evaluated. \n\nIn particular, two distinct types of features were considered in the creation of this dataset: \n(i) The so-called steady-state feature (\u00ce\u201dR), defined as the difference of the maximal resistance change and the baseline and its normalized version expressed by the ratio of the maximal resistance and the baseline values when the chemical vapor is present in the test chamber; and \n(ii) an aggregate of features reflecting the sensor dynamics of the increasing/decaying transient portion of the sensor response during the entire measurement procedure under controlled conditions, namely the exponential moving average (ema\u00ce\u00b1). These aggregate of features is a transform, borrowed from the field of econometrics originally introduced to the chemo-sensing community by Muezzinoglu et al. (2009), that converts the said transient portion into a real scalar, by estimating the maximum value \u00e2\u20ac\u201dminimum for the decaying portion of the sensor response\u00e2\u20ac\u201d of its exponential moving average (ema\u00ce\u00b1), with an initial condition set to zero and a scalar smoothing parameter of the operator, \u00ce\u00b1, that defines both the quality of the feature and the time of its occurrence along the time series the scalar, set to range between 0 and 1. In particular, three different values for \u00ce\u00b1 were set to obtain three different feature values from the pre-recorded rising portion of the sensor response and three additional features with the same \u00ce\u00b1 values but for the decaying portion of the sensor response, covering thus the entire sensor response dynamics. \n\nFor a more detailed analysis and discussion on these features as well as a graphical illustration of them please refer to Section 2.3 and Figure 2, respectively of the annotated manuscript.\n\nOnce the abovementioned features are calculated, one is to form a feature vector containing the 8 features extracted from each particular sensor multiplied by the 16 sensors considered here. In the end, there is a resulting 128-dimensional feature vector containing all the features indicated above.\n\nThere are six possible classes: \n```\n1: Ethanol \n2: Ethylene  \n3: Ammonia \n4: Acetaldehyde \n5: Acetone \n6: Toluene\n```\n### Relevant Papers\n\nAlexander Vergara, Shankar Vembu, Tuba Ayhan, Margaret A. Ryan, Margie L. Homer and Ram\u00f3n Huerta, Chemical gas sensor drift compensation using classifier ensembles, Sensors and Actuators B: Chemical (2012) doi: 10.1016/j.snb.2012.01.074. \n",
+   "description": "The resources for this dataset can be found at https://www.openml.org/d/1476\n\nAuthor: Alexander Verg",
+   "licenses": [
+      {
+         "name": "ODC-PDDL",
+         "path": "http://opendatacommons.org/licenses/pddl/",
+         "title": "Open Data Commons Public Domain Dedication and License"
+      }
+   ]
+}

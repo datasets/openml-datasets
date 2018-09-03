@@ -1,1 +1,76 @@
-{"name": "mfeat-morphological", "title": "Mfeat morphological", "resources": [{"path": "mfeat-morphological.arff", "pathType": "local", "name": "mfeat-morphological", "format": "arff", "encoding": "ISO-8859-1"}, {"path": "mfeat-morphological.csv", "pathType": "local", "name": "mfeat-morphological", "format": "csv", "mediatype": "text/csv", "encoding": "ISO-8859-2", "dialect": {"delimiter": ",", "quoteChar": "\""}, "schema": {"fields": [{"name": "att1", "type": "number", "format": "default"}, {"name": "att2", "type": "number", "format": "default"}, {"name": "att3", "type": "number", "format": "default"}, {"name": "att4", "type": "number", "format": "default"}, {"name": "att5", "type": "number", "format": "default"}, {"name": "att6", "type": "number", "format": "default"}, {"name": "class", "type": "number", "format": "default"}], "missingValues": [""]}}], "readme": "The resources for this dataset can be found at https://www.openml.org/d/18\n\nAuthor: Robert P.W. Duin, Department of Applied Physics, Delft University of Technology  \nSource: [UCI](https://archive.ics.uci.edu/ml/datasets/Multiple+Features) - 1998  \nPlease cite: [UCI](https://archive.ics.uci.edu/ml/citation_policy.html)   \n\nMultiple Features Dataset: Morphological  \nOne of a set of 6 datasets describing features of handwritten numerals (0 - 9) extracted from a collection of Dutch utility maps. Corresponding patterns in different datasets correspond to the same original character. 200 instances per class (for a total of 2,000 instances) have been digitized in binary images. \n\nIn this dataset, these digits are represented in terms of 6 morphological features. \n\n### Attribute Information  \nThe meaning of the features is mostly unknown. They are never named in the original files, and the paper only talks about 'morphological features, such as the number of endpoints'.\n\n### Relevant Papers  \nA slightly different version of the database is used in  \nM. van Breukelen, R.P.W. Duin, D.M.J. Tax, and J.E. den Hartog, Handwritten digit recognition by combined classifiers, Kybernetika, vol. 34, no. 4, 1998, 381-386.\n \nThe database as is is used in:  \nA.K. Jain, R.P.W. Duin, J. Mao, Statistical Pattern Recognition: A Review, IEEE Transactions on Pattern Analysis and Machine Intelligence archive, Volume 22 Issue 1, January 2000 \n \n ", "description": "The resources for this dataset can be found at https://www.openml.org/d/18\n\nAuthor: Robert P.W. Duin", "licenses": [{"name": "ODC-PDDL", "path": "http://opendatacommons.org/licenses/pddl/", "title": "Open Data Commons Public Domain Dedication and License"}]}
+{
+   "name": "mfeat-morphological",
+   "title": "Mfeat morphological",
+   "resources": [
+      {
+         "path": "mfeat-morphological.arff",
+         "pathType": "local",
+         "name": "mfeat-morphological",
+         "format": "arff",
+         "encoding": "ISO-8859-1"
+      },
+      {
+         "path": "mfeat-morphological.csv",
+         "pathType": "local",
+         "name": "mfeat-morphological",
+         "format": "csv",
+         "mediatype": "text/csv",
+         "encoding": "ISO-8859-2",
+         "dialect": {
+            "delimiter": ",",
+            "quoteChar": "\""
+         },
+         "schema": {
+            "fields": [
+               {
+                  "name": "att1",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att2",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att3",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att4",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att5",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att6",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "class",
+                  "type": "number",
+                  "format": "default"
+               }
+            ],
+            "missingValues": [
+               ""
+            ]
+         }
+      }
+   ],
+   "readme": "The resources for this dataset can be found at https://www.openml.org/d/18\n\nAuthor: Robert P.W. Duin, Department of Applied Physics, Delft University of Technology  \nSource: [UCI](https://archive.ics.uci.edu/ml/datasets/Multiple+Features) - 1998  \nPlease cite: [UCI](https://archive.ics.uci.edu/ml/citation_policy.html)   \n\nMultiple Features Dataset: Morphological  \nOne of a set of 6 datasets describing features of handwritten numerals (0 - 9) extracted from a collection of Dutch utility maps. Corresponding patterns in different datasets correspond to the same original character. 200 instances per class (for a total of 2,000 instances) have been digitized in binary images. \n\nIn this dataset, these digits are represented in terms of 6 morphological features. \n\n### Attribute Information  \nThe meaning of the features is mostly unknown. They are never named in the original files, and the paper only talks about 'morphological features, such as the number of endpoints'.\n\n### Relevant Papers  \nA slightly different version of the database is used in  \nM. van Breukelen, R.P.W. Duin, D.M.J. Tax, and J.E. den Hartog, Handwritten digit recognition by combined classifiers, Kybernetika, vol. 34, no. 4, 1998, 381-386.\n \nThe database as is is used in:  \nA.K. Jain, R.P.W. Duin, J. Mao, Statistical Pattern Recognition: A Review, IEEE Transactions on Pattern Analysis and Machine Intelligence archive, Volume 22 Issue 1, January 2000 \n \n ",
+   "description": "The resources for this dataset can be found at https://www.openml.org/d/18\n\nAuthor: Robert P.W. Duin",
+   "licenses": [
+      {
+         "name": "ODC-PDDL",
+         "path": "http://opendatacommons.org/licenses/pddl/",
+         "title": "Open Data Commons Public Domain Dedication and License"
+      }
+   ]
+}

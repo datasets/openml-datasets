@@ -1,1 +1,171 @@
-{"name": "autos", "title": "Autos", "resources": [{"path": "autos.arff", "pathType": "local", "name": "autos", "format": "arff", "encoding": "ISO-8859-1"}, {"path": "autos.csv", "pathType": "local", "name": "autos", "format": "csv", "mediatype": "text/csv", "encoding": "ISO-8859-1", "dialect": {"delimiter": ",", "quoteChar": "\""}, "schema": {"fields": [{"name": "normalized-losses", "type": "number", "format": "default"}, {"name": "make", "type": "string", "format": "default"}, {"name": "fuel-type", "type": "string", "format": "default"}, {"name": "aspiration", "type": "string", "format": "default"}, {"name": "num-of-doors", "type": "string", "format": "default"}, {"name": "body-style", "type": "string", "format": "default"}, {"name": "drive-wheels", "type": "string", "format": "default"}, {"name": "engine-location", "type": "string", "format": "default"}, {"name": "wheel-base", "type": "number", "format": "default"}, {"name": "length", "type": "number", "format": "default"}, {"name": "width", "type": "number", "format": "default"}, {"name": "height", "type": "number", "format": "default"}, {"name": "curb-weight", "type": "year", "format": "default"}, {"name": "engine-type", "type": "string", "format": "default"}, {"name": "num-of-cylinders", "type": "string", "format": "default"}, {"name": "engine-size", "type": "number", "format": "default"}, {"name": "fuel-system", "type": "string", "format": "default"}, {"name": "bore", "type": "number", "format": "default"}, {"name": "stroke", "type": "number", "format": "default"}, {"name": "compression-ratio", "type": "any", "format": "default"}, {"name": "horsepower", "type": "number", "format": "default"}, {"name": "peak-rpm", "type": "number", "format": "default"}, {"name": "city-mpg", "type": "number", "format": "default"}, {"name": "highway-mpg", "type": "number", "format": "default"}, {"name": "price", "type": "number", "format": "default"}, {"name": "symboling", "type": "number", "format": "default"}], "missingValues": [""]}}], "readme": "The resources for this dataset can be found at https://www.openml.org/d/9\n\nAuthor: Jeffrey C. Schlimmer (Jeffrey.Schlimmer@a.gp.cs.cmu.edu)   \nSource: [UCI](https://archive.ics.uci.edu/ml/datasets/Automobile) - 1987  \nPlease cite:   \n\n1985 Auto Imports Database  \nThis data set consists of three types of entities: (a) the specification of an auto in terms of various characteristics, (b) its assigned insurance risk rating, (c) its normalized losses in use as compared to other cars.  The second rating corresponds to the degree to which the auto is more risky than its price indicates. Cars are initially assigned a risk factor symbol associated with its price.   Then, if it is more risky (or less), this symbol is adjusted by moving it up (or down) the scale.  Actuarians call this process \"symboling\".  A value of +3 indicates that the auto is risky, -3 that it is probably pretty safe.\n \nThe third factor is the relative average loss payment per insured vehicle year.  This value is normalized for all autos within a particular size classification (two-door small, station wagons, sports/speciality, etc...), and represents the average loss per car per year.\n \nSeveral of the attributes in the database could be used as a \"class\" attribute.\n\nSources:  \n1) 1985 Model Import Car and Truck Specifications, 1985 Ward's Automotive Yearbook.\n2) Personal Auto Manuals, Insurance Services Office, 160 Water Street, New York, NY 10038 \n3) Insurance Collision Report, Insurance Institute for Highway Safety, Watergate 600, Washington, DC 20037\n \nPast Usage:  \nKibler,~D., Aha,~D.~W., & Albert,~M. (1989).  Instance-based prediction of real-valued attributes.  {it Computational Intelligence}, {it 5}, 51--57.\n\n \nAttribute Information:\n>\n   1. symboling:                -3, -2, -1, 0, 1, 2, 3.\n   2. normalized-losses:        continuous from 65 to 256.\n   3. make:                     alfa-romero, audi, bmw, chevrolet, dodge, honda,\n                                isuzu, jaguar, mazda, mercedes-benz, mercury,\n                                mitsubishi, nissan, peugot, plymouth, porsche,\n                                renault, saab, subaru, toyota, volkswagen, volvo\n   4. fuel-type:                diesel, gas.\n   5. aspiration:               std, turbo.\n   6. num-of-doors:             four, two.\n   7. body-style:               hardtop, wagon, sedan, hatchback, convertible.\n   8. drive-wheels:             4wd, fwd, rwd.\n   9. engine-location:          front, rear.\n  10. wheel-base:               continuous from 86.6 120.9.\n  11. length:                   continuous from 141.1 to 208.1.\n  12. width:                    continuous from 60.3 to 72.3.\n  13. height:                   continuous from 47.8 to 59.8.\n  14. curb-weight:              continuous from 1488 to 4066.\n  15. engine-type:              dohc, dohcv, l, ohc, ohcf, ohcv, rotor.\n  16. num-of-cylinders:         eight, five, four, six, three, twelve, two.\n  17. engine-size:              continuous from 61 to 326.\n  18. fuel-system:              1bbl, 2bbl, 4bbl, idi, mfi, mpfi, spdi, spfi.\n  19. bore:                     continuous from 2.54 to 3.94.\n  20. stroke:                   continuous from 2.07 to 4.17.\n  21. compression-ratio:        continuous from 7 to 23.\n  22. horsepower:               continuous from 48 to 288.\n  23. peak-rpm:                 continuous from 4150 to 6600.\n  24. city-mpg:                 continuous from 13 to 49.\n  25. highway-mpg:              continuous from 16 to 54.\n  26. price:                    continuous from 5118 to 45400.", "description": "The resources for this dataset can be found at https://www.openml.org/d/9\n\nAuthor: Jeffrey C. Schlim", "licenses": [{"name": "ODC-PDDL", "path": "http://opendatacommons.org/licenses/pddl/", "title": "Open Data Commons Public Domain Dedication and License"}]}
+{
+   "name": "autos",
+   "title": "Autos",
+   "resources": [
+      {
+         "path": "autos.arff",
+         "pathType": "local",
+         "name": "autos",
+         "format": "arff",
+         "encoding": "ISO-8859-1"
+      },
+      {
+         "path": "autos.csv",
+         "pathType": "local",
+         "name": "autos",
+         "format": "csv",
+         "mediatype": "text/csv",
+         "encoding": "ISO-8859-1",
+         "dialect": {
+            "delimiter": ",",
+            "quoteChar": "\""
+         },
+         "schema": {
+            "fields": [
+               {
+                  "name": "normalized-losses",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "make",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "fuel-type",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "aspiration",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "num-of-doors",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "body-style",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "drive-wheels",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "engine-location",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "wheel-base",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "length",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "width",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "height",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "curb-weight",
+                  "type": "year",
+                  "format": "default"
+               },
+               {
+                  "name": "engine-type",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "num-of-cylinders",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "engine-size",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "fuel-system",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "bore",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "stroke",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "compression-ratio",
+                  "type": "any",
+                  "format": "default"
+               },
+               {
+                  "name": "horsepower",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "peak-rpm",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "city-mpg",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "highway-mpg",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "price",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "symboling",
+                  "type": "number",
+                  "format": "default"
+               }
+            ],
+            "missingValues": [
+               ""
+            ]
+         }
+      }
+   ],
+   "readme": "The resources for this dataset can be found at https://www.openml.org/d/9\n\nAuthor: Jeffrey C. Schlimmer (Jeffrey.Schlimmer@a.gp.cs.cmu.edu)   \nSource: [UCI](https://archive.ics.uci.edu/ml/datasets/Automobile) - 1987  \nPlease cite:   \n\n1985 Auto Imports Database  \nThis data set consists of three types of entities: (a) the specification of an auto in terms of various characteristics, (b) its assigned insurance risk rating, (c) its normalized losses in use as compared to other cars.  The second rating corresponds to the degree to which the auto is more risky than its price indicates. Cars are initially assigned a risk factor symbol associated with its price.   Then, if it is more risky (or less), this symbol is adjusted by moving it up (or down) the scale.  Actuarians call this process \"symboling\".  A value of +3 indicates that the auto is risky, -3 that it is probably pretty safe.\n \nThe third factor is the relative average loss payment per insured vehicle year.  This value is normalized for all autos within a particular size classification (two-door small, station wagons, sports/speciality, etc...), and represents the average loss per car per year.\n \nSeveral of the attributes in the database could be used as a \"class\" attribute.\n\nSources:  \n1) 1985 Model Import Car and Truck Specifications, 1985 Ward's Automotive Yearbook.\n2) Personal Auto Manuals, Insurance Services Office, 160 Water Street, New York, NY 10038 \n3) Insurance Collision Report, Insurance Institute for Highway Safety, Watergate 600, Washington, DC 20037\n \nPast Usage:  \nKibler,~D., Aha,~D.~W., & Albert,~M. (1989).  Instance-based prediction of real-valued attributes.  {it Computational Intelligence}, {it 5}, 51--57.\n\n \nAttribute Information:\n>\n   1. symboling:                -3, -2, -1, 0, 1, 2, 3.\n   2. normalized-losses:        continuous from 65 to 256.\n   3. make:                     alfa-romero, audi, bmw, chevrolet, dodge, honda,\n                                isuzu, jaguar, mazda, mercedes-benz, mercury,\n                                mitsubishi, nissan, peugot, plymouth, porsche,\n                                renault, saab, subaru, toyota, volkswagen, volvo\n   4. fuel-type:                diesel, gas.\n   5. aspiration:               std, turbo.\n   6. num-of-doors:             four, two.\n   7. body-style:               hardtop, wagon, sedan, hatchback, convertible.\n   8. drive-wheels:             4wd, fwd, rwd.\n   9. engine-location:          front, rear.\n  10. wheel-base:               continuous from 86.6 120.9.\n  11. length:                   continuous from 141.1 to 208.1.\n  12. width:                    continuous from 60.3 to 72.3.\n  13. height:                   continuous from 47.8 to 59.8.\n  14. curb-weight:              continuous from 1488 to 4066.\n  15. engine-type:              dohc, dohcv, l, ohc, ohcf, ohcv, rotor.\n  16. num-of-cylinders:         eight, five, four, six, three, twelve, two.\n  17. engine-size:              continuous from 61 to 326.\n  18. fuel-system:              1bbl, 2bbl, 4bbl, idi, mfi, mpfi, spdi, spfi.\n  19. bore:                     continuous from 2.54 to 3.94.\n  20. stroke:                   continuous from 2.07 to 4.17.\n  21. compression-ratio:        continuous from 7 to 23.\n  22. horsepower:               continuous from 48 to 288.\n  23. peak-rpm:                 continuous from 4150 to 6600.\n  24. city-mpg:                 continuous from 13 to 49.\n  25. highway-mpg:              continuous from 16 to 54.\n  26. price:                    continuous from 5118 to 45400.",
+   "description": "The resources for this dataset can be found at https://www.openml.org/d/9\n\nAuthor: Jeffrey C. Schlim",
+   "licenses": [
+      {
+         "name": "ODC-PDDL",
+         "path": "http://opendatacommons.org/licenses/pddl/",
+         "title": "Open Data Commons Public Domain Dedication and License"
+      }
+   ]
+}

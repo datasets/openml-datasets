@@ -1,1 +1,76 @@
-{"name": "liver-disorders", "title": "Liver disorders", "resources": [{"path": "liver-disorders.arff", "pathType": "local", "name": "liver-disorders", "format": "arff", "encoding": "ISO-8859-1"}, {"path": "liver-disorders.csv", "pathType": "local", "name": "liver-disorders", "format": "csv", "mediatype": "text/csv", "encoding": "ISO-8859-2", "dialect": {"delimiter": ",", "quoteChar": "\""}, "schema": {"fields": [{"name": "mcv", "type": "number", "format": "default"}, {"name": "alkphos", "type": "number", "format": "default"}, {"name": "sgpt", "type": "number", "format": "default"}, {"name": "sgot", "type": "number", "format": "default"}, {"name": "gammagt", "type": "number", "format": "default"}, {"name": "drinks", "type": "number", "format": "default"}, {"name": "selector", "type": "number", "format": "default"}], "missingValues": [""]}}], "readme": "The resources for this dataset can be found at https://www.openml.org/d/8\n\nAuthor: BUPA Medical Research Ltd. Donor: Richard S. Forsyth   \nSource: [UCI](https://archive.ics.uci.edu/ml/datasets/Liver+Disorders) - 5/15/1990  \nPlease cite: \n\nBUPA liver disorders\n \nThe first 5 variables are all blood tests which are thought to be sensitive to liver disorders that might arise from excessive alcohol consumption.  Each line in the dataset constitutes the record of a single male individual. \n\nImportant note: The 7th field (selector) has been widely misinterpreted in the past as a dependent variable representing presence or absence of a liver disorder. This is incorrect [1]. The 7th field was created by BUPA researchers as a train/test selector. It is not suitable as a dependent variable for classification. The dataset does not contain any variable representing presence or absence of a liver disorder. Researchers who wish to use this dataset as a classification benchmark should follow the method used in experiments by the donor (Forsyth & Rada, 1986, Machine learning: applications in expert systems and information retrieval) and others (e.g. Turney, 1995, Cost-sensitive classification: Empirical evaluation of a hybrid genetic decision tree induction algorithm), who used the 6th field (drinks), after dichotomising, as a dependent variable for classification. Because of widespread misinterpretation in the past, researchers should take care to state their method clearly.\n \nAttribute information  \n    1. mcv mean corpuscular volume  \n    2. alkphos alkaline phosphotase  \n    3. sgpt alanine aminotransferase  \n    4. sgot  aspartate aminotransferase  \n    5. gammagt gamma-glutamyl transpeptidase  \n    6. drinks number of half-pint equivalents of alcoholic beverages drunk per day  \n    7. selector field created by the BUPA researchers to split the data into train/test sets  \n\n[1] McDermott & Forsyth 2016, Diagnosing a disorder in a classification benchmark, Pattern Recognition Letters, Volume 73. Note Forsyth is named on the UCI page as the original donor of the dataset.", "description": "The resources for this dataset can be found at https://www.openml.org/d/8\n\nAuthor: BUPA Medical Rese", "licenses": [{"name": "ODC-PDDL", "path": "http://opendatacommons.org/licenses/pddl/", "title": "Open Data Commons Public Domain Dedication and License"}]}
+{
+   "name": "liver-disorders",
+   "title": "Liver disorders",
+   "resources": [
+      {
+         "path": "liver-disorders.arff",
+         "pathType": "local",
+         "name": "liver-disorders",
+         "format": "arff",
+         "encoding": "ISO-8859-1"
+      },
+      {
+         "path": "liver-disorders.csv",
+         "pathType": "local",
+         "name": "liver-disorders",
+         "format": "csv",
+         "mediatype": "text/csv",
+         "encoding": "ISO-8859-2",
+         "dialect": {
+            "delimiter": ",",
+            "quoteChar": "\""
+         },
+         "schema": {
+            "fields": [
+               {
+                  "name": "mcv",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "alkphos",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "sgpt",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "sgot",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "gammagt",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "drinks",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "selector",
+                  "type": "number",
+                  "format": "default"
+               }
+            ],
+            "missingValues": [
+               ""
+            ]
+         }
+      }
+   ],
+   "readme": "The resources for this dataset can be found at https://www.openml.org/d/8\n\nAuthor: BUPA Medical Research Ltd. Donor: Richard S. Forsyth   \nSource: [UCI](https://archive.ics.uci.edu/ml/datasets/Liver+Disorders) - 5/15/1990  \nPlease cite: \n\nBUPA liver disorders\n \nThe first 5 variables are all blood tests which are thought to be sensitive to liver disorders that might arise from excessive alcohol consumption.  Each line in the dataset constitutes the record of a single male individual. \n\nImportant note: The 7th field (selector) has been widely misinterpreted in the past as a dependent variable representing presence or absence of a liver disorder. This is incorrect [1]. The 7th field was created by BUPA researchers as a train/test selector. It is not suitable as a dependent variable for classification. The dataset does not contain any variable representing presence or absence of a liver disorder. Researchers who wish to use this dataset as a classification benchmark should follow the method used in experiments by the donor (Forsyth & Rada, 1986, Machine learning: applications in expert systems and information retrieval) and others (e.g. Turney, 1995, Cost-sensitive classification: Empirical evaluation of a hybrid genetic decision tree induction algorithm), who used the 6th field (drinks), after dichotomising, as a dependent variable for classification. Because of widespread misinterpretation in the past, researchers should take care to state their method clearly.\n \nAttribute information  \n    1. mcv mean corpuscular volume  \n    2. alkphos alkaline phosphotase  \n    3. sgpt alanine aminotransferase  \n    4. sgot  aspartate aminotransferase  \n    5. gammagt gamma-glutamyl transpeptidase  \n    6. drinks number of half-pint equivalents of alcoholic beverages drunk per day  \n    7. selector field created by the BUPA researchers to split the data into train/test sets  \n\n[1] McDermott & Forsyth 2016, Diagnosing a disorder in a classification benchmark, Pattern Recognition Letters, Volume 73. Note Forsyth is named on the UCI page as the original donor of the dataset.",
+   "description": "The resources for this dataset can be found at https://www.openml.org/d/8\n\nAuthor: BUPA Medical Rese",
+   "licenses": [
+      {
+         "name": "ODC-PDDL",
+         "path": "http://opendatacommons.org/licenses/pddl/",
+         "title": "Open Data Commons Public Domain Dedication and License"
+      }
+   ]
+}

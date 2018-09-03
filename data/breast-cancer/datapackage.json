@@ -1,1 +1,91 @@
-{"name": "breast-cancer", "title": "Breast cancer", "resources": [{"path": "breast-cancer.arff", "pathType": "local", "name": "breast-cancer", "format": "arff", "encoding": "ISO-8859-1"}, {"path": "breast-cancer.csv", "pathType": "local", "name": "breast-cancer", "format": "csv", "mediatype": "text/csv", "encoding": "ISO-8859-1", "dialect": {"delimiter": ",", "quoteChar": "'"}, "schema": {"fields": [{"name": "age", "type": "string", "format": "default"}, {"name": "menopause", "type": "string", "format": "default"}, {"name": "tumor-size", "type": "string", "format": "default"}, {"name": "inv-nodes", "type": "string", "format": "default"}, {"name": "node-caps", "type": "string", "format": "default"}, {"name": "deg-malig", "type": "number", "format": "default"}, {"name": "breast", "type": "string", "format": "default"}, {"name": "breast-quad", "type": "string", "format": "default"}, {"name": "irradiat", "type": "string", "format": "default"}, {"name": "Class", "type": "string", "format": "default"}], "missingValues": [""]}}], "readme": "The resources for this dataset can be found at https://www.openml.org/d/13\n\nAuthor:   \nSource: Unknown -   \nPlease cite:   \n\nCitation Request:\n    This breast cancer domain was obtained from the University Medical Centre,\n    Institute of Oncology, Ljubljana, Yugoslavia.  Thanks go to M. Zwitter and \n    M. Soklic for providing the data.  Please include this citation if you plan\n    to use this database.\n \n 1. Title: Breast cancer data (Michalski has used this)\n \n 2. Sources: \n    -- Matjaz Zwitter & Milan Soklic (physicians)\n       Institute of Oncology \n       University Medical Center\n       Ljubljana, Yugoslavia\n    -- Donors: Ming Tan and Jeff Schlimmer (Jeffrey.Schlimmer@a.gp.cs.cmu.edu)\n    -- Date: 11 July 1988\n \n 3. Past Usage: (Several: here are some)\n      -- Michalski,R.S., Mozetic,I., Hong,J., & Lavrac,N. (1986). The \n         Multi-Purpose Incremental Learning System AQ15 and its Testing \n         Application to Three Medical Domains.  In Proceedings of the \n         Fifth National Conference on Artificial Intelligence, 1041-1045,\n         Philadelphia, PA: Morgan Kaufmann.\n         -- accuracy range: 66%-72%\n      -- Clark,P. & Niblett,T. (1987). Induction in Noisy Domains.  In \n         Progress in Machine Learning (from the Proceedings of the 2nd\n         European Working Session on Learning), 11-30, Bled, \n         Yugoslavia: Sigma Press.\n         -- 8 test results given: 65%-72% accuracy range\n      -- Tan, M., & Eshelman, L. (1988). Using weighted networks to \n         represent classification knowledge in noisy domains.  Proceedings \n         of the Fifth International Conference on Machine Learning, 121-134,\n         Ann Arbor, MI.\n         -- 4 systems tested: accuracy range was 68%-73.5%\n     -- Cestnik,G., Konenenko,I, & Bratko,I. (1987). Assistant-86: A\n        Knowledge-Elicitation Tool for Sophisticated Users.  In I.Bratko\n        & N.Lavrac (Eds.) Progress in Machine Learning, 31-45, Sigma Press.\n        -- Assistant-86: 78% accuracy\n \n 4. Relevant Information:\n      This is one of three domains provided by the Oncology Institute\n      that has repeatedly appeared in the machine learning literature.\n      (See also lymphography and primary-tumor.)\n \n      This data set includes 201 instances of one class and 85 instances of\n      another class.  The instances are described by 9 attributes, some of\n      which are linear and some are nominal.\n \n 5. Number of Instances: 286\n \n 6. Number of Attributes: 9 + the class attribute\n \n 7. Attribute Information:\n    1. Class: no-recurrence-events, recurrence-events\n    2. age: 10-19, 20-29, 30-39, 40-49, 50-59, 60-69, 70-79, 80-89, 90-99.\n    3. menopause: lt40, ge40, premeno.\n    4. tumor-size: 0-4, 5-9, 10-14, 15-19, 20-24, 25-29, 30-34, 35-39, 40-44,\n                   45-49, 50-54, 55-59.\n    5. inv-nodes: 0-2, 3-5, 6-8, 9-11, 12-14, 15-17, 18-20, 21-23, 24-26,\n                  27-29, 30-32, 33-35, 36-39.\n    6. node-caps: yes, no.\n    7. deg-malig: 1, 2, 3.\n    8. breast: left, right.\n    9. breast-quad: left-up, left-low, right-up, right-low, central.\n   10. irradiat: yes, no.\n \n 8. Missing Attribute Values: (denoted by \"?\")\n    Attribute #:  Number of instances with missing values:\n    6.             8\n    9.             1.\n \n 9. Class Distribution:\n     1. no-recurrence-events: 201 instances\n     2. recurrence-events: 85 instances\n\n Num Instances:     286\n Num Attributes:    10\n Num Continuous:    0 (Int 0 / Real 0)\n Num Discrete:      10\n Missing values:    9 /  0.3%\n\n     name                      type enum ints real     missing    distinct  (1)\n   1 'age'                     Enum 100%   0%   0%     0 /  0%     6 /  2%   0% \n   2 'menopause'               Enum 100%   0%   0%     0 /  0%     3 /  1%   0% \n   3 'tumor-size'              Enum 100%   0%   0%     0 /  0%    11 /  4%   0% \n   4 'inv-nodes'               Enum 100%   0%   0%     0 /  0%     7 /  2%   0% \n   5 'node-caps'               Enum  97%   0%   0%     8 /  3%     2 /  1%   0% \n   6 'deg-malig'               Enum 100%   0%   0%     0 /  0%     3 /  1%   0% \n   7 'breast'                  Enum 100%   0%   0%     0 /  0%     2 /  1%   0% \n   8 'breast-quad'             Enum 100%   0%   0%     1 /  0%     5 /  2%   0% \n   9 'irradiat'                Enum 100%   0%   0%     0 /  0%     2 /  1%   0% \n  10 'Class'                   Enum 100%   0%   0%     0 /  0%     2 /  1%   0%", "description": "The resources for this dataset can be found at https://www.openml.org/d/13\n\nAuthor:   \nSource: Unkno", "licenses": [{"name": "ODC-PDDL", "path": "http://opendatacommons.org/licenses/pddl/", "title": "Open Data Commons Public Domain Dedication and License"}]}
+{
+   "name": "breast-cancer",
+   "title": "Breast cancer",
+   "resources": [
+      {
+         "path": "breast-cancer.arff",
+         "pathType": "local",
+         "name": "breast-cancer",
+         "format": "arff",
+         "encoding": "ISO-8859-1"
+      },
+      {
+         "path": "breast-cancer.csv",
+         "pathType": "local",
+         "name": "breast-cancer",
+         "format": "csv",
+         "mediatype": "text/csv",
+         "encoding": "ISO-8859-1",
+         "dialect": {
+            "delimiter": ",",
+            "quoteChar": "'"
+         },
+         "schema": {
+            "fields": [
+               {
+                  "name": "age",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "menopause",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "tumor-size",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "inv-nodes",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "node-caps",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "deg-malig",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "breast",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "breast-quad",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "irradiat",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "Class",
+                  "type": "string",
+                  "format": "default"
+               }
+            ],
+            "missingValues": [
+               ""
+            ]
+         }
+      }
+   ],
+   "readme": "The resources for this dataset can be found at https://www.openml.org/d/13\n\nAuthor:   \nSource: Unknown -   \nPlease cite:   \n\nCitation Request:\n    This breast cancer domain was obtained from the University Medical Centre,\n    Institute of Oncology, Ljubljana, Yugoslavia.  Thanks go to M. Zwitter and \n    M. Soklic for providing the data.  Please include this citation if you plan\n    to use this database.\n \n 1. Title: Breast cancer data (Michalski has used this)\n \n 2. Sources: \n    -- Matjaz Zwitter & Milan Soklic (physicians)\n       Institute of Oncology \n       University Medical Center\n       Ljubljana, Yugoslavia\n    -- Donors: Ming Tan and Jeff Schlimmer (Jeffrey.Schlimmer@a.gp.cs.cmu.edu)\n    -- Date: 11 July 1988\n \n 3. Past Usage: (Several: here are some)\n      -- Michalski,R.S., Mozetic,I., Hong,J., & Lavrac,N. (1986). The \n         Multi-Purpose Incremental Learning System AQ15 and its Testing \n         Application to Three Medical Domains.  In Proceedings of the \n         Fifth National Conference on Artificial Intelligence, 1041-1045,\n         Philadelphia, PA: Morgan Kaufmann.\n         -- accuracy range: 66%-72%\n      -- Clark,P. & Niblett,T. (1987). Induction in Noisy Domains.  In \n         Progress in Machine Learning (from the Proceedings of the 2nd\n         European Working Session on Learning), 11-30, Bled, \n         Yugoslavia: Sigma Press.\n         -- 8 test results given: 65%-72% accuracy range\n      -- Tan, M., & Eshelman, L. (1988). Using weighted networks to \n         represent classification knowledge in noisy domains.  Proceedings \n         of the Fifth International Conference on Machine Learning, 121-134,\n         Ann Arbor, MI.\n         -- 4 systems tested: accuracy range was 68%-73.5%\n     -- Cestnik,G., Konenenko,I, & Bratko,I. (1987). Assistant-86: A\n        Knowledge-Elicitation Tool for Sophisticated Users.  In I.Bratko\n        & N.Lavrac (Eds.) Progress in Machine Learning, 31-45, Sigma Press.\n        -- Assistant-86: 78% accuracy\n \n 4. Relevant Information:\n      This is one of three domains provided by the Oncology Institute\n      that has repeatedly appeared in the machine learning literature.\n      (See also lymphography and primary-tumor.)\n \n      This data set includes 201 instances of one class and 85 instances of\n      another class.  The instances are described by 9 attributes, some of\n      which are linear and some are nominal.\n \n 5. Number of Instances: 286\n \n 6. Number of Attributes: 9 + the class attribute\n \n 7. Attribute Information:\n    1. Class: no-recurrence-events, recurrence-events\n    2. age: 10-19, 20-29, 30-39, 40-49, 50-59, 60-69, 70-79, 80-89, 90-99.\n    3. menopause: lt40, ge40, premeno.\n    4. tumor-size: 0-4, 5-9, 10-14, 15-19, 20-24, 25-29, 30-34, 35-39, 40-44,\n                   45-49, 50-54, 55-59.\n    5. inv-nodes: 0-2, 3-5, 6-8, 9-11, 12-14, 15-17, 18-20, 21-23, 24-26,\n                  27-29, 30-32, 33-35, 36-39.\n    6. node-caps: yes, no.\n    7. deg-malig: 1, 2, 3.\n    8. breast: left, right.\n    9. breast-quad: left-up, left-low, right-up, right-low, central.\n   10. irradiat: yes, no.\n \n 8. Missing Attribute Values: (denoted by \"?\")\n    Attribute #:  Number of instances with missing values:\n    6.             8\n    9.             1.\n \n 9. Class Distribution:\n     1. no-recurrence-events: 201 instances\n     2. recurrence-events: 85 instances\n\n Num Instances:     286\n Num Attributes:    10\n Num Continuous:    0 (Int 0 / Real 0)\n Num Discrete:      10\n Missing values:    9 /  0.3%\n\n     name                      type enum ints real     missing    distinct  (1)\n   1 'age'                     Enum 100%   0%   0%     0 /  0%     6 /  2%   0% \n   2 'menopause'               Enum 100%   0%   0%     0 /  0%     3 /  1%   0% \n   3 'tumor-size'              Enum 100%   0%   0%     0 /  0%    11 /  4%   0% \n   4 'inv-nodes'               Enum 100%   0%   0%     0 /  0%     7 /  2%   0% \n   5 'node-caps'               Enum  97%   0%   0%     8 /  3%     2 /  1%   0% \n   6 'deg-malig'               Enum 100%   0%   0%     0 /  0%     3 /  1%   0% \n   7 'breast'                  Enum 100%   0%   0%     0 /  0%     2 /  1%   0% \n   8 'breast-quad'             Enum 100%   0%   0%     1 /  0%     5 /  2%   0% \n   9 'irradiat'                Enum 100%   0%   0%     0 /  0%     2 /  1%   0% \n  10 'Class'                   Enum 100%   0%   0%     0 /  0%     2 /  1%   0%",
+   "description": "The resources for this dataset can be found at https://www.openml.org/d/13\n\nAuthor:   \nSource: Unkno",
+   "licenses": [
+      {
+         "name": "ODC-PDDL",
+         "path": "http://opendatacommons.org/licenses/pddl/",
+         "title": "Open Data Commons Public Domain Dedication and License"
+      }
+   ]
+}

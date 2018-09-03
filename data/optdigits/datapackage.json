@@ -1,1 +1,366 @@
-{"name": "optdigits", "title": "Optdigits", "resources": [{"path": "optdigits.arff", "pathType": "local", "name": "optdigits", "format": "arff", "encoding": "ISO-8859-1"}, {"path": "optdigits.csv", "pathType": "local", "name": "optdigits", "format": "csv", "mediatype": "text/csv", "encoding": "ISO-8859-1", "dialect": {"delimiter": ",", "quoteChar": "\""}, "schema": {"fields": [{"name": "input1", "type": "number", "format": "default"}, {"name": "input2", "type": "number", "format": "default"}, {"name": "input3", "type": "number", "format": "default"}, {"name": "input4", "type": "number", "format": "default"}, {"name": "input5", "type": "number", "format": "default"}, {"name": "input6", "type": "number", "format": "default"}, {"name": "input7", "type": "number", "format": "default"}, {"name": "input8", "type": "number", "format": "default"}, {"name": "input9", "type": "number", "format": "default"}, {"name": "input10", "type": "number", "format": "default"}, {"name": "input11", "type": "number", "format": "default"}, {"name": "input12", "type": "number", "format": "default"}, {"name": "input13", "type": "number", "format": "default"}, {"name": "input14", "type": "number", "format": "default"}, {"name": "input15", "type": "number", "format": "default"}, {"name": "input16", "type": "number", "format": "default"}, {"name": "input17", "type": "number", "format": "default"}, {"name": "input18", "type": "number", "format": "default"}, {"name": "input19", "type": "number", "format": "default"}, {"name": "input20", "type": "number", "format": "default"}, {"name": "input21", "type": "number", "format": "default"}, {"name": "input22", "type": "number", "format": "default"}, {"name": "input23", "type": "number", "format": "default"}, {"name": "input24", "type": "number", "format": "default"}, {"name": "input25", "type": "number", "format": "default"}, {"name": "input26", "type": "number", "format": "default"}, {"name": "input27", "type": "number", "format": "default"}, {"name": "input28", "type": "number", "format": "default"}, {"name": "input29", "type": "number", "format": "default"}, {"name": "input30", "type": "number", "format": "default"}, {"name": "input31", "type": "number", "format": "default"}, {"name": "input32", "type": "number", "format": "default"}, {"name": "input33", "type": "number", "format": "default"}, {"name": "input34", "type": "number", "format": "default"}, {"name": "input35", "type": "number", "format": "default"}, {"name": "input36", "type": "number", "format": "default"}, {"name": "input37", "type": "number", "format": "default"}, {"name": "input38", "type": "number", "format": "default"}, {"name": "input39", "type": "number", "format": "default"}, {"name": "input40", "type": "number", "format": "default"}, {"name": "input41", "type": "number", "format": "default"}, {"name": "input42", "type": "number", "format": "default"}, {"name": "input43", "type": "number", "format": "default"}, {"name": "input44", "type": "number", "format": "default"}, {"name": "input45", "type": "number", "format": "default"}, {"name": "input46", "type": "number", "format": "default"}, {"name": "input47", "type": "number", "format": "default"}, {"name": "input48", "type": "number", "format": "default"}, {"name": "input49", "type": "number", "format": "default"}, {"name": "input50", "type": "number", "format": "default"}, {"name": "input51", "type": "number", "format": "default"}, {"name": "input52", "type": "number", "format": "default"}, {"name": "input53", "type": "number", "format": "default"}, {"name": "input54", "type": "number", "format": "default"}, {"name": "input55", "type": "number", "format": "default"}, {"name": "input56", "type": "number", "format": "default"}, {"name": "input57", "type": "number", "format": "default"}, {"name": "input58", "type": "number", "format": "default"}, {"name": "input59", "type": "number", "format": "default"}, {"name": "input60", "type": "number", "format": "default"}, {"name": "input61", "type": "number", "format": "default"}, {"name": "input62", "type": "number", "format": "default"}, {"name": "input63", "type": "number", "format": "default"}, {"name": "input64", "type": "number", "format": "default"}, {"name": "class", "type": "number", "format": "default"}], "missingValues": [""]}}], "readme": "The resources for this dataset can be found at https://www.openml.org/d/28\n\nAuthor: E. Alpaydin, C. Kaynak  \nSource: [UCI](http://archive.ics.uci.edu/ml/datasets/optical+recognition+of+handwritten+digits)  \nPlease cite: [UCI citation policy](https://archive.ics.uci.edu/ml/citation_policy.html)  \n\n1. Title of Database: Optical Recognition of Handwritten Digits\n \n 2. Source:\n  E. Alpaydin, C. Kaynak\n  Department of Computer Engineering\n  Bogazici University, 80815 Istanbul Turkey\n  alpaydin@boun.edu.tr\n  July 1998\n \n 3. Past Usage:\n  C. Kaynak (1995) Methods of Combining Multiple Classifiers and Their\n  Applications to Handwritten Digit Recognition, \n  MSc Thesis, Institute of Graduate Studies in Science and \n  Engineering, Bogazici University.\n \n  E. Alpaydin, C. Kaynak (1998) Cascading Classifiers, Kybernetika,\n  to appear. ftp://ftp.icsi.berkeley.edu/pub/ai/ethem/kyb.ps.Z\n \n 4. Relevant Information:\n  We used preprocessing programs made available by NIST to extract\n  normalized bitmaps of handwritten digits from a preprinted form. From\n  a total of 43 people, 30 contributed to the training set and different\n  13 to the test set. 32x32 bitmaps are divided into nonoverlapping \n  blocks of 4x4 and the number of on pixels are counted in each block.\n  This generates an input matrix of 8x8 where each element is an \n  integer in the range 0..16. This reduces dimensionality and gives \n  invariance to small distortions.\n \n  For info on NIST preprocessing routines, see \n  M. D. Garris, J. L. Blue, G. T. Candela, D. L. Dimmick, J. Geist, \n  P. J. Grother, S. A. Janet, and C. L. Wilson, NIST Form-Based \n  Handprint Recognition System, NISTIR 5469, 1994.\n \n 5. Number of Instances\n  optdigits.tra Training 3823\n  optdigits.tes Testing  1797\n  \n  The way we used the dataset was to use half of training for \n  actual training, one-fourth for validation and one-fourth\n  for writer-dependent testing. The test set was used for \n  writer-independent testing and is the actual quality measure.\n \n 6. Number of Attributes\n  64 input+1 class attribute\n \n 7. For Each Attribute:\n  All input attributes are integers in the range 0..16.\n  The last attribute is the class code 0..9\n \n 8. Missing Attribute Values\n  None\n \n 9. Class Distribution\n  Class: No of examples in training set\n  0:  376\n  1:  389\n  2:  380\n  3:  389\n  4:  387\n  5:  376\n  6:  377\n  7:  387\n  8:  380\n  9:  382\n \n  Class: No of examples in testing set\n  0:  178\n  1:  182\n  2:  177\n  3:  183\n  4:  181\n  5:  182\n  6:  181\n  7:  179\n  8:  174\n  9:  180\n \n Accuracy on the testing set with k-nn \n using Euclidean distance as the metric\n \n  k =  1   : 98.00\n  k =  2   : 97.38\n  k =  3   : 97.83\n  k =  4   : 97.61\n  k =  5   : 97.89\n  k =  6   : 97.77\n  k =  7   : 97.66\n  k =  8   : 97.66\n  k =  9   : 97.72\n  k = 10   : 97.55\n  k = 11   : 97.89", "description": "The resources for this dataset can be found at https://www.openml.org/d/28\n\nAuthor: E. Alpaydin, C. ", "licenses": [{"name": "ODC-PDDL", "path": "http://opendatacommons.org/licenses/pddl/", "title": "Open Data Commons Public Domain Dedication and License"}]}
+{
+   "name": "optdigits",
+   "title": "Optdigits",
+   "resources": [
+      {
+         "path": "optdigits.arff",
+         "pathType": "local",
+         "name": "optdigits",
+         "format": "arff",
+         "encoding": "ISO-8859-1"
+      },
+      {
+         "path": "optdigits.csv",
+         "pathType": "local",
+         "name": "optdigits",
+         "format": "csv",
+         "mediatype": "text/csv",
+         "encoding": "ISO-8859-1",
+         "dialect": {
+            "delimiter": ",",
+            "quoteChar": "\""
+         },
+         "schema": {
+            "fields": [
+               {
+                  "name": "input1",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input2",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input3",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input4",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input5",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input6",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input7",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input8",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input9",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input10",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input11",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input12",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input13",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input14",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input15",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input16",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input17",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input18",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input19",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input20",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input21",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input22",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input23",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input24",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input25",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input26",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input27",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input28",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input29",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input30",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input31",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input32",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input33",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input34",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input35",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input36",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input37",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input38",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input39",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input40",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input41",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input42",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input43",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input44",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input45",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input46",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input47",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input48",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input49",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input50",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input51",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input52",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input53",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input54",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input55",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input56",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input57",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input58",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input59",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input60",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input61",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input62",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input63",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "input64",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "class",
+                  "type": "number",
+                  "format": "default"
+               }
+            ],
+            "missingValues": [
+               ""
+            ]
+         }
+      }
+   ],
+   "readme": "The resources for this dataset can be found at https://www.openml.org/d/28\n\nAuthor: E. Alpaydin, C. Kaynak  \nSource: [UCI](http://archive.ics.uci.edu/ml/datasets/optical+recognition+of+handwritten+digits)  \nPlease cite: [UCI citation policy](https://archive.ics.uci.edu/ml/citation_policy.html)  \n\n1. Title of Database: Optical Recognition of Handwritten Digits\n \n 2. Source:\n  E. Alpaydin, C. Kaynak\n  Department of Computer Engineering\n  Bogazici University, 80815 Istanbul Turkey\n  alpaydin@boun.edu.tr\n  July 1998\n \n 3. Past Usage:\n  C. Kaynak (1995) Methods of Combining Multiple Classifiers and Their\n  Applications to Handwritten Digit Recognition, \n  MSc Thesis, Institute of Graduate Studies in Science and \n  Engineering, Bogazici University.\n \n  E. Alpaydin, C. Kaynak (1998) Cascading Classifiers, Kybernetika,\n  to appear. ftp://ftp.icsi.berkeley.edu/pub/ai/ethem/kyb.ps.Z\n \n 4. Relevant Information:\n  We used preprocessing programs made available by NIST to extract\n  normalized bitmaps of handwritten digits from a preprinted form. From\n  a total of 43 people, 30 contributed to the training set and different\n  13 to the test set. 32x32 bitmaps are divided into nonoverlapping \n  blocks of 4x4 and the number of on pixels are counted in each block.\n  This generates an input matrix of 8x8 where each element is an \n  integer in the range 0..16. This reduces dimensionality and gives \n  invariance to small distortions.\n \n  For info on NIST preprocessing routines, see \n  M. D. Garris, J. L. Blue, G. T. Candela, D. L. Dimmick, J. Geist, \n  P. J. Grother, S. A. Janet, and C. L. Wilson, NIST Form-Based \n  Handprint Recognition System, NISTIR 5469, 1994.\n \n 5. Number of Instances\n  optdigits.tra Training 3823\n  optdigits.tes Testing  1797\n  \n  The way we used the dataset was to use half of training for \n  actual training, one-fourth for validation and one-fourth\n  for writer-dependent testing. The test set was used for \n  writer-independent testing and is the actual quality measure.\n \n 6. Number of Attributes\n  64 input+1 class attribute\n \n 7. For Each Attribute:\n  All input attributes are integers in the range 0..16.\n  The last attribute is the class code 0..9\n \n 8. Missing Attribute Values\n  None\n \n 9. Class Distribution\n  Class: No of examples in training set\n  0:  376\n  1:  389\n  2:  380\n  3:  389\n  4:  387\n  5:  376\n  6:  377\n  7:  387\n  8:  380\n  9:  382\n \n  Class: No of examples in testing set\n  0:  178\n  1:  182\n  2:  177\n  3:  183\n  4:  181\n  5:  182\n  6:  181\n  7:  179\n  8:  174\n  9:  180\n \n Accuracy on the testing set with k-nn \n using Euclidean distance as the metric\n \n  k =  1   : 98.00\n  k =  2   : 97.38\n  k =  3   : 97.83\n  k =  4   : 97.61\n  k =  5   : 97.89\n  k =  6   : 97.77\n  k =  7   : 97.66\n  k =  8   : 97.66\n  k =  9   : 97.72\n  k = 10   : 97.55\n  k = 11   : 97.89",
+   "description": "The resources for this dataset can be found at https://www.openml.org/d/28\n\nAuthor: E. Alpaydin, C. ",
+   "licenses": [
+      {
+         "name": "ODC-PDDL",
+         "path": "http://opendatacommons.org/licenses/pddl/",
+         "title": "Open Data Commons Public Domain Dedication and License"
+      }
+   ]
+}

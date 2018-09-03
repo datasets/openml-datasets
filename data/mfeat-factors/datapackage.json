@@ -1,1 +1,1126 @@
-{"name": "mfeat-factors", "title": "Mfeat factors", "resources": [{"path": "mfeat-factors.arff", "pathType": "local", "name": "mfeat-factors", "format": "arff", "encoding": "ISO-8859-1"}, {"path": "mfeat-factors.csv", "pathType": "local", "name": "mfeat-factors", "format": "csv", "mediatype": "text/csv", "encoding": "ISO-8859-2", "dialect": {"delimiter": ",", "quoteChar": "\""}, "schema": {"fields": [{"name": "att1", "type": "number", "format": "default"}, {"name": "att2", "type": "number", "format": "default"}, {"name": "att3", "type": "number", "format": "default"}, {"name": "att4", "type": "number", "format": "default"}, {"name": "att5", "type": "number", "format": "default"}, {"name": "att6", "type": "number", "format": "default"}, {"name": "att7", "type": "number", "format": "default"}, {"name": "att8", "type": "number", "format": "default"}, {"name": "att9", "type": "number", "format": "default"}, {"name": "att10", "type": "number", "format": "default"}, {"name": "att11", "type": "number", "format": "default"}, {"name": "att12", "type": "number", "format": "default"}, {"name": "att13", "type": "number", "format": "default"}, {"name": "att14", "type": "number", "format": "default"}, {"name": "att15", "type": "number", "format": "default"}, {"name": "att16", "type": "number", "format": "default"}, {"name": "att17", "type": "number", "format": "default"}, {"name": "att18", "type": "number", "format": "default"}, {"name": "att19", "type": "number", "format": "default"}, {"name": "att20", "type": "number", "format": "default"}, {"name": "att21", "type": "number", "format": "default"}, {"name": "att22", "type": "number", "format": "default"}, {"name": "att23", "type": "number", "format": "default"}, {"name": "att24", "type": "number", "format": "default"}, {"name": "att25", "type": "number", "format": "default"}, {"name": "att26", "type": "number", "format": "default"}, {"name": "att27", "type": "number", "format": "default"}, {"name": "att28", "type": "number", "format": "default"}, {"name": "att29", "type": "any", "format": "default"}, {"name": "att30", "type": "number", "format": "default"}, {"name": "att31", "type": "number", "format": "default"}, {"name": "att32", "type": "number", "format": "default"}, {"name": "att33", "type": "number", "format": "default"}, {"name": "att34", "type": "number", "format": "default"}, {"name": "att35", "type": "number", "format": "default"}, {"name": "att36", "type": "number", "format": "default"}, {"name": "att37", "type": "number", "format": "default"}, {"name": "att38", "type": "number", "format": "default"}, {"name": "att39", "type": "number", "format": "default"}, {"name": "att40", "type": "number", "format": "default"}, {"name": "att41", "type": "number", "format": "default"}, {"name": "att42", "type": "number", "format": "default"}, {"name": "att43", "type": "number", "format": "default"}, {"name": "att44", "type": "number", "format": "default"}, {"name": "att45", "type": "number", "format": "default"}, {"name": "att46", "type": "number", "format": "default"}, {"name": "att47", "type": "number", "format": "default"}, {"name": "att48", "type": "number", "format": "default"}, {"name": "att49", "type": "number", "format": "default"}, {"name": "att50", "type": "number", "format": "default"}, {"name": "att51", "type": "number", "format": "default"}, {"name": "att52", "type": "number", "format": "default"}, {"name": "att53", "type": "number", "format": "default"}, {"name": "att54", "type": "number", "format": "default"}, {"name": "att55", "type": "number", "format": "default"}, {"name": "att56", "type": "number", "format": "default"}, {"name": "att57", "type": "number", "format": "default"}, {"name": "att58", "type": "number", "format": "default"}, {"name": "att59", "type": "number", "format": "default"}, {"name": "att60", "type": "number", "format": "default"}, {"name": "att61", "type": "number", "format": "default"}, {"name": "att62", "type": "number", "format": "default"}, {"name": "att63", "type": "number", "format": "default"}, {"name": "att64", "type": "number", "format": "default"}, {"name": "att65", "type": "year", "format": "default"}, {"name": "att66", "type": "number", "format": "default"}, {"name": "att67", "type": "number", "format": "default"}, {"name": "att68", "type": "number", "format": "default"}, {"name": "att69", "type": "number", "format": "default"}, {"name": "att70", "type": "number", "format": "default"}, {"name": "att71", "type": "number", "format": "default"}, {"name": "att72", "type": "number", "format": "default"}, {"name": "att73", "type": "number", "format": "default"}, {"name": "att74", "type": "number", "format": "default"}, {"name": "att75", "type": "number", "format": "default"}, {"name": "att76", "type": "number", "format": "default"}, {"name": "att77", "type": "number", "format": "default"}, {"name": "att78", "type": "year", "format": "default"}, {"name": "att79", "type": "number", "format": "default"}, {"name": "att80", "type": "number", "format": "default"}, {"name": "att81", "type": "number", "format": "default"}, {"name": "att82", "type": "number", "format": "default"}, {"name": "att83", "type": "number", "format": "default"}, {"name": "att84", "type": "number", "format": "default"}, {"name": "att85", "type": "number", "format": "default"}, {"name": "att86", "type": "number", "format": "default"}, {"name": "att87", "type": "number", "format": "default"}, {"name": "att88", "type": "number", "format": "default"}, {"name": "att89", "type": "number", "format": "default"}, {"name": "att90", "type": "number", "format": "default"}, {"name": "att91", "type": "number", "format": "default"}, {"name": "att92", "type": "number", "format": "default"}, {"name": "att93", "type": "number", "format": "default"}, {"name": "att94", "type": "number", "format": "default"}, {"name": "att95", "type": "number", "format": "default"}, {"name": "att96", "type": "number", "format": "default"}, {"name": "att97", "type": "number", "format": "default"}, {"name": "att98", "type": "number", "format": "default"}, {"name": "att99", "type": "number", "format": "default"}, {"name": "att100", "type": "number", "format": "default"}, {"name": "att101", "type": "number", "format": "default"}, {"name": "att102", "type": "any", "format": "default"}, {"name": "att103", "type": "number", "format": "default"}, {"name": "att104", "type": "number", "format": "default"}, {"name": "att105", "type": "number", "format": "default"}, {"name": "att106", "type": "number", "format": "default"}, {"name": "att107", "type": "number", "format": "default"}, {"name": "att108", "type": "number", "format": "default"}, {"name": "att109", "type": "number", "format": "default"}, {"name": "att110", "type": "number", "format": "default"}, {"name": "att111", "type": "number", "format": "default"}, {"name": "att112", "type": "number", "format": "default"}, {"name": "att113", "type": "number", "format": "default"}, {"name": "att114", "type": "number", "format": "default"}, {"name": "att115", "type": "number", "format": "default"}, {"name": "att116", "type": "number", "format": "default"}, {"name": "att117", "type": "number", "format": "default"}, {"name": "att118", "type": "number", "format": "default"}, {"name": "att119", "type": "number", "format": "default"}, {"name": "att120", "type": "number", "format": "default"}, {"name": "att121", "type": "number", "format": "default"}, {"name": "att122", "type": "number", "format": "default"}, {"name": "att123", "type": "number", "format": "default"}, {"name": "att124", "type": "number", "format": "default"}, {"name": "att125", "type": "number", "format": "default"}, {"name": "att126", "type": "number", "format": "default"}, {"name": "att127", "type": "number", "format": "default"}, {"name": "att128", "type": "number", "format": "default"}, {"name": "att129", "type": "number", "format": "default"}, {"name": "att130", "type": "number", "format": "default"}, {"name": "att131", "type": "number", "format": "default"}, {"name": "att132", "type": "number", "format": "default"}, {"name": "att133", "type": "number", "format": "default"}, {"name": "att134", "type": "number", "format": "default"}, {"name": "att135", "type": "number", "format": "default"}, {"name": "att136", "type": "number", "format": "default"}, {"name": "att137", "type": "number", "format": "default"}, {"name": "att138", "type": "number", "format": "default"}, {"name": "att139", "type": "number", "format": "default"}, {"name": "att140", "type": "number", "format": "default"}, {"name": "att141", "type": "number", "format": "default"}, {"name": "att142", "type": "number", "format": "default"}, {"name": "att143", "type": "number", "format": "default"}, {"name": "att144", "type": "number", "format": "default"}, {"name": "att145", "type": "number", "format": "default"}, {"name": "att146", "type": "number", "format": "default"}, {"name": "att147", "type": "number", "format": "default"}, {"name": "att148", "type": "number", "format": "default"}, {"name": "att149", "type": "number", "format": "default"}, {"name": "att150", "type": "number", "format": "default"}, {"name": "att151", "type": "number", "format": "default"}, {"name": "att152", "type": "number", "format": "default"}, {"name": "att153", "type": "number", "format": "default"}, {"name": "att154", "type": "number", "format": "default"}, {"name": "att155", "type": "number", "format": "default"}, {"name": "att156", "type": "number", "format": "default"}, {"name": "att157", "type": "number", "format": "default"}, {"name": "att158", "type": "number", "format": "default"}, {"name": "att159", "type": "number", "format": "default"}, {"name": "att160", "type": "number", "format": "default"}, {"name": "att161", "type": "number", "format": "default"}, {"name": "att162", "type": "any", "format": "default"}, {"name": "att163", "type": "number", "format": "default"}, {"name": "att164", "type": "number", "format": "default"}, {"name": "att165", "type": "number", "format": "default"}, {"name": "att166", "type": "number", "format": "default"}, {"name": "att167", "type": "number", "format": "default"}, {"name": "att168", "type": "number", "format": "default"}, {"name": "att169", "type": "number", "format": "default"}, {"name": "att170", "type": "number", "format": "default"}, {"name": "att171", "type": "number", "format": "default"}, {"name": "att172", "type": "number", "format": "default"}, {"name": "att173", "type": "number", "format": "default"}, {"name": "att174", "type": "number", "format": "default"}, {"name": "att175", "type": "number", "format": "default"}, {"name": "att176", "type": "number", "format": "default"}, {"name": "att177", "type": "number", "format": "default"}, {"name": "att178", "type": "number", "format": "default"}, {"name": "att179", "type": "number", "format": "default"}, {"name": "att180", "type": "number", "format": "default"}, {"name": "att181", "type": "number", "format": "default"}, {"name": "att182", "type": "number", "format": "default"}, {"name": "att183", "type": "number", "format": "default"}, {"name": "att184", "type": "number", "format": "default"}, {"name": "att185", "type": "year", "format": "default"}, {"name": "att186", "type": "number", "format": "default"}, {"name": "att187", "type": "number", "format": "default"}, {"name": "att188", "type": "number", "format": "default"}, {"name": "att189", "type": "number", "format": "default"}, {"name": "att190", "type": "number", "format": "default"}, {"name": "att191", "type": "number", "format": "default"}, {"name": "att192", "type": "number", "format": "default"}, {"name": "att193", "type": "number", "format": "default"}, {"name": "att194", "type": "number", "format": "default"}, {"name": "att195", "type": "number", "format": "default"}, {"name": "att196", "type": "number", "format": "default"}, {"name": "att197", "type": "number", "format": "default"}, {"name": "att198", "type": "year", "format": "default"}, {"name": "att199", "type": "number", "format": "default"}, {"name": "att200", "type": "number", "format": "default"}, {"name": "att201", "type": "number", "format": "default"}, {"name": "att202", "type": "number", "format": "default"}, {"name": "att203", "type": "number", "format": "default"}, {"name": "att204", "type": "number", "format": "default"}, {"name": "att205", "type": "number", "format": "default"}, {"name": "att206", "type": "number", "format": "default"}, {"name": "att207", "type": "number", "format": "default"}, {"name": "att208", "type": "number", "format": "default"}, {"name": "att209", "type": "number", "format": "default"}, {"name": "att210", "type": "number", "format": "default"}, {"name": "att211", "type": "number", "format": "default"}, {"name": "att212", "type": "number", "format": "default"}, {"name": "att213", "type": "number", "format": "default"}, {"name": "att214", "type": "number", "format": "default"}, {"name": "att215", "type": "number", "format": "default"}, {"name": "att216", "type": "number", "format": "default"}, {"name": "class", "type": "number", "format": "default"}], "missingValues": [""]}}], "readme": "The resources for this dataset can be found at https://www.openml.org/d/12\n\nAuthor: Robert P.W. Duin, Department of Applied Physics, Delft University of Technology  \nSource: [UCI](https://archive.ics.uci.edu/ml/datasets/Multiple+Features) - 1998  \nPlease cite: [UCI](https://archive.ics.uci.edu/ml/citation_policy.html)   \n\nMultiple Features Dataset: Factors  \nOne of a set of 6 datasets describing features of handwritten numerals (0 - 9) extracted from a collection of Dutch utility maps. Corresponding patterns in different datasets correspond to the same original character. 200 instances per class (for a total of 2,000 instances) have been digitized in binary images. \n\n### Attribute Information  \nThe attributes represent 216 profile correlations. No more information is known.\n\n### Relevant Papers  \nA slightly different version of the database is used in  \nM. van Breukelen, R.P.W. Duin, D.M.J. Tax, and J.E. den Hartog, Handwritten digit recognition by combined classifiers, Kybernetika, vol. 34, no. 4, 1998, 381-386.\n \nThe database as is is used in:  \nA.K. Jain, R.P.W. Duin, J. Mao, Statistical Pattern Recognition: A Review, IEEE Transactions on Pattern Analysis and Machine Intelligence archive, Volume 22 Issue 1, January 2000 \n \n ", "description": "The resources for this dataset can be found at https://www.openml.org/d/12\n\nAuthor: Robert P.W. Duin", "licenses": [{"name": "ODC-PDDL", "path": "http://opendatacommons.org/licenses/pddl/", "title": "Open Data Commons Public Domain Dedication and License"}]}
+{
+   "name": "mfeat-factors",
+   "title": "Mfeat factors",
+   "resources": [
+      {
+         "path": "mfeat-factors.arff",
+         "pathType": "local",
+         "name": "mfeat-factors",
+         "format": "arff",
+         "encoding": "ISO-8859-1"
+      },
+      {
+         "path": "mfeat-factors.csv",
+         "pathType": "local",
+         "name": "mfeat-factors",
+         "format": "csv",
+         "mediatype": "text/csv",
+         "encoding": "ISO-8859-2",
+         "dialect": {
+            "delimiter": ",",
+            "quoteChar": "\""
+         },
+         "schema": {
+            "fields": [
+               {
+                  "name": "att1",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att2",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att3",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att4",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att5",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att6",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att7",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att8",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att9",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att10",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att11",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att12",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att13",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att14",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att15",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att16",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att17",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att18",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att19",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att20",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att21",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att22",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att23",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att24",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att25",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att26",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att27",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att28",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att29",
+                  "type": "any",
+                  "format": "default"
+               },
+               {
+                  "name": "att30",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att31",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att32",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att33",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att34",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att35",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att36",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att37",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att38",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att39",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att40",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att41",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att42",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att43",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att44",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att45",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att46",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att47",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att48",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att49",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att50",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att51",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att52",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att53",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att54",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att55",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att56",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att57",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att58",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att59",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att60",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att61",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att62",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att63",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att64",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att65",
+                  "type": "year",
+                  "format": "default"
+               },
+               {
+                  "name": "att66",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att67",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att68",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att69",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att70",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att71",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att72",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att73",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att74",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att75",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att76",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att77",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att78",
+                  "type": "year",
+                  "format": "default"
+               },
+               {
+                  "name": "att79",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att80",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att81",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att82",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att83",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att84",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att85",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att86",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att87",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att88",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att89",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att90",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att91",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att92",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att93",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att94",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att95",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att96",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att97",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att98",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att99",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att100",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att101",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att102",
+                  "type": "any",
+                  "format": "default"
+               },
+               {
+                  "name": "att103",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att104",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att105",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att106",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att107",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att108",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att109",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att110",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att111",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att112",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att113",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att114",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att115",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att116",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att117",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att118",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att119",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att120",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att121",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att122",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att123",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att124",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att125",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att126",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att127",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att128",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att129",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att130",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att131",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att132",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att133",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att134",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att135",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att136",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att137",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att138",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att139",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att140",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att141",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att142",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att143",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att144",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att145",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att146",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att147",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att148",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att149",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att150",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att151",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att152",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att153",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att154",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att155",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att156",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att157",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att158",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att159",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att160",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att161",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att162",
+                  "type": "any",
+                  "format": "default"
+               },
+               {
+                  "name": "att163",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att164",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att165",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att166",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att167",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att168",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att169",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att170",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att171",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att172",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att173",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att174",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att175",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att176",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att177",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att178",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att179",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att180",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att181",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att182",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att183",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att184",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att185",
+                  "type": "year",
+                  "format": "default"
+               },
+               {
+                  "name": "att186",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att187",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att188",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att189",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att190",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att191",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att192",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att193",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att194",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att195",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att196",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att197",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att198",
+                  "type": "year",
+                  "format": "default"
+               },
+               {
+                  "name": "att199",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att200",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att201",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att202",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att203",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att204",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att205",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att206",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att207",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att208",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att209",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att210",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att211",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att212",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att213",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att214",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att215",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att216",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "class",
+                  "type": "number",
+                  "format": "default"
+               }
+            ],
+            "missingValues": [
+               ""
+            ]
+         }
+      }
+   ],
+   "readme": "The resources for this dataset can be found at https://www.openml.org/d/12\n\nAuthor: Robert P.W. Duin, Department of Applied Physics, Delft University of Technology  \nSource: [UCI](https://archive.ics.uci.edu/ml/datasets/Multiple+Features) - 1998  \nPlease cite: [UCI](https://archive.ics.uci.edu/ml/citation_policy.html)   \n\nMultiple Features Dataset: Factors  \nOne of a set of 6 datasets describing features of handwritten numerals (0 - 9) extracted from a collection of Dutch utility maps. Corresponding patterns in different datasets correspond to the same original character. 200 instances per class (for a total of 2,000 instances) have been digitized in binary images. \n\n### Attribute Information  \nThe attributes represent 216 profile correlations. No more information is known.\n\n### Relevant Papers  \nA slightly different version of the database is used in  \nM. van Breukelen, R.P.W. Duin, D.M.J. Tax, and J.E. den Hartog, Handwritten digit recognition by combined classifiers, Kybernetika, vol. 34, no. 4, 1998, 381-386.\n \nThe database as is is used in:  \nA.K. Jain, R.P.W. Duin, J. Mao, Statistical Pattern Recognition: A Review, IEEE Transactions on Pattern Analysis and Machine Intelligence archive, Volume 22 Issue 1, January 2000 \n \n ",
+   "description": "The resources for this dataset can be found at https://www.openml.org/d/12\n\nAuthor: Robert P.W. Duin",
+   "licenses": [
+      {
+         "name": "ODC-PDDL",
+         "path": "http://opendatacommons.org/licenses/pddl/",
+         "title": "Open Data Commons Public Domain Dedication and License"
+      }
+   ]
+}

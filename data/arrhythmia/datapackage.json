@@ -1,1 +1,1441 @@
-{"name": "arrhythmia", "title": "Arrhythmia", "resources": [{"path": "arrhythmia.arff", "pathType": "local", "name": "arrhythmia", "format": "arff", "encoding": "ISO-8859-1"}, {"path": "arrhythmia.csv", "pathType": "local", "name": "arrhythmia", "format": "csv", "mediatype": "text/csv", "encoding": "ISO-8859-1", "dialect": {"delimiter": ",", "quoteChar": "\""}, "schema": {"fields": [{"name": "age", "type": "number", "format": "default"}, {"name": "sex", "type": "number", "format": "default"}, {"name": "height", "type": "number", "format": "default"}, {"name": "weight", "type": "number", "format": "default"}, {"name": "QRSduration", "type": "number", "format": "default"}, {"name": "PRinterval", "type": "number", "format": "default"}, {"name": "Q-Tinterval", "type": "number", "format": "default"}, {"name": "Tinterval", "type": "number", "format": "default"}, {"name": "Pinterval", "type": "number", "format": "default"}, {"name": "QRS", "type": "number", "format": "default"}, {"name": "T", "type": "number", "format": "default"}, {"name": "P", "type": "number", "format": "default"}, {"name": "QRST", "type": "number", "format": "default"}, {"name": "J", "type": "string", "format": "default"}, {"name": "heartrate", "type": "number", "format": "default"}, {"name": "chDI_Qwave", "type": "number", "format": "default"}, {"name": "chDI_Rwave", "type": "number", "format": "default"}, {"name": "chDI_Swave", "type": "number", "format": "default"}, {"name": "chDI_RPwave", "type": "number", "format": "default"}, {"name": "chDI_SPwave", "type": "number", "format": "default"}, {"name": "chDI_intrinsicReflecttions", "type": "number", "format": "default"}, {"name": "chDI_RRwaveExists", "type": "number", "format": "default"}, {"name": "chDI_DD_RRwaveExists", "type": "number", "format": "default"}, {"name": "chDI_RPwaveExists", "type": "number", "format": "default"}, {"name": "chDI_DD_RPwaveExists", "type": "number", "format": "default"}, {"name": "chDI_RTwaveExists", "type": "number", "format": "default"}, {"name": "chDI_DD_RTwaveExists", "type": "number", "format": "default"}, {"name": "chDII_Qwave", "type": "number", "format": "default"}, {"name": "chDII_Rwave", "type": "number", "format": "default"}, {"name": "chDII_Swave", "type": "number", "format": "default"}, {"name": "chDII_RPwave", "type": "number", "format": "default"}, {"name": "chDII_SPwave", "type": "number", "format": "default"}, {"name": "chDII_intrinsicReflecttions", "type": "number", "format": "default"}, {"name": "chDII_RRwaveExists", "type": "number", "format": "default"}, {"name": "chDII_DD_RRwaveExists", "type": "number", "format": "default"}, {"name": "chDII_RPwaveExists", "type": "number", "format": "default"}, {"name": "chDII_DD_RPwaveExists", "type": "number", "format": "default"}, {"name": "chDII_RTwaveExists", "type": "number", "format": "default"}, {"name": "chDII_DD_RTwaveExists", "type": "number", "format": "default"}, {"name": "chDIII_Qwave", "type": "number", "format": "default"}, {"name": "chDIII_Rwave", "type": "number", "format": "default"}, {"name": "chDIII_Swave", "type": "number", "format": "default"}, {"name": "chDIII_RPwave", "type": "number", "format": "default"}, {"name": "chDIII_SPwave", "type": "number", "format": "default"}, {"name": "chDIII_intrinsicReflecttions", "type": "number", "format": "default"}, {"name": "chDIII_RRwaveExists", "type": "number", "format": "default"}, {"name": "chDIII_DD_RRwaveExists", "type": "number", "format": "default"}, {"name": "chDIII_RPwaveExists", "type": "number", "format": "default"}, {"name": "chDIII_DD_RPwaveExists", "type": "number", "format": "default"}, {"name": "chDIII_RTwaveExists", "type": "number", "format": "default"}, {"name": "chDIII_DD_RTwaveExists", "type": "number", "format": "default"}, {"name": "chAVR_Qwave", "type": "number", "format": "default"}, {"name": "chAVR_Rwave", "type": "number", "format": "default"}, {"name": "chAVR_Swave", "type": "number", "format": "default"}, {"name": "chAVR_RPwave", "type": "number", "format": "default"}, {"name": "chAVR_SPwave", "type": "number", "format": "default"}, {"name": "chAVR_intrinsicReflecttions", "type": "number", "format": "default"}, {"name": "chAVR_RRwaveExists", "type": "number", "format": "default"}, {"name": "chAVR_DD_RRwaveExists", "type": "number", "format": "default"}, {"name": "chAVR_RPwaveExists", "type": "number", "format": "default"}, {"name": "chAVR_DD_RPwaveExists", "type": "number", "format": "default"}, {"name": "chAVR_RTwaveExists", "type": "number", "format": "default"}, {"name": "chAVR_DD_RTwaveExists", "type": "number", "format": "default"}, {"name": "chAVL_Qwave", "type": "number", "format": "default"}, {"name": "chAVL_Rwave", "type": "number", "format": "default"}, {"name": "chAVL_Swave", "type": "number", "format": "default"}, {"name": "chAVL_RPwave", "type": "number", "format": "default"}, {"name": "chAVL_SPwave", "type": "number", "format": "default"}, {"name": "chAVL_intrinsicReflecttions", "type": "number", "format": "default"}, {"name": "chAVL_RRwaveExists", "type": "number", "format": "default"}, {"name": "chAVL_DD_RRwaveExists", "type": "number", "format": "default"}, {"name": "chAVL_RPwaveExists", "type": "number", "format": "default"}, {"name": "chAVL_DD_RPwaveExists", "type": "number", "format": "default"}, {"name": "chAVL_RTwaveExists", "type": "number", "format": "default"}, {"name": "chAVL_DD_RTwaveExists", "type": "number", "format": "default"}, {"name": "chAVF_Qwave", "type": "number", "format": "default"}, {"name": "chAVF_Rwave", "type": "number", "format": "default"}, {"name": "chAVF_Swave", "type": "number", "format": "default"}, {"name": "chAVF_RPwave", "type": "number", "format": "default"}, {"name": "chAVF_SPwave", "type": "number", "format": "default"}, {"name": "chAVF_intrinsicReflecttions", "type": "number", "format": "default"}, {"name": "chAVF_RRwaveExists", "type": "number", "format": "default"}, {"name": "chAVF_DD_RRwaveExists", "type": "number", "format": "default"}, {"name": "chAVF_RPwaveExists", "type": "number", "format": "default"}, {"name": "chAVF_DD_RPwaveExists", "type": "number", "format": "default"}, {"name": "chAVF_RTwaveExists", "type": "number", "format": "default"}, {"name": "chAVF_DD_RTwaveExists", "type": "number", "format": "default"}, {"name": "chV1_Qwave", "type": "number", "format": "default"}, {"name": "chV1_Rwave", "type": "number", "format": "default"}, {"name": "chV1_Swave", "type": "number", "format": "default"}, {"name": "chV1_RPwave", "type": "number", "format": "default"}, {"name": "chV1_SPwave", "type": "number", "format": "default"}, {"name": "chV1_intrinsicReflecttions", "type": "number", "format": "default"}, {"name": "chV1_RRwaveExists", "type": "number", "format": "default"}, {"name": "chV1_DD_RRwaveExists", "type": "number", "format": "default"}, {"name": "chV1_RPwaveExists", "type": "number", "format": "default"}, {"name": "chV1_DD_RPwaveExists", "type": "number", "format": "default"}, {"name": "chV1_RTwaveExists", "type": "number", "format": "default"}, {"name": "chV1_DD_RTwaveExists", "type": "number", "format": "default"}, {"name": "chV2_Qwave", "type": "number", "format": "default"}, {"name": "chV2_Rwave", "type": "number", "format": "default"}, {"name": "chV2_Swave", "type": "number", "format": "default"}, {"name": "chV2_RPwave", "type": "number", "format": "default"}, {"name": "chV2_SPwave", "type": "number", "format": "default"}, {"name": "chV2_intrinsicReflecttions", "type": "number", "format": "default"}, {"name": "chV2_RRwaveExists", "type": "number", "format": "default"}, {"name": "chV2_DD_RRwaveExists", "type": "number", "format": "default"}, {"name": "chV2_RPwaveExists", "type": "number", "format": "default"}, {"name": "chV2_DD_RPwaveExists", "type": "number", "format": "default"}, {"name": "chV2_RTwaveExists", "type": "number", "format": "default"}, {"name": "chV2_DD_RTwaveExists", "type": "number", "format": "default"}, {"name": "chV3_Qwave", "type": "number", "format": "default"}, {"name": "chV3_Rwave", "type": "number", "format": "default"}, {"name": "chV3_Swave", "type": "number", "format": "default"}, {"name": "chV3_RPwave", "type": "number", "format": "default"}, {"name": "chV3_SPwave", "type": "number", "format": "default"}, {"name": "chV3_intrinsicReflecttions", "type": "number", "format": "default"}, {"name": "chV3_RRwaveExists", "type": "number", "format": "default"}, {"name": "chV3_DD_RRwaveExists", "type": "number", "format": "default"}, {"name": "chV3_RPwaveExists", "type": "number", "format": "default"}, {"name": "chV3_DD_RPwaveExists", "type": "number", "format": "default"}, {"name": "chV3_RTwaveExists", "type": "number", "format": "default"}, {"name": "chV3_DD_RTwaveExists", "type": "number", "format": "default"}, {"name": "chV4_Qwave", "type": "number", "format": "default"}, {"name": "chV4_Rwave", "type": "number", "format": "default"}, {"name": "chV4_Swave", "type": "number", "format": "default"}, {"name": "chV4_RPwave", "type": "number", "format": "default"}, {"name": "chV4_SPwave", "type": "number", "format": "default"}, {"name": "chV4_intrinsicReflecttions", "type": "number", "format": "default"}, {"name": "chV4_RRwaveExists", "type": "number", "format": "default"}, {"name": "chV4_DD_RRwaveExists", "type": "number", "format": "default"}, {"name": "chV4_RPwaveExists", "type": "number", "format": "default"}, {"name": "chV4_DD_RPwaveExists", "type": "number", "format": "default"}, {"name": "chV4_RTwaveExists", "type": "number", "format": "default"}, {"name": "chV4_DD_RTwaveExists", "type": "number", "format": "default"}, {"name": "chV5_Qwave", "type": "number", "format": "default"}, {"name": "chV5_Rwave", "type": "number", "format": "default"}, {"name": "chV5_Swave", "type": "number", "format": "default"}, {"name": "chV5_RPwave", "type": "number", "format": "default"}, {"name": "chV5_SPwave", "type": "number", "format": "default"}, {"name": "chV5_intrinsicReflecttions", "type": "number", "format": "default"}, {"name": "chV5_RRwaveExists", "type": "number", "format": "default"}, {"name": "chV5_DD_RRwaveExists", "type": "number", "format": "default"}, {"name": "chV5_RPwaveExists", "type": "number", "format": "default"}, {"name": "chV5_DD_RPwaveExists", "type": "number", "format": "default"}, {"name": "chV5_RTwaveExists", "type": "number", "format": "default"}, {"name": "chV5_DD_RTwaveExists", "type": "number", "format": "default"}, {"name": "chV6_Qwave", "type": "number", "format": "default"}, {"name": "chV6_Rwave", "type": "number", "format": "default"}, {"name": "chV6_Swave", "type": "number", "format": "default"}, {"name": "chV6_RPwave", "type": "number", "format": "default"}, {"name": "chV6_SPwave", "type": "number", "format": "default"}, {"name": "chV6_intrinsicReflecttions", "type": "number", "format": "default"}, {"name": "chV6_RRwaveExists", "type": "number", "format": "default"}, {"name": "chV6_DD_RRwaveExists", "type": "number", "format": "default"}, {"name": "chV6_RPwaveExists", "type": "number", "format": "default"}, {"name": "chV6_DD_RPwaveExists", "type": "number", "format": "default"}, {"name": "chV6_RTwaveExists", "type": "number", "format": "default"}, {"name": "chV6_DD_RTwaveExists", "type": "number", "format": "default"}, {"name": "chDI_JJwaveAmp", "type": "number", "format": "default"}, {"name": "chDI_QwaveAmp", "type": "number", "format": "default"}, {"name": "chDI_RwaveAmp", "type": "number", "format": "default"}, {"name": "chDI_SwaveAmp", "type": "number", "format": "default"}, {"name": "chDI_RPwaveAmp", "type": "number", "format": "default"}, {"name": "chDI_SPwaveAmp", "type": "number", "format": "default"}, {"name": "chDI_PwaveAmp", "type": "number", "format": "default"}, {"name": "chDI_TwaveAmp", "type": "number", "format": "default"}, {"name": "chDI_QRSA", "type": "number", "format": "default"}, {"name": "chDI_QRSTA", "type": "number", "format": "default"}, {"name": "chDII_JJwaveAmp", "type": "number", "format": "default"}, {"name": "chDII_QwaveAmp", "type": "number", "format": "default"}, {"name": "chDII_RwaveAmp", "type": "number", "format": "default"}, {"name": "chDII_SwaveAmp", "type": "number", "format": "default"}, {"name": "chDII_RPwaveAmp", "type": "number", "format": "default"}, {"name": "chDII_SPwaveAmp", "type": "number", "format": "default"}, {"name": "chDII_PwaveAmp", "type": "number", "format": "default"}, {"name": "chDII_TwaveAmp", "type": "number", "format": "default"}, {"name": "chDII_QRSA", "type": "number", "format": "default"}, {"name": "chDII_QRSTA", "type": "number", "format": "default"}, {"name": "chDIII_JJwaveAmp", "type": "number", "format": "default"}, {"name": "chDIII_QwaveAmp", "type": "number", "format": "default"}, {"name": "chDIII_RwaveAmp", "type": "number", "format": "default"}, {"name": "chDIII_SwaveAmp", "type": "number", "format": "default"}, {"name": "chDIII_RPwaveAmp", "type": "number", "format": "default"}, {"name": "chDIII_SPwaveAmp", "type": "number", "format": "default"}, {"name": "chDIII_PwaveAmp", "type": "number", "format": "default"}, {"name": "chDIII_TwaveAmp", "type": "number", "format": "default"}, {"name": "chDIII_QRSA", "type": "number", "format": "default"}, {"name": "chDIII_QRSTA", "type": "number", "format": "default"}, {"name": "chAVR_JJwaveAmp", "type": "number", "format": "default"}, {"name": "chAVR_QwaveAmp", "type": "number", "format": "default"}, {"name": "chAVR_RwaveAmp", "type": "number", "format": "default"}, {"name": "chAVR_SwaveAmp", "type": "number", "format": "default"}, {"name": "chAVR_RPwaveAmp", "type": "number", "format": "default"}, {"name": "chAVR_SPwaveAmp", "type": "number", "format": "default"}, {"name": "chAVR_PwaveAmp", "type": "number", "format": "default"}, {"name": "chAVR_TwaveAmp", "type": "number", "format": "default"}, {"name": "chAVR_QRSA", "type": "number", "format": "default"}, {"name": "chAVR_QRSTA", "type": "number", "format": "default"}, {"name": "chAVL_JJwaveAmp", "type": "number", "format": "default"}, {"name": "chAVL_QwaveAmp", "type": "number", "format": "default"}, {"name": "chAVL_RwaveAmp", "type": "number", "format": "default"}, {"name": "chAVL_SwaveAmp", "type": "number", "format": "default"}, {"name": "chAVL_RPwaveAmp", "type": "number", "format": "default"}, {"name": "chAVL_SPwaveAmp", "type": "number", "format": "default"}, {"name": "chAVL_PwaveAmp", "type": "number", "format": "default"}, {"name": "chAVL_TwaveAmp", "type": "number", "format": "default"}, {"name": "chAVL_QRSA", "type": "number", "format": "default"}, {"name": "chAVL_QRSTA", "type": "number", "format": "default"}, {"name": "chAVF_JJwaveAmp", "type": "number", "format": "default"}, {"name": "chAVF_QwaveAmp", "type": "number", "format": "default"}, {"name": "chAVF_RwaveAmp", "type": "number", "format": "default"}, {"name": "chAVF_SwaveAmp", "type": "number", "format": "default"}, {"name": "chAVF_RPwaveAmp", "type": "number", "format": "default"}, {"name": "chAVF_SPwaveAmp", "type": "number", "format": "default"}, {"name": "chAVF_PwaveAmp", "type": "number", "format": "default"}, {"name": "chAVF_TwaveAmp", "type": "number", "format": "default"}, {"name": "chAVF_QRSA", "type": "number", "format": "default"}, {"name": "chAVF_QRSTA", "type": "number", "format": "default"}, {"name": "chV1_JJwaveAmp", "type": "number", "format": "default"}, {"name": "chV1_QwaveAmp", "type": "number", "format": "default"}, {"name": "chV1_RwaveAmp", "type": "number", "format": "default"}, {"name": "chV1_SwaveAmp", "type": "number", "format": "default"}, {"name": "chV1_RPwaveAmp", "type": "number", "format": "default"}, {"name": "chV1_SPwaveAmp", "type": "number", "format": "default"}, {"name": "chV1_PwaveAmp", "type": "number", "format": "default"}, {"name": "chV1_TwaveAmp", "type": "number", "format": "default"}, {"name": "chV1_QRSA", "type": "number", "format": "default"}, {"name": "chV1_QRSTA", "type": "number", "format": "default"}, {"name": "chV2_JJwaveAmp", "type": "number", "format": "default"}, {"name": "chV2_QwaveAmp", "type": "number", "format": "default"}, {"name": "chV2_RwaveAmp", "type": "number", "format": "default"}, {"name": "chV2_SwaveAmp", "type": "number", "format": "default"}, {"name": "chV2_RPwaveAmp", "type": "number", "format": "default"}, {"name": "chV2_SPwaveAmp", "type": "number", "format": "default"}, {"name": "chV2_PwaveAmp", "type": "number", "format": "default"}, {"name": "chV2_TwaveAmp", "type": "number", "format": "default"}, {"name": "chV2_QRSA", "type": "number", "format": "default"}, {"name": "chV2_QRSTA", "type": "number", "format": "default"}, {"name": "chV3_JJwaveAmp", "type": "number", "format": "default"}, {"name": "chV3_QwaveAmp", "type": "number", "format": "default"}, {"name": "chV3_RwaveAmp", "type": "number", "format": "default"}, {"name": "chV3_SwaveAmp", "type": "number", "format": "default"}, {"name": "chV3_RPwaveAmp", "type": "number", "format": "default"}, {"name": "chV3_SPwaveAmp", "type": "number", "format": "default"}, {"name": "chV3_PwaveAmp", "type": "number", "format": "default"}, {"name": "chV3_TwaveAmp", "type": "number", "format": "default"}, {"name": "chV3_QRSA", "type": "number", "format": "default"}, {"name": "chV3_QRSTA", "type": "number", "format": "default"}, {"name": "chV4_JJwaveAmp", "type": "number", "format": "default"}, {"name": "chV4_QwaveAmp", "type": "number", "format": "default"}, {"name": "chV4_RwaveAmp", "type": "number", "format": "default"}, {"name": "chV4_SwaveAmp", "type": "number", "format": "default"}, {"name": "chV4_RPwaveAmp", "type": "number", "format": "default"}, {"name": "chV4_SPwaveAmp", "type": "number", "format": "default"}, {"name": "chV4_PwaveAmp", "type": "number", "format": "default"}, {"name": "chV4_TwaveAmp", "type": "number", "format": "default"}, {"name": "chV4_QRSA", "type": "number", "format": "default"}, {"name": "chV4_QRSTA", "type": "number", "format": "default"}, {"name": "chV5_JJwaveAmp", "type": "number", "format": "default"}, {"name": "chV5_QwaveAmp", "type": "number", "format": "default"}, {"name": "chV5_RwaveAmp", "type": "number", "format": "default"}, {"name": "chV5_SwaveAmp", "type": "number", "format": "default"}, {"name": "chV5_RPwaveAmp", "type": "number", "format": "default"}, {"name": "chV5_SPwaveAmp", "type": "number", "format": "default"}, {"name": "chV5_PwaveAmp", "type": "number", "format": "default"}, {"name": "chV5_TwaveAmp", "type": "number", "format": "default"}, {"name": "chV5_QRSA", "type": "number", "format": "default"}, {"name": "chV5_QRSTA", "type": "number", "format": "default"}, {"name": "chV6_JJwaveAmp", "type": "number", "format": "default"}, {"name": "chV6_QwaveAmp", "type": "number", "format": "default"}, {"name": "chV6_RwaveAmp", "type": "number", "format": "default"}, {"name": "chV6_SwaveAmp", "type": "number", "format": "default"}, {"name": "chV6_RPwaveAmp", "type": "number", "format": "default"}, {"name": "chV6_SPwaveAmp", "type": "number", "format": "default"}, {"name": "chV6_PwaveAmp", "type": "number", "format": "default"}, {"name": "chV6_TwaveAmp", "type": "number", "format": "default"}, {"name": "chV6_QRSA", "type": "number", "format": "default"}, {"name": "chV6_QRSTA", "type": "number", "format": "default"}, {"name": "class", "type": "number", "format": "default"}], "missingValues": [""]}}], "readme": "The resources for this dataset can be found at https://www.openml.org/d/5\n\nAuthor: H. Altay Guvenir, Burak Acar, Haldun Muderrisoglu  \nSource: [UCI](https://archive.ics.uci.edu/ml/datasets/arrhythmia)   \nPlease cite: [UCI](https://archive.ics.uci.edu/ml/citation_policy.html)\n\nCardiac Arrhythmia Database  \nThe aim is to determine the type of arrhythmia from the ECG recordings. This database contains 279 attributes, 206 of which are linear valued and the rest are nominal. \n\nConcerning the study of H. Altay Guvenir: \"The aim is to distinguish between the presence and absence of cardiac arrhythmia and to classify it in one of the 16 groups. Class 01 refers to 'normal' ECG classes, 02 to 15 refers to different classes of arrhythmia and class 16 refers to the rest of unclassified ones. For the time being, there exists a computer program that makes such a classification. However, there are differences between the cardiologist's and the program's classification. Taking the cardiologist's as a gold standard we aim to minimize this difference by means of machine learning tools.\n \nThe names and id numbers of the patients were recently removed from the database.\n \n### Attribute Information  \n \n       1 Age: Age in years , linear\n       2 Sex: Sex (0 = male; 1 = female) , nominal\n       3 Height: Height in centimeters , linear\n       4 Weight: Weight in kilograms , linear\n       5 QRS duration: Average of QRS duration in msec., linear\n       6 P-R interval: Average duration between onset of P and Q waves\n         in msec., linear\n       7 Q-T interval: Average duration between onset of Q and offset\n         of T waves in msec., linear\n       8 T interval: Average duration of T wave in msec., linear\n       9 P interval: Average duration of P wave in msec., linear\n      Vector angles in degrees on front plane of:, linear\n      10 QRS\n      11 T\n      12 P\n      13 QRST\n      14 J\n      15 Heart rate: Number of heart beats per minute ,linear\n      Of channel DI:\n       Average width, in msec., of: linear\n       16 Q wave\n       17 R wave\n       18 S wave\n       19 R' wave, small peak just after R\n       20 S' wave\n       21 Number of intrinsic deflections, linear\n       22 Existence of ragged R wave, nominal\n       23 Existence of diphasic derivation of R wave, nominal\n       24 Existence of ragged P wave, nominal\n       25 Existence of diphasic derivation of P wave, nominal\n       26 Existence of ragged T wave, nominal\n       27 Existence of diphasic derivation of T wave, nominal\n      Of channel DII: \n       28 .. 39 (similar to 16 .. 27 of channel DI)\n      Of channels DIII:\n       40 .. 51\n      Of channel AVR:\n       52 .. 63\n      Of channel AVL:\n       64 .. 75\n      Of channel AVF:\n       76 .. 87\n      Of channel V1:\n       88 .. 99\n      Of channel V2:\n       100 .. 111\n      Of channel V3:\n       112 .. 123\n      Of channel V4:\n       124 .. 135\n      Of channel V5:\n       136 .. 147\n      Of channel V6:\n       148 .. 159\n      Of channel DI:\n       Amplitude , * 0.1 milivolt, of\n       160 JJ wave, linear\n       161 Q wave, linear\n       162 R wave, linear\n       163 S wave, linear\n       164 R' wave, linear\n       165 S' wave, linear\n       166 P wave, linear\n       167 T wave, linear\n       168 QRSA , Sum of areas of all segments divided by 10,\n           ( Area= width * height / 2 ), linear\n       169 QRSTA = QRSA + 0.5 * width of T wave * 0.1 * height of T\n           wave. (If T is diphasic then the bigger segment is\n           considered), linear\n      Of channel DII:\n       170 .. 179\n      Of channel DIII:\n       180 .. 189\n      Of channel AVR:\n       190 .. 199\n      Of channel AVL:\n       200 .. 209\n      Of channel AVF:\n       210 .. 219\n      Of channel V1:\n       220 .. 229\n      Of channel V2:\n       230 .. 239\n      Of channel V3:\n       240 .. 249\n      Of channel V4:\n       250 .. 259\n      Of channel V5:\n       260 .. 269\n      Of channel V6:\n       270 .. 279\n        \nClass code - class - number of instances:\n> \n        01             Normal                245\n        02             Ischemic changes (Coronary Artery Disease)   44\n        03             Old Anterior Myocardial Infarction           15\n        04             Old Inferior Myocardial Infarction           15\n        05             Sinus tachycardy        13\n        06             Sinus bradycardy        25\n        07             Ventricular Premature Contraction (PVC)       3\n        08             Supraventricular Premature Contraction       2\n        09             Left bundle branch block         9 \n        10             Right bundle branch block       50\n        11             1. degree AtrioVentricular block       0 \n        12             2. degree AV block                0\n        13             3. degree AV block                0\n        14             Left ventricule hypertrophy                4\n        15             Atrial Fibrillation or Flutter               5\n        16             Others                 22", "description": "The resources for this dataset can be found at https://www.openml.org/d/5\n\nAuthor: H. Altay Guvenir,", "licenses": [{"name": "ODC-PDDL", "path": "http://opendatacommons.org/licenses/pddl/", "title": "Open Data Commons Public Domain Dedication and License"}]}
+{
+   "name": "arrhythmia",
+   "title": "Arrhythmia",
+   "resources": [
+      {
+         "path": "arrhythmia.arff",
+         "pathType": "local",
+         "name": "arrhythmia",
+         "format": "arff",
+         "encoding": "ISO-8859-1"
+      },
+      {
+         "path": "arrhythmia.csv",
+         "pathType": "local",
+         "name": "arrhythmia",
+         "format": "csv",
+         "mediatype": "text/csv",
+         "encoding": "ISO-8859-1",
+         "dialect": {
+            "delimiter": ",",
+            "quoteChar": "\""
+         },
+         "schema": {
+            "fields": [
+               {
+                  "name": "age",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "sex",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "height",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "weight",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "QRSduration",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "PRinterval",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "Q-Tinterval",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "Tinterval",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "Pinterval",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "QRS",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "T",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "P",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "QRST",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "J",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "heartrate",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDI_Qwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDI_Rwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDI_Swave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDI_RPwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDI_SPwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDI_intrinsicReflecttions",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDI_RRwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDI_DD_RRwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDI_RPwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDI_DD_RPwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDI_RTwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDI_DD_RTwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDII_Qwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDII_Rwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDII_Swave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDII_RPwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDII_SPwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDII_intrinsicReflecttions",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDII_RRwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDII_DD_RRwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDII_RPwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDII_DD_RPwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDII_RTwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDII_DD_RTwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDIII_Qwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDIII_Rwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDIII_Swave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDIII_RPwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDIII_SPwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDIII_intrinsicReflecttions",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDIII_RRwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDIII_DD_RRwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDIII_RPwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDIII_DD_RPwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDIII_RTwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDIII_DD_RTwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVR_Qwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVR_Rwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVR_Swave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVR_RPwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVR_SPwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVR_intrinsicReflecttions",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVR_RRwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVR_DD_RRwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVR_RPwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVR_DD_RPwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVR_RTwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVR_DD_RTwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVL_Qwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVL_Rwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVL_Swave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVL_RPwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVL_SPwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVL_intrinsicReflecttions",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVL_RRwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVL_DD_RRwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVL_RPwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVL_DD_RPwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVL_RTwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVL_DD_RTwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVF_Qwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVF_Rwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVF_Swave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVF_RPwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVF_SPwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVF_intrinsicReflecttions",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVF_RRwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVF_DD_RRwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVF_RPwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVF_DD_RPwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVF_RTwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVF_DD_RTwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV1_Qwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV1_Rwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV1_Swave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV1_RPwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV1_SPwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV1_intrinsicReflecttions",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV1_RRwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV1_DD_RRwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV1_RPwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV1_DD_RPwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV1_RTwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV1_DD_RTwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV2_Qwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV2_Rwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV2_Swave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV2_RPwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV2_SPwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV2_intrinsicReflecttions",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV2_RRwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV2_DD_RRwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV2_RPwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV2_DD_RPwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV2_RTwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV2_DD_RTwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV3_Qwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV3_Rwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV3_Swave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV3_RPwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV3_SPwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV3_intrinsicReflecttions",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV3_RRwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV3_DD_RRwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV3_RPwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV3_DD_RPwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV3_RTwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV3_DD_RTwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV4_Qwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV4_Rwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV4_Swave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV4_RPwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV4_SPwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV4_intrinsicReflecttions",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV4_RRwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV4_DD_RRwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV4_RPwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV4_DD_RPwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV4_RTwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV4_DD_RTwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV5_Qwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV5_Rwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV5_Swave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV5_RPwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV5_SPwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV5_intrinsicReflecttions",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV5_RRwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV5_DD_RRwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV5_RPwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV5_DD_RPwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV5_RTwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV5_DD_RTwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV6_Qwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV6_Rwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV6_Swave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV6_RPwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV6_SPwave",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV6_intrinsicReflecttions",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV6_RRwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV6_DD_RRwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV6_RPwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV6_DD_RPwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV6_RTwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV6_DD_RTwaveExists",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDI_JJwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDI_QwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDI_RwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDI_SwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDI_RPwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDI_SPwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDI_PwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDI_TwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDI_QRSA",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDI_QRSTA",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDII_JJwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDII_QwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDII_RwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDII_SwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDII_RPwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDII_SPwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDII_PwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDII_TwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDII_QRSA",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDII_QRSTA",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDIII_JJwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDIII_QwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDIII_RwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDIII_SwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDIII_RPwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDIII_SPwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDIII_PwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDIII_TwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDIII_QRSA",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chDIII_QRSTA",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVR_JJwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVR_QwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVR_RwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVR_SwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVR_RPwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVR_SPwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVR_PwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVR_TwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVR_QRSA",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVR_QRSTA",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVL_JJwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVL_QwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVL_RwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVL_SwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVL_RPwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVL_SPwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVL_PwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVL_TwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVL_QRSA",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVL_QRSTA",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVF_JJwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVF_QwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVF_RwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVF_SwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVF_RPwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVF_SPwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVF_PwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVF_TwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVF_QRSA",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chAVF_QRSTA",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV1_JJwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV1_QwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV1_RwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV1_SwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV1_RPwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV1_SPwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV1_PwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV1_TwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV1_QRSA",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV1_QRSTA",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV2_JJwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV2_QwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV2_RwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV2_SwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV2_RPwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV2_SPwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV2_PwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV2_TwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV2_QRSA",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV2_QRSTA",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV3_JJwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV3_QwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV3_RwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV3_SwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV3_RPwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV3_SPwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV3_PwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV3_TwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV3_QRSA",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV3_QRSTA",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV4_JJwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV4_QwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV4_RwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV4_SwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV4_RPwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV4_SPwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV4_PwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV4_TwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV4_QRSA",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV4_QRSTA",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV5_JJwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV5_QwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV5_RwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV5_SwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV5_RPwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV5_SPwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV5_PwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV5_TwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV5_QRSA",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV5_QRSTA",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV6_JJwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV6_QwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV6_RwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV6_SwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV6_RPwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV6_SPwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV6_PwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV6_TwaveAmp",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV6_QRSA",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "chV6_QRSTA",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "class",
+                  "type": "number",
+                  "format": "default"
+               }
+            ],
+            "missingValues": [
+               ""
+            ]
+         }
+      }
+   ],
+   "readme": "The resources for this dataset can be found at https://www.openml.org/d/5\n\nAuthor: H. Altay Guvenir, Burak Acar, Haldun Muderrisoglu  \nSource: [UCI](https://archive.ics.uci.edu/ml/datasets/arrhythmia)   \nPlease cite: [UCI](https://archive.ics.uci.edu/ml/citation_policy.html)\n\nCardiac Arrhythmia Database  \nThe aim is to determine the type of arrhythmia from the ECG recordings. This database contains 279 attributes, 206 of which are linear valued and the rest are nominal. \n\nConcerning the study of H. Altay Guvenir: \"The aim is to distinguish between the presence and absence of cardiac arrhythmia and to classify it in one of the 16 groups. Class 01 refers to 'normal' ECG classes, 02 to 15 refers to different classes of arrhythmia and class 16 refers to the rest of unclassified ones. For the time being, there exists a computer program that makes such a classification. However, there are differences between the cardiologist's and the program's classification. Taking the cardiologist's as a gold standard we aim to minimize this difference by means of machine learning tools.\n \nThe names and id numbers of the patients were recently removed from the database.\n \n### Attribute Information  \n \n       1 Age: Age in years , linear\n       2 Sex: Sex (0 = male; 1 = female) , nominal\n       3 Height: Height in centimeters , linear\n       4 Weight: Weight in kilograms , linear\n       5 QRS duration: Average of QRS duration in msec., linear\n       6 P-R interval: Average duration between onset of P and Q waves\n         in msec., linear\n       7 Q-T interval: Average duration between onset of Q and offset\n         of T waves in msec., linear\n       8 T interval: Average duration of T wave in msec., linear\n       9 P interval: Average duration of P wave in msec., linear\n      Vector angles in degrees on front plane of:, linear\n      10 QRS\n      11 T\n      12 P\n      13 QRST\n      14 J\n      15 Heart rate: Number of heart beats per minute ,linear\n      Of channel DI:\n       Average width, in msec., of: linear\n       16 Q wave\n       17 R wave\n       18 S wave\n       19 R' wave, small peak just after R\n       20 S' wave\n       21 Number of intrinsic deflections, linear\n       22 Existence of ragged R wave, nominal\n       23 Existence of diphasic derivation of R wave, nominal\n       24 Existence of ragged P wave, nominal\n       25 Existence of diphasic derivation of P wave, nominal\n       26 Existence of ragged T wave, nominal\n       27 Existence of diphasic derivation of T wave, nominal\n      Of channel DII: \n       28 .. 39 (similar to 16 .. 27 of channel DI)\n      Of channels DIII:\n       40 .. 51\n      Of channel AVR:\n       52 .. 63\n      Of channel AVL:\n       64 .. 75\n      Of channel AVF:\n       76 .. 87\n      Of channel V1:\n       88 .. 99\n      Of channel V2:\n       100 .. 111\n      Of channel V3:\n       112 .. 123\n      Of channel V4:\n       124 .. 135\n      Of channel V5:\n       136 .. 147\n      Of channel V6:\n       148 .. 159\n      Of channel DI:\n       Amplitude , * 0.1 milivolt, of\n       160 JJ wave, linear\n       161 Q wave, linear\n       162 R wave, linear\n       163 S wave, linear\n       164 R' wave, linear\n       165 S' wave, linear\n       166 P wave, linear\n       167 T wave, linear\n       168 QRSA , Sum of areas of all segments divided by 10,\n           ( Area= width * height / 2 ), linear\n       169 QRSTA = QRSA + 0.5 * width of T wave * 0.1 * height of T\n           wave. (If T is diphasic then the bigger segment is\n           considered), linear\n      Of channel DII:\n       170 .. 179\n      Of channel DIII:\n       180 .. 189\n      Of channel AVR:\n       190 .. 199\n      Of channel AVL:\n       200 .. 209\n      Of channel AVF:\n       210 .. 219\n      Of channel V1:\n       220 .. 229\n      Of channel V2:\n       230 .. 239\n      Of channel V3:\n       240 .. 249\n      Of channel V4:\n       250 .. 259\n      Of channel V5:\n       260 .. 269\n      Of channel V6:\n       270 .. 279\n        \nClass code - class - number of instances:\n> \n        01             Normal                245\n        02             Ischemic changes (Coronary Artery Disease)   44\n        03             Old Anterior Myocardial Infarction           15\n        04             Old Inferior Myocardial Infarction           15\n        05             Sinus tachycardy        13\n        06             Sinus bradycardy        25\n        07             Ventricular Premature Contraction (PVC)       3\n        08             Supraventricular Premature Contraction       2\n        09             Left bundle branch block         9 \n        10             Right bundle branch block       50\n        11             1. degree AtrioVentricular block       0 \n        12             2. degree AV block                0\n        13             3. degree AV block                0\n        14             Left ventricule hypertrophy                4\n        15             Atrial Fibrillation or Flutter               5\n        16             Others                 22",
+   "description": "The resources for this dataset can be found at https://www.openml.org/d/5\n\nAuthor: H. Altay Guvenir,",
+   "licenses": [
+      {
+         "name": "ODC-PDDL",
+         "path": "http://opendatacommons.org/licenses/pddl/",
+         "title": "Open Data Commons Public Domain Dedication and License"
+      }
+   ]
+}

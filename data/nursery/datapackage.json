@@ -1,1 +1,86 @@
-{"name": "nursery", "title": "Nursery", "resources": [{"path": "nursery.arff", "pathType": "local", "name": "nursery", "format": "arff", "encoding": "ISO-8859-1"}, {"path": "nursery.csv", "pathType": "local", "name": "nursery", "format": "csv", "mediatype": "text/csv", "encoding": "ISO-8859-1", "dialect": {"delimiter": ",", "quoteChar": "\""}, "schema": {"fields": [{"name": "parents", "type": "string", "format": "default"}, {"name": "has_nurs", "type": "string", "format": "default"}, {"name": "form", "type": "string", "format": "default"}, {"name": "children", "type": "number", "format": "default"}, {"name": "housing", "type": "string", "format": "default"}, {"name": "finance", "type": "string", "format": "default"}, {"name": "social", "type": "string", "format": "default"}, {"name": "health", "type": "string", "format": "default"}, {"name": "class", "type": "string", "format": "default"}], "missingValues": [""]}}], "readme": "The resources for this dataset can be found at https://www.openml.org/d/26\n\nAuthor:   \nSource: Unknown -   \nPlease cite:   \n\n1. Title: Nursery Database\n \n 2. Sources:\n    (a) Creator: Vladislav Rajkovic et al. (13 experts)\n    (b) Donors: Marko Bohanec   (marko.bohanec@ijs.si)\n                Blaz Zupan      (blaz.zupan@ijs.si)\n    (c) Date: June, 1997\n \n 3. Past Usage:\n \n    The hierarchical decision model, from which this dataset is\n    derived, was first presented in \n \n    M. Olave, V. Rajkovic, M. Bohanec: An application for admission in\n    public school systems. In (I. Th. M. Snellen and W. B. H. J. van de\n    Donk and J.-P. Baquiast, editors) Expert Systems in Public\n    Administration, pages 145-160. Elsevier Science Publishers (North\n    Holland)}, 1989.\n \n    Within machine-learning, this dataset was used for the evaluation\n    of HINT (Hierarchy INduction Tool), which was proved to be able to\n    completely reconstruct the original hierarchical model. This,\n    together with a comparison with C4.5, is presented in\n \n    B. Zupan, M. Bohanec, I. Bratko, J. Demsar: Machine learning by\n    function decomposition. ICML-97, Nashville, TN. 1997 (to appear)\n \n 4. Relevant Information Paragraph:\n \n    Nursery Database was derived from a hierarchical decision model\n    originally developed to rank applications for nursery schools. It\n    was used during several years in 1980's when there was excessive\n    enrollment to these schools in Ljubljana, Slovenia, and the\n    rejected applications frequently needed an objective\n    explanation. The final decision depended on three subproblems:\n    occupation of parents and child's nursery, family structure and\n    financial standing, and social and health picture of the family.\n    The model was developed within expert system shell for decision\n    making DEX (M. Bohanec, V. Rajkovic: Expert system for decision\n    making. Sistemica 1(1), pp. 145-157, 1990.).\n \n    The hierarchical model ranks nursery-school applications according\n    to the following concept structure:\n \n    NURSERY            Evaluation of applications for nursery schools\n    . EMPLOY           Employment of parents and child's nursery\n    . . parents        Parents' occupation\n    . . has_nurs       Child's nursery\n    . STRUCT_FINAN     Family structure and financial standings\n    . . STRUCTURE      Family structure\n    . . . form         Form of the family\n    . . . children     Number of children\n    . . housing        Housing conditions\n    . . finance        Financial standing of the family\n    . SOC_HEALTH       Social and health picture of the family\n    . . social         Social conditions\n    . . health         Health conditions\n \n    Input attributes are printed in lowercase. Besides the target\n    concept (NURSERY) the model includes four intermediate concepts:\n    EMPLOY, STRUCT_FINAN, STRUCTURE, SOC_HEALTH. Every concept is in\n    the original model related to its lower level descendants by a set\n    of examples (for these examples sets see \n    http://www-ai.ijs.si/BlazZupan/nursery.html).\n \n    The Nursery Database contains examples with the structural\n    information removed, i.e., directly relates NURSERY to the eight input\n    attributes: parents, has_nurs, form, children, housing, finance,\n    social, health.\n \n    Because of known underlying concept structure, this database may be\n    particularly useful for testing constructive induction and\n    structure discovery methods.\n \n 5. Number of Instances: 12960\n    (instances completely cover the attribute space)\n \n 6. Number of Attributes: 8\n \n 7. Attribute Values:\n \n    parents        usual, pretentious, great_pret\n    has_nurs       proper, less_proper, improper, critical, very_crit\n    form           complete, completed, incomplete, foster\n    children       1, 2, 3, more\n    housing        convenient, less_conv, critical\n    finance        convenient, inconv\n    social         non-prob, slightly_prob, problematic\n    health         recommended, priority, not_recom\n \n 8. Missing Attribute Values: none\n \n 9. Class Distribution (number of instances per class)\n \n    class        N         N[%]\n    ------------------------------\n    not_recom    4320   (33.333 %)\n    recommend       2   ( 0.015 %)\n    very_recom    328   ( 2.531 %)\n    priority     4266   (32.917 %)\n    spec_prior   4044   (31.204 %)\n\n Information about the dataset\n CLASSTYPE: nominal\n CLASSINDEX: last", "description": "The resources for this dataset can be found at https://www.openml.org/d/26\n\nAuthor:   \nSource: Unkno", "licenses": [{"name": "ODC-PDDL", "path": "http://opendatacommons.org/licenses/pddl/", "title": "Open Data Commons Public Domain Dedication and License"}]}
+{
+   "name": "nursery",
+   "title": "Nursery",
+   "resources": [
+      {
+         "path": "nursery.arff",
+         "pathType": "local",
+         "name": "nursery",
+         "format": "arff",
+         "encoding": "ISO-8859-1"
+      },
+      {
+         "path": "nursery.csv",
+         "pathType": "local",
+         "name": "nursery",
+         "format": "csv",
+         "mediatype": "text/csv",
+         "encoding": "ISO-8859-1",
+         "dialect": {
+            "delimiter": ",",
+            "quoteChar": "\""
+         },
+         "schema": {
+            "fields": [
+               {
+                  "name": "parents",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "has_nurs",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "form",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "children",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "housing",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "finance",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "social",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "health",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "class",
+                  "type": "string",
+                  "format": "default"
+               }
+            ],
+            "missingValues": [
+               ""
+            ]
+         }
+      }
+   ],
+   "readme": "The resources for this dataset can be found at https://www.openml.org/d/26\n\nAuthor:   \nSource: Unknown -   \nPlease cite:   \n\n1. Title: Nursery Database\n \n 2. Sources:\n    (a) Creator: Vladislav Rajkovic et al. (13 experts)\n    (b) Donors: Marko Bohanec   (marko.bohanec@ijs.si)\n                Blaz Zupan      (blaz.zupan@ijs.si)\n    (c) Date: June, 1997\n \n 3. Past Usage:\n \n    The hierarchical decision model, from which this dataset is\n    derived, was first presented in \n \n    M. Olave, V. Rajkovic, M. Bohanec: An application for admission in\n    public school systems. In (I. Th. M. Snellen and W. B. H. J. van de\n    Donk and J.-P. Baquiast, editors) Expert Systems in Public\n    Administration, pages 145-160. Elsevier Science Publishers (North\n    Holland)}, 1989.\n \n    Within machine-learning, this dataset was used for the evaluation\n    of HINT (Hierarchy INduction Tool), which was proved to be able to\n    completely reconstruct the original hierarchical model. This,\n    together with a comparison with C4.5, is presented in\n \n    B. Zupan, M. Bohanec, I. Bratko, J. Demsar: Machine learning by\n    function decomposition. ICML-97, Nashville, TN. 1997 (to appear)\n \n 4. Relevant Information Paragraph:\n \n    Nursery Database was derived from a hierarchical decision model\n    originally developed to rank applications for nursery schools. It\n    was used during several years in 1980's when there was excessive\n    enrollment to these schools in Ljubljana, Slovenia, and the\n    rejected applications frequently needed an objective\n    explanation. The final decision depended on three subproblems:\n    occupation of parents and child's nursery, family structure and\n    financial standing, and social and health picture of the family.\n    The model was developed within expert system shell for decision\n    making DEX (M. Bohanec, V. Rajkovic: Expert system for decision\n    making. Sistemica 1(1), pp. 145-157, 1990.).\n \n    The hierarchical model ranks nursery-school applications according\n    to the following concept structure:\n \n    NURSERY            Evaluation of applications for nursery schools\n    . EMPLOY           Employment of parents and child's nursery\n    . . parents        Parents' occupation\n    . . has_nurs       Child's nursery\n    . STRUCT_FINAN     Family structure and financial standings\n    . . STRUCTURE      Family structure\n    . . . form         Form of the family\n    . . . children     Number of children\n    . . housing        Housing conditions\n    . . finance        Financial standing of the family\n    . SOC_HEALTH       Social and health picture of the family\n    . . social         Social conditions\n    . . health         Health conditions\n \n    Input attributes are printed in lowercase. Besides the target\n    concept (NURSERY) the model includes four intermediate concepts:\n    EMPLOY, STRUCT_FINAN, STRUCTURE, SOC_HEALTH. Every concept is in\n    the original model related to its lower level descendants by a set\n    of examples (for these examples sets see \n    http://www-ai.ijs.si/BlazZupan/nursery.html).\n \n    The Nursery Database contains examples with the structural\n    information removed, i.e., directly relates NURSERY to the eight input\n    attributes: parents, has_nurs, form, children, housing, finance,\n    social, health.\n \n    Because of known underlying concept structure, this database may be\n    particularly useful for testing constructive induction and\n    structure discovery methods.\n \n 5. Number of Instances: 12960\n    (instances completely cover the attribute space)\n \n 6. Number of Attributes: 8\n \n 7. Attribute Values:\n \n    parents        usual, pretentious, great_pret\n    has_nurs       proper, less_proper, improper, critical, very_crit\n    form           complete, completed, incomplete, foster\n    children       1, 2, 3, more\n    housing        convenient, less_conv, critical\n    finance        convenient, inconv\n    social         non-prob, slightly_prob, problematic\n    health         recommended, priority, not_recom\n \n 8. Missing Attribute Values: none\n \n 9. Class Distribution (number of instances per class)\n \n    class        N         N[%]\n    ------------------------------\n    not_recom    4320   (33.333 %)\n    recommend       2   ( 0.015 %)\n    very_recom    328   ( 2.531 %)\n    priority     4266   (32.917 %)\n    spec_prior   4044   (31.204 %)\n\n Information about the dataset\n CLASSTYPE: nominal\n CLASSINDEX: last",
+   "description": "The resources for this dataset can be found at https://www.openml.org/d/26\n\nAuthor:   \nSource: Unkno",
+   "licenses": [
+      {
+         "name": "ODC-PDDL",
+         "path": "http://opendatacommons.org/licenses/pddl/",
+         "title": "Open Data Commons Public Domain Dedication and License"
+      }
+   ]
+}

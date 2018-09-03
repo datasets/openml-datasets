@@ -1,1 +1,226 @@
-{"name": "satellite", "title": "Satellite", "resources": [{"path": "Satellite.arff", "pathType": "local", "name": "satellite", "format": "arff", "encoding": "ISO-8859-1"}, {"path": "Satellite.csv", "pathType": "local", "name": "satellite", "format": "csv", "mediatype": "text/csv", "encoding": "ISO-8859-1", "dialect": {"delimiter": ",", "quoteChar": "'"}, "schema": {"fields": [{"name": "V1", "type": "number", "format": "default"}, {"name": "V2", "type": "number", "format": "default"}, {"name": "V3", "type": "number", "format": "default"}, {"name": "V4", "type": "number", "format": "default"}, {"name": "V5", "type": "number", "format": "default"}, {"name": "V6", "type": "number", "format": "default"}, {"name": "V7", "type": "number", "format": "default"}, {"name": "V8", "type": "number", "format": "default"}, {"name": "V9", "type": "number", "format": "default"}, {"name": "V10", "type": "number", "format": "default"}, {"name": "V11", "type": "number", "format": "default"}, {"name": "V12", "type": "number", "format": "default"}, {"name": "V13", "type": "number", "format": "default"}, {"name": "V14", "type": "number", "format": "default"}, {"name": "V15", "type": "number", "format": "default"}, {"name": "V16", "type": "number", "format": "default"}, {"name": "V17", "type": "number", "format": "default"}, {"name": "V18", "type": "number", "format": "default"}, {"name": "V19", "type": "number", "format": "default"}, {"name": "V20", "type": "number", "format": "default"}, {"name": "V21", "type": "number", "format": "default"}, {"name": "V22", "type": "number", "format": "default"}, {"name": "V23", "type": "number", "format": "default"}, {"name": "V24", "type": "number", "format": "default"}, {"name": "V25", "type": "number", "format": "default"}, {"name": "V26", "type": "number", "format": "default"}, {"name": "V27", "type": "number", "format": "default"}, {"name": "V28", "type": "number", "format": "default"}, {"name": "V29", "type": "number", "format": "default"}, {"name": "V30", "type": "number", "format": "default"}, {"name": "V31", "type": "number", "format": "default"}, {"name": "V32", "type": "number", "format": "default"}, {"name": "V33", "type": "number", "format": "default"}, {"name": "V34", "type": "number", "format": "default"}, {"name": "V35", "type": "number", "format": "default"}, {"name": "V36", "type": "number", "format": "default"}, {"name": "Target", "type": "string", "format": "default"}], "missingValues": [""]}}], "readme": "The resources for this dataset can be found at https://www.openml.org/d/40900\n\nAuthor: Markus Goldstein  \nSource: [Dataverse](http://www.madm.eu/downloads https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OPQMVF)  \nPlease cite:   \n\nThe satellite dataset comprises of features extracted from satellite observations. In particular, each image was taken under four different light wavelength, two in visible light (green and red) and two infrared images. The task of the original dataset is to classify the image into the soil category of the observed region. \n\n### Classes\nWe defined the soil classes \u201cred soil\u201d, \u201cgray soil\u201d, \u201cdamp gray soil\u201d and \u201cvery damp gray soil\u201d as the normal class. From the semantically different classes \u201ccotton crop\u201d and \u201csoil with vegetation stubble\u201d anomalies are sampled. \n\nAfter merging the original training and test set into a single dataset, the resulting dataset contains 5,025 normal instances as well as 75 randomly sampled anomalies (1.49%) with 36 dimensions \n\n### Relevant Papers\n\nGoldstein, Markus, and Seiichi Uchida. A comparative evaluation of unsupervised anomaly detection algorithms for multivariate data.\" PloS one 11.4 (2016): e0152173 \n\nThis dataset is not the original dataset. The target variable 'Target' is relabeled into 'Normal' and 'Anomaly'", "description": "The resources for this dataset can be found at https://www.openml.org/d/40900\n\nAuthor: Markus Goldst", "licenses": [{"name": "ODC-PDDL", "path": "http://opendatacommons.org/licenses/pddl/", "title": "Open Data Commons Public Domain Dedication and License"}]}
+{
+   "name": "satellite",
+   "title": "Satellite",
+   "resources": [
+      {
+         "path": "Satellite.arff",
+         "pathType": "local",
+         "name": "satellite",
+         "format": "arff",
+         "encoding": "ISO-8859-1"
+      },
+      {
+         "path": "Satellite.csv",
+         "pathType": "local",
+         "name": "satellite",
+         "format": "csv",
+         "mediatype": "text/csv",
+         "encoding": "ISO-8859-1",
+         "dialect": {
+            "delimiter": ",",
+            "quoteChar": "'"
+         },
+         "schema": {
+            "fields": [
+               {
+                  "name": "V1",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V2",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V3",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V4",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V5",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V6",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V7",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V8",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V9",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V10",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V11",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V12",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V13",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V14",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V15",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V16",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V17",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V18",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V19",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V20",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V21",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V22",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V23",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V24",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V25",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V26",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V27",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V28",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V29",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V30",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V31",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V32",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V33",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V34",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V35",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V36",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "Target",
+                  "type": "string",
+                  "format": "default"
+               }
+            ],
+            "missingValues": [
+               ""
+            ]
+         }
+      }
+   ],
+   "readme": "The resources for this dataset can be found at https://www.openml.org/d/40900\n\nAuthor: Markus Goldstein  \nSource: [Dataverse](http://www.madm.eu/downloads https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OPQMVF)  \nPlease cite:   \n\nThe satellite dataset comprises of features extracted from satellite observations. In particular, each image was taken under four different light wavelength, two in visible light (green and red) and two infrared images. The task of the original dataset is to classify the image into the soil category of the observed region. \n\n### Classes\nWe defined the soil classes \u201cred soil\u201d, \u201cgray soil\u201d, \u201cdamp gray soil\u201d and \u201cvery damp gray soil\u201d as the normal class. From the semantically different classes \u201ccotton crop\u201d and \u201csoil with vegetation stubble\u201d anomalies are sampled. \n\nAfter merging the original training and test set into a single dataset, the resulting dataset contains 5,025 normal instances as well as 75 randomly sampled anomalies (1.49%) with 36 dimensions \n\n### Relevant Papers\n\nGoldstein, Markus, and Seiichi Uchida. A comparative evaluation of unsupervised anomaly detection algorithms for multivariate data.\" PloS one 11.4 (2016): e0152173 \n\nThis dataset is not the original dataset. The target variable 'Target' is relabeled into 'Normal' and 'Anomaly'",
+   "description": "The resources for this dataset can be found at https://www.openml.org/d/40900\n\nAuthor: Markus Goldst",
+   "licenses": [
+      {
+         "name": "ODC-PDDL",
+         "path": "http://opendatacommons.org/licenses/pddl/",
+         "title": "Open Data Commons Public Domain Dedication and License"
+      }
+   ]
+}

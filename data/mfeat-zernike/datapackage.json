@@ -1,1 +1,281 @@
-{"name": "mfeat-zernike", "title": "Mfeat zernike", "resources": [{"path": "mfeat-zernike.arff", "pathType": "local", "name": "mfeat-zernike", "format": "arff", "encoding": "ISO-8859-1"}, {"path": "mfeat-zernike.csv", "pathType": "local", "name": "mfeat-zernike", "format": "csv", "mediatype": "text/csv", "encoding": "ISO-8859-2", "dialect": {"delimiter": ",", "quoteChar": "\""}, "schema": {"fields": [{"name": "att1", "type": "number", "format": "default"}, {"name": "att2", "type": "number", "format": "default"}, {"name": "att3", "type": "number", "format": "default"}, {"name": "att4", "type": "number", "format": "default"}, {"name": "att5", "type": "number", "format": "default"}, {"name": "att6", "type": "number", "format": "default"}, {"name": "att7", "type": "number", "format": "default"}, {"name": "att8", "type": "number", "format": "default"}, {"name": "att9", "type": "number", "format": "default"}, {"name": "att10", "type": "number", "format": "default"}, {"name": "att11", "type": "number", "format": "default"}, {"name": "att12", "type": "number", "format": "default"}, {"name": "att13", "type": "number", "format": "default"}, {"name": "att14", "type": "number", "format": "default"}, {"name": "att15", "type": "number", "format": "default"}, {"name": "att16", "type": "number", "format": "default"}, {"name": "att17", "type": "number", "format": "default"}, {"name": "att18", "type": "number", "format": "default"}, {"name": "att19", "type": "number", "format": "default"}, {"name": "att20", "type": "number", "format": "default"}, {"name": "att21", "type": "number", "format": "default"}, {"name": "att22", "type": "number", "format": "default"}, {"name": "att23", "type": "number", "format": "default"}, {"name": "att24", "type": "number", "format": "default"}, {"name": "att25", "type": "number", "format": "default"}, {"name": "att26", "type": "number", "format": "default"}, {"name": "att27", "type": "number", "format": "default"}, {"name": "att28", "type": "number", "format": "default"}, {"name": "att29", "type": "number", "format": "default"}, {"name": "att30", "type": "number", "format": "default"}, {"name": "att31", "type": "number", "format": "default"}, {"name": "att32", "type": "number", "format": "default"}, {"name": "att33", "type": "number", "format": "default"}, {"name": "att34", "type": "number", "format": "default"}, {"name": "att35", "type": "number", "format": "default"}, {"name": "att36", "type": "number", "format": "default"}, {"name": "att37", "type": "number", "format": "default"}, {"name": "att38", "type": "number", "format": "default"}, {"name": "att39", "type": "number", "format": "default"}, {"name": "att40", "type": "number", "format": "default"}, {"name": "att41", "type": "number", "format": "default"}, {"name": "att42", "type": "number", "format": "default"}, {"name": "att43", "type": "number", "format": "default"}, {"name": "att44", "type": "number", "format": "default"}, {"name": "att45", "type": "number", "format": "default"}, {"name": "att46", "type": "number", "format": "default"}, {"name": "att47", "type": "number", "format": "default"}, {"name": "class", "type": "number", "format": "default"}], "missingValues": [""]}}], "readme": "The resources for this dataset can be found at https://www.openml.org/d/22\n\nAuthor: Robert P.W. Duin, Department of Applied Physics, Delft University of Technology  \nSource: [UCI](https://archive.ics.uci.edu/ml/datasets/Multiple+Features) - 1998  \nPlease cite: [UCI](https://archive.ics.uci.edu/ml/citation_policy.html)   \n\nMultiple Features Dataset: Zernike  \nOne of a set of 6 datasets describing features of handwritten numerals (0 - 9) extracted from a collection of Dutch utility maps. Corresponding patterns in different datasets correspond to the same original character. 200 instances per class (for a total of 2,000 instances) have been digitized in binary images. \n\nIn this dataset, these digits are represented in terms of 47 Zernike moments. \n\n### Attribute Information  \nThe attributes represent 47 rotation invariant Zernike moments. They can't distinguish samples of class '6' from those of class '9'. More information on Zernike moments can be found in:  \nA. Khotanzad and Y.H. Hong: Rotation invariant pattern recognition using Zernike moments. Int. Conf. on Pattern Recognition, Rome 1998, pp. 326-328.\n\n### Relevant Papers  \nA slightly different version of the database is used in  \nM. van Breukelen, R.P.W. Duin, D.M.J. Tax, and J.E. den Hartog, Handwritten digit recognition by combined classifiers, Kybernetika, vol. 34, no. 4, 1998, 381-386.\n \nThe database as is is used in:  \nA.K. Jain, R.P.W. Duin, J. Mao, Statistical Pattern Recognition: A Review, IEEE Transactions on Pattern Analysis and Machine Intelligence archive, Volume 22 Issue 1, January 2000 ", "description": "The resources for this dataset can be found at https://www.openml.org/d/22\n\nAuthor: Robert P.W. Duin", "licenses": [{"name": "ODC-PDDL", "path": "http://opendatacommons.org/licenses/pddl/", "title": "Open Data Commons Public Domain Dedication and License"}]}
+{
+   "name": "mfeat-zernike",
+   "title": "Mfeat zernike",
+   "resources": [
+      {
+         "path": "mfeat-zernike.arff",
+         "pathType": "local",
+         "name": "mfeat-zernike",
+         "format": "arff",
+         "encoding": "ISO-8859-1"
+      },
+      {
+         "path": "mfeat-zernike.csv",
+         "pathType": "local",
+         "name": "mfeat-zernike",
+         "format": "csv",
+         "mediatype": "text/csv",
+         "encoding": "ISO-8859-2",
+         "dialect": {
+            "delimiter": ",",
+            "quoteChar": "\""
+         },
+         "schema": {
+            "fields": [
+               {
+                  "name": "att1",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att2",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att3",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att4",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att5",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att6",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att7",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att8",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att9",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att10",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att11",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att12",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att13",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att14",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att15",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att16",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att17",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att18",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att19",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att20",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att21",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att22",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att23",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att24",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att25",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att26",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att27",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att28",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att29",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att30",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att31",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att32",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att33",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att34",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att35",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att36",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att37",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att38",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att39",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att40",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att41",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att42",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att43",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att44",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att45",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att46",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "att47",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "class",
+                  "type": "number",
+                  "format": "default"
+               }
+            ],
+            "missingValues": [
+               ""
+            ]
+         }
+      }
+   ],
+   "readme": "The resources for this dataset can be found at https://www.openml.org/d/22\n\nAuthor: Robert P.W. Duin, Department of Applied Physics, Delft University of Technology  \nSource: [UCI](https://archive.ics.uci.edu/ml/datasets/Multiple+Features) - 1998  \nPlease cite: [UCI](https://archive.ics.uci.edu/ml/citation_policy.html)   \n\nMultiple Features Dataset: Zernike  \nOne of a set of 6 datasets describing features of handwritten numerals (0 - 9) extracted from a collection of Dutch utility maps. Corresponding patterns in different datasets correspond to the same original character. 200 instances per class (for a total of 2,000 instances) have been digitized in binary images. \n\nIn this dataset, these digits are represented in terms of 47 Zernike moments. \n\n### Attribute Information  \nThe attributes represent 47 rotation invariant Zernike moments. They can't distinguish samples of class '6' from those of class '9'. More information on Zernike moments can be found in:  \nA. Khotanzad and Y.H. Hong: Rotation invariant pattern recognition using Zernike moments. Int. Conf. on Pattern Recognition, Rome 1998, pp. 326-328.\n\n### Relevant Papers  \nA slightly different version of the database is used in  \nM. van Breukelen, R.P.W. Duin, D.M.J. Tax, and J.E. den Hartog, Handwritten digit recognition by combined classifiers, Kybernetika, vol. 34, no. 4, 1998, 381-386.\n \nThe database as is is used in:  \nA.K. Jain, R.P.W. Duin, J. Mao, Statistical Pattern Recognition: A Review, IEEE Transactions on Pattern Analysis and Machine Intelligence archive, Volume 22 Issue 1, January 2000 ",
+   "description": "The resources for this dataset can be found at https://www.openml.org/d/22\n\nAuthor: Robert P.W. Duin",
+   "licenses": [
+      {
+         "name": "ODC-PDDL",
+         "path": "http://opendatacommons.org/licenses/pddl/",
+         "title": "Open Data Commons Public Domain Dedication and License"
+      }
+   ]
+}

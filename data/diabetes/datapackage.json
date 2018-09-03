@@ -1,1 +1,86 @@
-{"name": "diabetes", "title": "Diabetes", "resources": [{"path": "diabetes.arff", "pathType": "local", "name": "diabetes", "format": "arff", "encoding": "ISO-8859-1"}, {"path": "diabetes.csv", "pathType": "local", "name": "diabetes", "format": "csv", "mediatype": "text/csv", "encoding": "ISO-8859-1", "dialect": {"delimiter": ",", "quoteChar": "\""}, "schema": {"fields": [{"name": "preg", "type": "number", "format": "default"}, {"name": "plas", "type": "number", "format": "default"}, {"name": "pres", "type": "number", "format": "default"}, {"name": "skin", "type": "number", "format": "default"}, {"name": "insu", "type": "number", "format": "default"}, {"name": "mass", "type": "number", "format": "default"}, {"name": "pedi", "type": "number", "format": "default"}, {"name": "age", "type": "number", "format": "default"}, {"name": "class", "type": "string", "format": "default"}], "missingValues": [""]}}], "readme": "The resources for this dataset can be found at https://www.openml.org/d/37\n\nAuthor: [Vincent Sigillito](vgs@aplcen.apl.jhu.edu)  \n\nSource: [Obtained from UCI](https://archive.ics.uci.edu/ml/datasets/pima+indians+diabetes) \n\nPlease cite: [UCI citation policy](https://archive.ics.uci.edu/ml/citation_policy.html)  \n\n1. Title: Pima Indians Diabetes Database\n \n 2. Sources:\n    (a) Original owners: National Institute of Diabetes and Digestive and\n                         Kidney Diseases\n    (b) Donor of database: Vincent Sigillito (vgs@aplcen.apl.jhu.edu)\n                           Research Center, RMI Group Leader\n                           Applied Physics Laboratory\n                           The Johns Hopkins University\n                           Johns Hopkins Road\n                           Laurel, MD 20707\n                           (301) 953-6231\n    (c) Date received: 9 May 1990\n \n 3. Past Usage:\n     1. Smith,~J.~W., Everhart,~J.~E., Dickson,~W.~C., Knowler,~W.~C., &\n        Johannes,~R.~S. (1988). Using the ADAP learning algorithm to forecast\n        the onset of diabetes mellitus.  In {it Proceedings of the Symposium\n        on Computer Applications and Medical Care} (pp. 261--265).  IEEE\n        Computer Society Press.\n \n        The diagnostic, binary-valued variable investigated is whether the\n        patient shows signs of diabetes according to World Health Organization\n        criteria (i.e., if the 2 hour post-load plasma glucose was at least \n        200 mg/dl at any survey  examination or if found during routine medical\n        care).   The population lives near Phoenix, Arizona, USA.\n \n        Results: Their ADAP algorithm makes a real-valued prediction between\n        0 and 1.  This was transformed into a binary decision using a cutoff of \n        0.448.  Using 576 training instances, the sensitivity and specificity\n        of their algorithm was 76% on the remaining 192 instances.\n \n 4. Relevant Information:\n       Several constraints were placed on the selection of these instances from\n       a larger database.  In particular, all patients here are females at\n       least 21 years old of Pima Indian heritage.  ADAP is an adaptive learning\n       routine that generates and executes digital analogs of perceptron-like\n       devices.  It is a unique algorithm; see the paper for details.\n \n 5. Number of Instances: 768\n \n 6. Number of Attributes: 8 plus class \n \n 7. For Each Attribute: (all numeric-valued)\n    1. Number of times pregnant\n    2. Plasma glucose concentration a 2 hours in an oral glucose tolerance test\n    3. Diastolic blood pressure (mm Hg)\n    4. Triceps skin fold thickness (mm)\n    5. 2-Hour serum insulin (mu U/ml)\n    6. Body mass index (weight in kg/(height in m)^2)\n    7. Diabetes pedigree function\n    8. Age (years)\n    9. Class variable (0 or 1)\n \n 8. Missing Attribute Values: None\n \n 9. Class Distribution: (class value 1 is interpreted as \"tested positive for\n    diabetes\")\n \n    Class Value  Number of instances\n    0            500\n    1            268\n \n 10. Brief statistical analysis:\n \n     Attribute number:    Mean:   Standard Deviation:\n     1.                     3.8     3.4\n     2.                   120.9    32.0\n     3.                    69.1    19.4\n     4.                    20.5    16.0\n     5.                    79.8   115.2\n     6.                    32.0     7.9\n     7.                     0.5     0.3\n     8.                    33.2    11.8\n \n \n\n\n\n\n Relabeled values in attribute 'class'\n    From: 0                       To: tested_negative     \n    From: 1                       To: tested_positive", "description": "The resources for this dataset can be found at https://www.openml.org/d/37\n\nAuthor: [Vincent Sigilli", "licenses": [{"name": "ODC-PDDL", "path": "http://opendatacommons.org/licenses/pddl/", "title": "Open Data Commons Public Domain Dedication and License"}]}
+{
+   "name": "diabetes",
+   "title": "Diabetes",
+   "resources": [
+      {
+         "path": "diabetes.arff",
+         "pathType": "local",
+         "name": "diabetes",
+         "format": "arff",
+         "encoding": "ISO-8859-1"
+      },
+      {
+         "path": "diabetes.csv",
+         "pathType": "local",
+         "name": "diabetes",
+         "format": "csv",
+         "mediatype": "text/csv",
+         "encoding": "ISO-8859-1",
+         "dialect": {
+            "delimiter": ",",
+            "quoteChar": "\""
+         },
+         "schema": {
+            "fields": [
+               {
+                  "name": "preg",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "plas",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "pres",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "skin",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "insu",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "mass",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "pedi",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "age",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "class",
+                  "type": "string",
+                  "format": "default"
+               }
+            ],
+            "missingValues": [
+               ""
+            ]
+         }
+      }
+   ],
+   "readme": "The resources for this dataset can be found at https://www.openml.org/d/37\n\nAuthor: [Vincent Sigillito](vgs@aplcen.apl.jhu.edu)  \n\nSource: [Obtained from UCI](https://archive.ics.uci.edu/ml/datasets/pima+indians+diabetes) \n\nPlease cite: [UCI citation policy](https://archive.ics.uci.edu/ml/citation_policy.html)  \n\n1. Title: Pima Indians Diabetes Database\n \n 2. Sources:\n    (a) Original owners: National Institute of Diabetes and Digestive and\n                         Kidney Diseases\n    (b) Donor of database: Vincent Sigillito (vgs@aplcen.apl.jhu.edu)\n                           Research Center, RMI Group Leader\n                           Applied Physics Laboratory\n                           The Johns Hopkins University\n                           Johns Hopkins Road\n                           Laurel, MD 20707\n                           (301) 953-6231\n    (c) Date received: 9 May 1990\n \n 3. Past Usage:\n     1. Smith,~J.~W., Everhart,~J.~E., Dickson,~W.~C., Knowler,~W.~C., &\n        Johannes,~R.~S. (1988). Using the ADAP learning algorithm to forecast\n        the onset of diabetes mellitus.  In {it Proceedings of the Symposium\n        on Computer Applications and Medical Care} (pp. 261--265).  IEEE\n        Computer Society Press.\n \n        The diagnostic, binary-valued variable investigated is whether the\n        patient shows signs of diabetes according to World Health Organization\n        criteria (i.e., if the 2 hour post-load plasma glucose was at least \n        200 mg/dl at any survey  examination or if found during routine medical\n        care).   The population lives near Phoenix, Arizona, USA.\n \n        Results: Their ADAP algorithm makes a real-valued prediction between\n        0 and 1.  This was transformed into a binary decision using a cutoff of \n        0.448.  Using 576 training instances, the sensitivity and specificity\n        of their algorithm was 76% on the remaining 192 instances.\n \n 4. Relevant Information:\n       Several constraints were placed on the selection of these instances from\n       a larger database.  In particular, all patients here are females at\n       least 21 years old of Pima Indian heritage.  ADAP is an adaptive learning\n       routine that generates and executes digital analogs of perceptron-like\n       devices.  It is a unique algorithm; see the paper for details.\n \n 5. Number of Instances: 768\n \n 6. Number of Attributes: 8 plus class \n \n 7. For Each Attribute: (all numeric-valued)\n    1. Number of times pregnant\n    2. Plasma glucose concentration a 2 hours in an oral glucose tolerance test\n    3. Diastolic blood pressure (mm Hg)\n    4. Triceps skin fold thickness (mm)\n    5. 2-Hour serum insulin (mu U/ml)\n    6. Body mass index (weight in kg/(height in m)^2)\n    7. Diabetes pedigree function\n    8. Age (years)\n    9. Class variable (0 or 1)\n \n 8. Missing Attribute Values: None\n \n 9. Class Distribution: (class value 1 is interpreted as \"tested positive for\n    diabetes\")\n \n    Class Value  Number of instances\n    0            500\n    1            268\n \n 10. Brief statistical analysis:\n \n     Attribute number:    Mean:   Standard Deviation:\n     1.                     3.8     3.4\n     2.                   120.9    32.0\n     3.                    69.1    19.4\n     4.                    20.5    16.0\n     5.                    79.8   115.2\n     6.                    32.0     7.9\n     7.                     0.5     0.3\n     8.                    33.2    11.8\n \n \n\n\n\n\n Relabeled values in attribute 'class'\n    From: 0                       To: tested_negative     \n    From: 1                       To: tested_positive",
+   "description": "The resources for this dataset can be found at https://www.openml.org/d/37\n\nAuthor: [Vincent Sigilli",
+   "licenses": [
+      {
+         "name": "ODC-PDDL",
+         "path": "http://opendatacommons.org/licenses/pddl/",
+         "title": "Open Data Commons Public Domain Dedication and License"
+      }
+   ]
+}

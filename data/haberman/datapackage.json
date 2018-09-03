@@ -1,1 +1,61 @@
-{"name": "haberman", "title": "Haberman", "resources": [{"path": "haberman.arff", "pathType": "local", "name": "haberman", "format": "arff", "encoding": "ISO-8859-1"}, {"path": "haberman.csv", "pathType": "local", "name": "haberman", "format": "csv", "mediatype": "text/csv", "encoding": "ISO-8859-1", "dialect": {"delimiter": ",", "quoteChar": "\""}, "schema": {"fields": [{"name": "Age_of_patient_at_time_of_operation", "type": "number", "format": "default"}, {"name": "Patients_year_of_operation", "type": "number", "format": "default"}, {"name": "Number_of_positive_axillary_nodes_detected", "type": "number", "format": "default"}, {"name": "Survival_status", "type": "number", "format": "default"}], "missingValues": [""]}}], "readme": "The resources for this dataset can be found at https://www.openml.org/d/43\n\nAuthor:   \nSource: Unknown -   \nPlease cite:   \n\n1. Title: Haberman's Survival Data\n \n 2. Sources:\n    (a) Donor:   Tjen-Sien Lim (limt@stat.wisc.edu)\n    (b) Date:    March 4, 1999\n \n 3. Past Usage:\n    1. Haberman, S. J. (1976). Generalized Residuals for Log-Linear\n       Models, Proceedings of the 9th International Biometrics\n       Conference, Boston, pp. 104-122.\n    2. Landwehr, J. M., Pregibon, D., and Shoemaker, A. C. (1984),\n       Graphical Models for Assessing Logistic Regression Models (with\n       discussion), Journal of the American Statistical Association 79:\n       61-83.\n    3. Lo, W.-D. (1993). Logistic Regression Trees, PhD thesis,\n       Department of Statistics, University of Wisconsin, Madison, WI.\n \n 4. Relevant Information:\n    The dataset contains cases from a study that was conducted between\n    1958 and 1970 at the University of Chicago's Billings Hospital on\n    the survival of patients who had undergone surgery for breast\n    cancer.\n \n 5. Number of Instances: 306\n \n 6. Number of Attributes: 4 (including the class attribute)\n \n 7. Attribute Information:\n    1. Age of patient at time of operation (numerical)\n    2. Patient's year of operation (year - 1900, numerical)\n    3. Number of positive axillary nodes detected (numerical)\n    4. Survival status (class attribute)\n          1 = the patient survived 5 years or longer\n          2 = the patient died within 5 year\n \n 8. Missing Attribute Values: None\n\n Information about the dataset\n CLASSTYPE: nominal\n CLASSINDEX: last", "description": "The resources for this dataset can be found at https://www.openml.org/d/43\n\nAuthor:   \nSource: Unkno", "licenses": [{"name": "ODC-PDDL", "path": "http://opendatacommons.org/licenses/pddl/", "title": "Open Data Commons Public Domain Dedication and License"}]}
+{
+   "name": "haberman",
+   "title": "Haberman",
+   "resources": [
+      {
+         "path": "haberman.arff",
+         "pathType": "local",
+         "name": "haberman",
+         "format": "arff",
+         "encoding": "ISO-8859-1"
+      },
+      {
+         "path": "haberman.csv",
+         "pathType": "local",
+         "name": "haberman",
+         "format": "csv",
+         "mediatype": "text/csv",
+         "encoding": "ISO-8859-1",
+         "dialect": {
+            "delimiter": ",",
+            "quoteChar": "\""
+         },
+         "schema": {
+            "fields": [
+               {
+                  "name": "Age_of_patient_at_time_of_operation",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "Patients_year_of_operation",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "Number_of_positive_axillary_nodes_detected",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "Survival_status",
+                  "type": "number",
+                  "format": "default"
+               }
+            ],
+            "missingValues": [
+               ""
+            ]
+         }
+      }
+   ],
+   "readme": "The resources for this dataset can be found at https://www.openml.org/d/43\n\nAuthor:   \nSource: Unknown -   \nPlease cite:   \n\n1. Title: Haberman's Survival Data\n \n 2. Sources:\n    (a) Donor:   Tjen-Sien Lim (limt@stat.wisc.edu)\n    (b) Date:    March 4, 1999\n \n 3. Past Usage:\n    1. Haberman, S. J. (1976). Generalized Residuals for Log-Linear\n       Models, Proceedings of the 9th International Biometrics\n       Conference, Boston, pp. 104-122.\n    2. Landwehr, J. M., Pregibon, D., and Shoemaker, A. C. (1984),\n       Graphical Models for Assessing Logistic Regression Models (with\n       discussion), Journal of the American Statistical Association 79:\n       61-83.\n    3. Lo, W.-D. (1993). Logistic Regression Trees, PhD thesis,\n       Department of Statistics, University of Wisconsin, Madison, WI.\n \n 4. Relevant Information:\n    The dataset contains cases from a study that was conducted between\n    1958 and 1970 at the University of Chicago's Billings Hospital on\n    the survival of patients who had undergone surgery for breast\n    cancer.\n \n 5. Number of Instances: 306\n \n 6. Number of Attributes: 4 (including the class attribute)\n \n 7. Attribute Information:\n    1. Age of patient at time of operation (numerical)\n    2. Patient's year of operation (year - 1900, numerical)\n    3. Number of positive axillary nodes detected (numerical)\n    4. Survival status (class attribute)\n          1 = the patient survived 5 years or longer\n          2 = the patient died within 5 year\n \n 8. Missing Attribute Values: None\n\n Information about the dataset\n CLASSTYPE: nominal\n CLASSINDEX: last",
+   "description": "The resources for this dataset can be found at https://www.openml.org/d/43\n\nAuthor:   \nSource: Unkno",
+   "licenses": [
+      {
+         "name": "ODC-PDDL",
+         "path": "http://opendatacommons.org/licenses/pddl/",
+         "title": "Open Data Commons Public Domain Dedication and License"
+      }
+   ]
+}

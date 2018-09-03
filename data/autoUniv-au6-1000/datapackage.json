@@ -1,1 +1,246 @@
-{"name": "autouniv-au6-1000", "title": "Autouniv au6 1000", "resources": [{"path": "autoUniv-au6-1000.arff", "pathType": "local", "name": "autouniv-au6-1000", "format": "arff", "encoding": "UTF-8"}, {"path": "autoUniv-au6-1000.csv", "pathType": "local", "name": "autouniv-au6-1000", "format": "csv", "mediatype": "text/csv", "encoding": "ISO-8859-2", "dialect": {"delimiter": ",", "quoteChar": "\""}, "schema": {"fields": [{"name": "V1", "type": "number", "format": "default"}, {"name": "V2", "type": "number", "format": "default"}, {"name": "V3", "type": "number", "format": "default"}, {"name": "V4", "type": "number", "format": "default"}, {"name": "V5", "type": "number", "format": "default"}, {"name": "V6", "type": "number", "format": "default"}, {"name": "V7", "type": "number", "format": "default"}, {"name": "V8", "type": "number", "format": "default"}, {"name": "V9", "type": "number", "format": "default"}, {"name": "V10", "type": "number", "format": "default"}, {"name": "V11", "type": "number", "format": "default"}, {"name": "V12", "type": "string", "format": "default"}, {"name": "V13", "type": "number", "format": "default"}, {"name": "V14", "type": "number", "format": "default"}, {"name": "V15", "type": "number", "format": "default"}, {"name": "V16", "type": "number", "format": "default"}, {"name": "V17", "type": "number", "format": "default"}, {"name": "V18", "type": "number", "format": "default"}, {"name": "V19", "type": "number", "format": "default"}, {"name": "V20", "type": "number", "format": "default"}, {"name": "V21", "type": "number", "format": "default"}, {"name": "V22", "type": "number", "format": "default"}, {"name": "V23", "type": "number", "format": "default"}, {"name": "V24", "type": "number", "format": "default"}, {"name": "V25", "type": "number", "format": "default"}, {"name": "V26", "type": "number", "format": "default"}, {"name": "V27", "type": "number", "format": "default"}, {"name": "V28", "type": "number", "format": "default"}, {"name": "V29", "type": "number", "format": "default"}, {"name": "V30", "type": "number", "format": "default"}, {"name": "V31", "type": "string", "format": "default"}, {"name": "V32", "type": "number", "format": "default"}, {"name": "V33", "type": "number", "format": "default"}, {"name": "V34", "type": "number", "format": "default"}, {"name": "V35", "type": "number", "format": "default"}, {"name": "V36", "type": "number", "format": "default"}, {"name": "V37", "type": "number", "format": "default"}, {"name": "V38", "type": "number", "format": "default"}, {"name": "V39", "type": "number", "format": "default"}, {"name": "V40", "type": "string", "format": "default"}, {"name": "Class", "type": "string", "format": "default"}], "missingValues": [""]}}], "readme": "The resources for this dataset can be found at https://www.openml.org/d/1555\n\nAuthor: Ray. J. Hickey   \nSource: UCI  \nPlease cite:   \n\n* Dataset Title:  \n\nAutoUniv Dataset  \ndata problem: autoUniv-au6-1000    \n\n* Abstract:   \n\nAutoUniv is an advanced data generator for classifications tasks. The aim is to reflect the nuances and heterogeneity of real data. Data can be generated in .csv, ARFF or C4.5 formats.\n\n* Source:  \n\nAutoUniv was developed by Ray. J. Hickey. Email: ray.j.hickey '@' gmail.com \nAutoUniv web-site: http://sites.google.com/site/autouniv/.\n\n\n* Data Set Information:\n\nThe user first creates a classification model and then generates classified examples from it. To create a model, the following are specified: the number of attributes (up to 1000) and their type (discrete or continuous), the number of classes (up to 10), the complexity of the underlying rules and the noise level. AutoUniv then produces a model through a process of constrained randomised search to satisfy the user's requirements. A model can have up to 3000 rules. Rare class models can be designed. A sequence of models can be designed to reflect concept and/or population drift. \n\nAutoUniv creates three text files for a model: a Prolog specification of the model used to generate examples (.aupl); a user-friendly statement of the classification rules in an 'if ... then' format (.aurules); a statistical summary of the main properties of the model, including its Bayes rate (.auprops).\n\n\n* Attribute Information: \n\nAttributes may be discrete with up to 10 values or continuous. A discrete attribute can be nominal with values v1, v2, v3 ... or integer with values 0, 1, 2 , ... .\n\n\n* Relevant Papers:\n\nMarrs, G, Hickey, RJ and Black, MM (2010) Modeling the example life-cycle in an online classification learner. In Proceedings of HaCDAIS 2010: International Workshop on Handling Concept Drift in Adaptive Information Systems. \n[Web Link]#proc . \n\nMarrs, G, Hickey, RJ and Black, MM (2010) The Impact of Latency on Online Classification Learning with Concept Drift. In Y. Bi and M.A. Williams (Eds.): KSEM 2010, LNAI 6291, Springer-Verlag, Berlin, pp. 459\u00e2\u20ac\u201c469. \n\nHickey, RJ (2007) Structure and Majority Classes in Decision Tree Learning. Journal of Machine Learning Research, 8, pp. 1747-1768.", "description": "The resources for this dataset can be found at https://www.openml.org/d/1555\n\nAuthor: Ray. J. Hickey", "licenses": [{"name": "ODC-PDDL", "path": "http://opendatacommons.org/licenses/pddl/", "title": "Open Data Commons Public Domain Dedication and License"}]}
+{
+   "name": "autouniv-au6-1000",
+   "title": "Autouniv au6 1000",
+   "resources": [
+      {
+         "path": "autoUniv-au6-1000.arff",
+         "pathType": "local",
+         "name": "autouniv-au6-1000",
+         "format": "arff",
+         "encoding": "UTF-8"
+      },
+      {
+         "path": "autoUniv-au6-1000.csv",
+         "pathType": "local",
+         "name": "autouniv-au6-1000",
+         "format": "csv",
+         "mediatype": "text/csv",
+         "encoding": "ISO-8859-2",
+         "dialect": {
+            "delimiter": ",",
+            "quoteChar": "\""
+         },
+         "schema": {
+            "fields": [
+               {
+                  "name": "V1",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V2",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V3",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V4",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V5",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V6",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V7",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V8",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V9",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V10",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V11",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V12",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "V13",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V14",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V15",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V16",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V17",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V18",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V19",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V20",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V21",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V22",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V23",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V24",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V25",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V26",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V27",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V28",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V29",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V30",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V31",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "V32",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V33",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V34",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V35",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V36",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V37",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V38",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V39",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V40",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "Class",
+                  "type": "string",
+                  "format": "default"
+               }
+            ],
+            "missingValues": [
+               ""
+            ]
+         }
+      }
+   ],
+   "readme": "The resources for this dataset can be found at https://www.openml.org/d/1555\n\nAuthor: Ray. J. Hickey   \nSource: UCI  \nPlease cite:   \n\n* Dataset Title:  \n\nAutoUniv Dataset  \ndata problem: autoUniv-au6-1000    \n\n* Abstract:   \n\nAutoUniv is an advanced data generator for classifications tasks. The aim is to reflect the nuances and heterogeneity of real data. Data can be generated in .csv, ARFF or C4.5 formats.\n\n* Source:  \n\nAutoUniv was developed by Ray. J. Hickey. Email: ray.j.hickey '@' gmail.com \nAutoUniv web-site: http://sites.google.com/site/autouniv/.\n\n\n* Data Set Information:\n\nThe user first creates a classification model and then generates classified examples from it. To create a model, the following are specified: the number of attributes (up to 1000) and their type (discrete or continuous), the number of classes (up to 10), the complexity of the underlying rules and the noise level. AutoUniv then produces a model through a process of constrained randomised search to satisfy the user's requirements. A model can have up to 3000 rules. Rare class models can be designed. A sequence of models can be designed to reflect concept and/or population drift. \n\nAutoUniv creates three text files for a model: a Prolog specification of the model used to generate examples (.aupl); a user-friendly statement of the classification rules in an 'if ... then' format (.aurules); a statistical summary of the main properties of the model, including its Bayes rate (.auprops).\n\n\n* Attribute Information: \n\nAttributes may be discrete with up to 10 values or continuous. A discrete attribute can be nominal with values v1, v2, v3 ... or integer with values 0, 1, 2 , ... .\n\n\n* Relevant Papers:\n\nMarrs, G, Hickey, RJ and Black, MM (2010) Modeling the example life-cycle in an online classification learner. In Proceedings of HaCDAIS 2010: International Workshop on Handling Concept Drift in Adaptive Information Systems. \n[Web Link]#proc . \n\nMarrs, G, Hickey, RJ and Black, MM (2010) The Impact of Latency on Online Classification Learning with Concept Drift. In Y. Bi and M.A. Williams (Eds.): KSEM 2010, LNAI 6291, Springer-Verlag, Berlin, pp. 459\u00e2\u20ac\u201c469. \n\nHickey, RJ (2007) Structure and Majority Classes in Decision Tree Learning. Journal of Machine Learning Research, 8, pp. 1747-1768.",
+   "description": "The resources for this dataset can be found at https://www.openml.org/d/1555\n\nAuthor: Ray. J. Hickey",
+   "licenses": [
+      {
+         "name": "ODC-PDDL",
+         "path": "http://opendatacommons.org/licenses/pddl/",
+         "title": "Open Data Commons Public Domain Dedication and License"
+      }
+   ]
+}

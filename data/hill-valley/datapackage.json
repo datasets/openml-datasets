@@ -1,1 +1,546 @@
-{"name": "hill-valley", "title": "Hill valley", "resources": [{"path": "hill-valley.arff", "pathType": "local", "name": "hill-valley", "format": "arff", "encoding": "ISO-8859-1"}, {"path": "hill-valley.csv", "pathType": "local", "name": "hill-valley", "format": "csv", "mediatype": "text/csv", "encoding": "ISO-8859-2", "dialect": {"delimiter": ",", "quoteChar": "\""}, "schema": {"fields": [{"name": "V1", "type": "number", "format": "default"}, {"name": "V2", "type": "number", "format": "default"}, {"name": "V3", "type": "number", "format": "default"}, {"name": "V4", "type": "number", "format": "default"}, {"name": "V5", "type": "number", "format": "default"}, {"name": "V6", "type": "number", "format": "default"}, {"name": "V7", "type": "number", "format": "default"}, {"name": "V8", "type": "number", "format": "default"}, {"name": "V9", "type": "number", "format": "default"}, {"name": "V10", "type": "number", "format": "default"}, {"name": "V11", "type": "number", "format": "default"}, {"name": "V12", "type": "number", "format": "default"}, {"name": "V13", "type": "number", "format": "default"}, {"name": "V14", "type": "number", "format": "default"}, {"name": "V15", "type": "number", "format": "default"}, {"name": "V16", "type": "number", "format": "default"}, {"name": "V17", "type": "number", "format": "default"}, {"name": "V18", "type": "number", "format": "default"}, {"name": "V19", "type": "number", "format": "default"}, {"name": "V20", "type": "number", "format": "default"}, {"name": "V21", "type": "number", "format": "default"}, {"name": "V22", "type": "number", "format": "default"}, {"name": "V23", "type": "number", "format": "default"}, {"name": "V24", "type": "number", "format": "default"}, {"name": "V25", "type": "number", "format": "default"}, {"name": "V26", "type": "number", "format": "default"}, {"name": "V27", "type": "number", "format": "default"}, {"name": "V28", "type": "number", "format": "default"}, {"name": "V29", "type": "number", "format": "default"}, {"name": "V30", "type": "number", "format": "default"}, {"name": "V31", "type": "number", "format": "default"}, {"name": "V32", "type": "number", "format": "default"}, {"name": "V33", "type": "number", "format": "default"}, {"name": "V34", "type": "number", "format": "default"}, {"name": "V35", "type": "number", "format": "default"}, {"name": "V36", "type": "number", "format": "default"}, {"name": "V37", "type": "number", "format": "default"}, {"name": "V38", "type": "number", "format": "default"}, {"name": "V39", "type": "number", "format": "default"}, {"name": "V40", "type": "number", "format": "default"}, {"name": "V41", "type": "number", "format": "default"}, {"name": "V42", "type": "number", "format": "default"}, {"name": "V43", "type": "number", "format": "default"}, {"name": "V44", "type": "number", "format": "default"}, {"name": "V45", "type": "number", "format": "default"}, {"name": "V46", "type": "number", "format": "default"}, {"name": "V47", "type": "number", "format": "default"}, {"name": "V48", "type": "number", "format": "default"}, {"name": "V49", "type": "number", "format": "default"}, {"name": "V50", "type": "number", "format": "default"}, {"name": "V51", "type": "number", "format": "default"}, {"name": "V52", "type": "number", "format": "default"}, {"name": "V53", "type": "number", "format": "default"}, {"name": "V54", "type": "number", "format": "default"}, {"name": "V55", "type": "number", "format": "default"}, {"name": "V56", "type": "number", "format": "default"}, {"name": "V57", "type": "number", "format": "default"}, {"name": "V58", "type": "number", "format": "default"}, {"name": "V59", "type": "number", "format": "default"}, {"name": "V60", "type": "number", "format": "default"}, {"name": "V61", "type": "number", "format": "default"}, {"name": "V62", "type": "number", "format": "default"}, {"name": "V63", "type": "number", "format": "default"}, {"name": "V64", "type": "number", "format": "default"}, {"name": "V65", "type": "number", "format": "default"}, {"name": "V66", "type": "number", "format": "default"}, {"name": "V67", "type": "number", "format": "default"}, {"name": "V68", "type": "number", "format": "default"}, {"name": "V69", "type": "number", "format": "default"}, {"name": "V70", "type": "number", "format": "default"}, {"name": "V71", "type": "number", "format": "default"}, {"name": "V72", "type": "number", "format": "default"}, {"name": "V73", "type": "number", "format": "default"}, {"name": "V74", "type": "number", "format": "default"}, {"name": "V75", "type": "number", "format": "default"}, {"name": "V76", "type": "number", "format": "default"}, {"name": "V77", "type": "number", "format": "default"}, {"name": "V78", "type": "number", "format": "default"}, {"name": "V79", "type": "number", "format": "default"}, {"name": "V80", "type": "number", "format": "default"}, {"name": "V81", "type": "number", "format": "default"}, {"name": "V82", "type": "number", "format": "default"}, {"name": "V83", "type": "number", "format": "default"}, {"name": "V84", "type": "number", "format": "default"}, {"name": "V85", "type": "number", "format": "default"}, {"name": "V86", "type": "number", "format": "default"}, {"name": "V87", "type": "number", "format": "default"}, {"name": "V88", "type": "number", "format": "default"}, {"name": "V89", "type": "number", "format": "default"}, {"name": "V90", "type": "number", "format": "default"}, {"name": "V91", "type": "number", "format": "default"}, {"name": "V92", "type": "number", "format": "default"}, {"name": "V93", "type": "number", "format": "default"}, {"name": "V94", "type": "number", "format": "default"}, {"name": "V95", "type": "number", "format": "default"}, {"name": "V96", "type": "number", "format": "default"}, {"name": "V97", "type": "number", "format": "default"}, {"name": "V98", "type": "number", "format": "default"}, {"name": "V99", "type": "number", "format": "default"}, {"name": "V100", "type": "number", "format": "default"}, {"name": "Class", "type": "number", "format": "default"}], "missingValues": [""]}}], "readme": "The resources for this dataset can be found at https://www.openml.org/d/1479\n\nAuthor: Lee Graham, Franz Oppacher  \nSource: [UCI](http://archive.ics.uci.edu/ml/datasets/hill-valley)  \nPlease cite:   \n\nEach record represents 100 points on a two-dimensional graph. When plotted in order (from 1 through 100) as the Y coordinate, the points will create either a Hill (a \u201cbump\u201d in the terrain) or a Valley (a \u201cdip\u201d in the terrain). \nSee the original source for some examples of these graphs. \n\nIn the original form, there are six files. This is the non-noisy version, with training and test sets merged. \n\n### Attribute Information:\n\n1-100: Labeled \u201cX##\u201d. Floating point values (numeric), the Y-values of the graphs.  \n101: Labeled \u201cclass\u201d. Binary {0, 1} representing {valley, hill} ", "description": "The resources for this dataset can be found at https://www.openml.org/d/1479\n\nAuthor: Lee Graham, Fr", "licenses": [{"name": "ODC-PDDL", "path": "http://opendatacommons.org/licenses/pddl/", "title": "Open Data Commons Public Domain Dedication and License"}]}
+{
+   "name": "hill-valley",
+   "title": "Hill valley",
+   "resources": [
+      {
+         "path": "hill-valley.arff",
+         "pathType": "local",
+         "name": "hill-valley",
+         "format": "arff",
+         "encoding": "ISO-8859-1"
+      },
+      {
+         "path": "hill-valley.csv",
+         "pathType": "local",
+         "name": "hill-valley",
+         "format": "csv",
+         "mediatype": "text/csv",
+         "encoding": "ISO-8859-2",
+         "dialect": {
+            "delimiter": ",",
+            "quoteChar": "\""
+         },
+         "schema": {
+            "fields": [
+               {
+                  "name": "V1",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V2",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V3",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V4",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V5",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V6",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V7",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V8",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V9",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V10",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V11",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V12",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V13",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V14",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V15",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V16",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V17",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V18",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V19",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V20",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V21",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V22",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V23",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V24",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V25",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V26",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V27",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V28",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V29",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V30",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V31",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V32",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V33",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V34",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V35",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V36",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V37",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V38",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V39",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V40",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V41",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V42",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V43",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V44",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V45",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V46",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V47",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V48",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V49",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V50",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V51",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V52",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V53",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V54",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V55",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V56",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V57",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V58",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V59",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V60",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V61",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V62",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V63",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V64",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V65",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V66",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V67",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V68",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V69",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V70",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V71",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V72",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V73",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V74",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V75",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V76",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V77",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V78",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V79",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V80",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V81",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V82",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V83",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V84",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V85",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V86",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V87",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V88",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V89",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V90",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V91",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V92",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V93",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V94",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V95",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V96",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V97",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V98",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V99",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V100",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "Class",
+                  "type": "number",
+                  "format": "default"
+               }
+            ],
+            "missingValues": [
+               ""
+            ]
+         }
+      }
+   ],
+   "readme": "The resources for this dataset can be found at https://www.openml.org/d/1479\n\nAuthor: Lee Graham, Franz Oppacher  \nSource: [UCI](http://archive.ics.uci.edu/ml/datasets/hill-valley)  \nPlease cite:   \n\nEach record represents 100 points on a two-dimensional graph. When plotted in order (from 1 through 100) as the Y coordinate, the points will create either a Hill (a \u201cbump\u201d in the terrain) or a Valley (a \u201cdip\u201d in the terrain). \nSee the original source for some examples of these graphs. \n\nIn the original form, there are six files. This is the non-noisy version, with training and test sets merged. \n\n### Attribute Information:\n\n1-100: Labeled \u201cX##\u201d. Floating point values (numeric), the Y-values of the graphs.  \n101: Labeled \u201cclass\u201d. Binary {0, 1} representing {valley, hill} ",
+   "description": "The resources for this dataset can be found at https://www.openml.org/d/1479\n\nAuthor: Lee Graham, Fr",
+   "licenses": [
+      {
+         "name": "ODC-PDDL",
+         "path": "http://opendatacommons.org/licenses/pddl/",
+         "title": "Open Data Commons Public Domain Dedication and License"
+      }
+   ]
+}

@@ -1,1 +1,196 @@
-{"name": "wdbc", "title": "Wdbc", "resources": [{"path": "wdbc.arff", "pathType": "local", "name": "wdbc", "format": "arff", "encoding": "ISO-8859-1"}, {"path": "wdbc.csv", "pathType": "local", "name": "wdbc", "format": "csv", "mediatype": "text/csv", "encoding": "ISO-8859-2", "dialect": {"delimiter": ",", "quoteChar": "\""}, "schema": {"fields": [{"name": "V1", "type": "number", "format": "default"}, {"name": "V2", "type": "number", "format": "default"}, {"name": "V3", "type": "number", "format": "default"}, {"name": "V4", "type": "any", "format": "default"}, {"name": "V5", "type": "number", "format": "default"}, {"name": "V6", "type": "number", "format": "default"}, {"name": "V7", "type": "number", "format": "default"}, {"name": "V8", "type": "number", "format": "default"}, {"name": "V9", "type": "number", "format": "default"}, {"name": "V10", "type": "number", "format": "default"}, {"name": "V11", "type": "number", "format": "default"}, {"name": "V12", "type": "number", "format": "default"}, {"name": "V13", "type": "number", "format": "default"}, {"name": "V14", "type": "number", "format": "default"}, {"name": "V15", "type": "number", "format": "default"}, {"name": "V16", "type": "number", "format": "default"}, {"name": "V17", "type": "number", "format": "default"}, {"name": "V18", "type": "number", "format": "default"}, {"name": "V19", "type": "number", "format": "default"}, {"name": "V20", "type": "number", "format": "default"}, {"name": "V21", "type": "number", "format": "default"}, {"name": "V22", "type": "number", "format": "default"}, {"name": "V23", "type": "number", "format": "default"}, {"name": "V24", "type": "any", "format": "default"}, {"name": "V25", "type": "number", "format": "default"}, {"name": "V26", "type": "number", "format": "default"}, {"name": "V27", "type": "number", "format": "default"}, {"name": "V28", "type": "number", "format": "default"}, {"name": "V29", "type": "number", "format": "default"}, {"name": "V30", "type": "number", "format": "default"}, {"name": "Class", "type": "number", "format": "default"}], "missingValues": [""]}}], "readme": "The resources for this dataset can be found at https://www.openml.org/d/1510\n\nAuthor: William H. Wolberg, W. Nick Street, Olvi L. Mangasarian    \nSource: [UCI](https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+(original)), [University of Wisconsin](http://pages.cs.wisc.edu/~olvi/uwmp/cancer.html) - 1995  \nPlease cite: [UCI](https://archive.ics.uci.edu/ml/citation_policy.html)     \n\nBreast Cancer Wisconsin (Diagnostic) Data Set (WDBC). Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image. The target feature records the prognosis (benign (1) or malignant (2)). [Original data available here](ftp://ftp.cs.wisc.edu/math-prog/cpo-dataset/machine-learn/cancer/) \n\nCurrent dataset was adapted to ARFF format from the UCI version. Sample code ID's were removed.  \n\n! Note that there is also a related Breast Cancer Wisconsin (Original) Data Set with a different set of features, better known as [breast-w](https://www.openml.org/d/15).\n\n\n### Feature description  \n\nTen real-valued features are computed for each of 3 cell nuclei, yielding a total of 30 descriptive features. See the papers below for more details on how they were computed. The 10 features (in order) are:  \n\na) radius (mean of distances from center to points on the perimeter)  \nb) texture (standard deviation of gray-scale values)  \nc) perimeter  \nd) area  \ne) smoothness (local variation in radius lengths)  \nf) compactness (perimeter^2 / area - 1.0)  \ng) concavity (severity of concave portions of the contour)  \nh) concave points (number of concave portions of the contour)  \ni) symmetry  \nj) fractal dimension (\"coastline approximation\" - 1)  \n\n### Relevant Papers   \n\nW.N. Street, W.H. Wolberg and O.L. Mangasarian. Nuclear feature extraction for breast tumor diagnosis. IS&T/SPIE 1993 International Symposium on Electronic Imaging: Science and Technology, volume 1905, pages 861-870, San Jose, CA, 1993. \n\nO.L. Mangasarian, W.N. Street and W.H. Wolberg. Breast cancer diagnosis and prognosis via linear programming. Operations Research, 43(4), pages 570-577, July-August 1995.", "description": "The resources for this dataset can be found at https://www.openml.org/d/1510\n\nAuthor: William H. Wol", "licenses": [{"name": "ODC-PDDL", "path": "http://opendatacommons.org/licenses/pddl/", "title": "Open Data Commons Public Domain Dedication and License"}]}
+{
+   "name": "wdbc",
+   "title": "Wdbc",
+   "resources": [
+      {
+         "path": "wdbc.arff",
+         "pathType": "local",
+         "name": "wdbc",
+         "format": "arff",
+         "encoding": "ISO-8859-1"
+      },
+      {
+         "path": "wdbc.csv",
+         "pathType": "local",
+         "name": "wdbc",
+         "format": "csv",
+         "mediatype": "text/csv",
+         "encoding": "ISO-8859-2",
+         "dialect": {
+            "delimiter": ",",
+            "quoteChar": "\""
+         },
+         "schema": {
+            "fields": [
+               {
+                  "name": "V1",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V2",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V3",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V4",
+                  "type": "any",
+                  "format": "default"
+               },
+               {
+                  "name": "V5",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V6",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V7",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V8",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V9",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V10",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V11",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V12",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V13",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V14",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V15",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V16",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V17",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V18",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V19",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V20",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V21",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V22",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V23",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V24",
+                  "type": "any",
+                  "format": "default"
+               },
+               {
+                  "name": "V25",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V26",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V27",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V28",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V29",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V30",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "Class",
+                  "type": "number",
+                  "format": "default"
+               }
+            ],
+            "missingValues": [
+               ""
+            ]
+         }
+      }
+   ],
+   "readme": "The resources for this dataset can be found at https://www.openml.org/d/1510\n\nAuthor: William H. Wolberg, W. Nick Street, Olvi L. Mangasarian    \nSource: [UCI](https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+(original)), [University of Wisconsin](http://pages.cs.wisc.edu/~olvi/uwmp/cancer.html) - 1995  \nPlease cite: [UCI](https://archive.ics.uci.edu/ml/citation_policy.html)     \n\nBreast Cancer Wisconsin (Diagnostic) Data Set (WDBC). Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image. The target feature records the prognosis (benign (1) or malignant (2)). [Original data available here](ftp://ftp.cs.wisc.edu/math-prog/cpo-dataset/machine-learn/cancer/) \n\nCurrent dataset was adapted to ARFF format from the UCI version. Sample code ID's were removed.  \n\n! Note that there is also a related Breast Cancer Wisconsin (Original) Data Set with a different set of features, better known as [breast-w](https://www.openml.org/d/15).\n\n\n### Feature description  \n\nTen real-valued features are computed for each of 3 cell nuclei, yielding a total of 30 descriptive features. See the papers below for more details on how they were computed. The 10 features (in order) are:  \n\na) radius (mean of distances from center to points on the perimeter)  \nb) texture (standard deviation of gray-scale values)  \nc) perimeter  \nd) area  \ne) smoothness (local variation in radius lengths)  \nf) compactness (perimeter^2 / area - 1.0)  \ng) concavity (severity of concave portions of the contour)  \nh) concave points (number of concave portions of the contour)  \ni) symmetry  \nj) fractal dimension (\"coastline approximation\" - 1)  \n\n### Relevant Papers   \n\nW.N. Street, W.H. Wolberg and O.L. Mangasarian. Nuclear feature extraction for breast tumor diagnosis. IS&T/SPIE 1993 International Symposium on Electronic Imaging: Science and Technology, volume 1905, pages 861-870, San Jose, CA, 1993. \n\nO.L. Mangasarian, W.N. Street and W.H. Wolberg. Breast cancer diagnosis and prognosis via linear programming. Operations Research, 43(4), pages 570-577, July-August 1995.",
+   "description": "The resources for this dataset can be found at https://www.openml.org/d/1510\n\nAuthor: William H. Wol",
+   "licenses": [
+      {
+         "name": "ODC-PDDL",
+         "path": "http://opendatacommons.org/licenses/pddl/",
+         "title": "Open Data Commons Public Domain Dedication and License"
+      }
+   ]
+}

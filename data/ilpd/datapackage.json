@@ -1,1 +1,96 @@
-{"name": "ilpd", "title": "Ilpd", "resources": [{"path": "ilpd.arff", "pathType": "local", "name": "ilpd", "format": "arff", "encoding": "ISO-8859-9"}, {"path": "ilpd.csv", "pathType": "local", "name": "ilpd", "format": "csv", "mediatype": "text/csv", "encoding": "ISO-8859-9", "dialect": {"delimiter": ",", "quoteChar": "\""}, "schema": {"fields": [{"name": "V1", "type": "number", "format": "default"}, {"name": "V2", "type": "string", "format": "default"}, {"name": "V3", "type": "number", "format": "default"}, {"name": "V4", "type": "number", "format": "default"}, {"name": "V5", "type": "number", "format": "default"}, {"name": "V6", "type": "number", "format": "default"}, {"name": "V7", "type": "number", "format": "default"}, {"name": "V8", "type": "number", "format": "default"}, {"name": "V9", "type": "number", "format": "default"}, {"name": "V10", "type": "number", "format": "default"}, {"name": "Class", "type": "number", "format": "default"}], "missingValues": [""]}}], "readme": "The resources for this dataset can be found at https://www.openml.org/d/1480\n\nAuthor: Bendi Venkata Ramana, M. Surendra Prasad Babu, N. B. Venkateswarlu  \nSource: [UCI](https://archive.ics.uci.edu/ml/datasets/ILPD+(Indian+Liver+Patient+Dataset)) - 2012  \nPlease cite: [UCI](https://archive.ics.uci.edu/ml/citation_policy.html)  \n\nIndian Liver Patient Dataset  \nThis data set contains 416 liver patient records and 167 non liver patient records.The data set was collected from north east of Andhra Pradesh, India. The class label divides the patients into 2 groups (liver patient or not). This data set contains 441 male patient records and 142 female patient records. \n\n### Attribute Information  \nV1. Age of the patient. Any patient whose age exceeded 89 is listed as being of age \"90\".  \nV2. Gender of the patient  \nV3. Total Bilirubin  \nV4. Direct Bilirubin  \nV5. Alkphos Alkaline Phosphatase  \nV6. Sgpt Alanine Aminotransferase  \nV7. Sgot Aspartate Aminotransferase   \nV8. Total Proteins  \nV9. Albumin  \nV10. A/G Ratio Albumin and Globulin Ratio  \n\nA feature indicating a train-test split has been removed.  \n\n### Relevant Papers  \n1. Bendi Venkata Ramana, Prof. M. S. Prasad Babu and Prof. N. B. Venkateswarlu, A Critical Comparative Study of Liver Patients from USA and INDIA: An Exploratory Analysis\u009d, International Journal of Computer Science Issues, ISSN:1694-0784, May 2012. \n2. Bendi Venkata Ramana, Prof. M. S. Prasad Babu and Prof. N. B. Venkateswarlu, A Critical Study of Selected Classification Algorithms for Liver Disease Diagnosis, International Journal of Database Management Systems (IJDMS), Vol.3, No.2, ISSN : 0975-5705, PP 101-114, May 2011.", "description": "The resources for this dataset can be found at https://www.openml.org/d/1480\n\nAuthor: Bendi Venkata ", "licenses": [{"name": "ODC-PDDL", "path": "http://opendatacommons.org/licenses/pddl/", "title": "Open Data Commons Public Domain Dedication and License"}]}
+{
+   "name": "ilpd",
+   "title": "Ilpd",
+   "resources": [
+      {
+         "path": "ilpd.arff",
+         "pathType": "local",
+         "name": "ilpd",
+         "format": "arff",
+         "encoding": "ISO-8859-9"
+      },
+      {
+         "path": "ilpd.csv",
+         "pathType": "local",
+         "name": "ilpd",
+         "format": "csv",
+         "mediatype": "text/csv",
+         "encoding": "ISO-8859-9",
+         "dialect": {
+            "delimiter": ",",
+            "quoteChar": "\""
+         },
+         "schema": {
+            "fields": [
+               {
+                  "name": "V1",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V2",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "V3",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V4",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V5",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V6",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V7",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V8",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V9",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V10",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "Class",
+                  "type": "number",
+                  "format": "default"
+               }
+            ],
+            "missingValues": [
+               ""
+            ]
+         }
+      }
+   ],
+   "readme": "The resources for this dataset can be found at https://www.openml.org/d/1480\n\nAuthor: Bendi Venkata Ramana, M. Surendra Prasad Babu, N. B. Venkateswarlu  \nSource: [UCI](https://archive.ics.uci.edu/ml/datasets/ILPD+(Indian+Liver+Patient+Dataset)) - 2012  \nPlease cite: [UCI](https://archive.ics.uci.edu/ml/citation_policy.html)  \n\nIndian Liver Patient Dataset  \nThis data set contains 416 liver patient records and 167 non liver patient records.The data set was collected from north east of Andhra Pradesh, India. The class label divides the patients into 2 groups (liver patient or not). This data set contains 441 male patient records and 142 female patient records. \n\n### Attribute Information  \nV1. Age of the patient. Any patient whose age exceeded 89 is listed as being of age \"90\".  \nV2. Gender of the patient  \nV3. Total Bilirubin  \nV4. Direct Bilirubin  \nV5. Alkphos Alkaline Phosphatase  \nV6. Sgpt Alanine Aminotransferase  \nV7. Sgot Aspartate Aminotransferase   \nV8. Total Proteins  \nV9. Albumin  \nV10. A/G Ratio Albumin and Globulin Ratio  \n\nA feature indicating a train-test split has been removed.  \n\n### Relevant Papers  \n1. Bendi Venkata Ramana, Prof. M. S. Prasad Babu and Prof. N. B. Venkateswarlu, A Critical Comparative Study of Liver Patients from USA and INDIA: An Exploratory Analysis\u009d, International Journal of Computer Science Issues, ISSN:1694-0784, May 2012. \n2. Bendi Venkata Ramana, Prof. M. S. Prasad Babu and Prof. N. B. Venkateswarlu, A Critical Study of Selected Classification Algorithms for Liver Disease Diagnosis, International Journal of Database Management Systems (IJDMS), Vol.3, No.2, ISSN : 0975-5705, PP 101-114, May 2011.",
+   "description": "The resources for this dataset can be found at https://www.openml.org/d/1480\n\nAuthor: Bendi Venkata ",
+   "licenses": [
+      {
+         "name": "ODC-PDDL",
+         "path": "http://opendatacommons.org/licenses/pddl/",
+         "title": "Open Data Commons Public Domain Dedication and License"
+      }
+   ]
+}

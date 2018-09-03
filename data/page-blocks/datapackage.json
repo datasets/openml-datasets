@@ -1,1 +1,96 @@
-{"name": "page-blocks", "title": "Page blocks", "resources": [{"path": "page-blocks.arff", "pathType": "local", "name": "page-blocks", "format": "arff", "encoding": "ISO-8859-1"}, {"path": "page-blocks.csv", "pathType": "local", "name": "page-blocks", "format": "csv", "mediatype": "text/csv", "encoding": "ISO-8859-1", "dialect": {"delimiter": ",", "quoteChar": "\""}, "schema": {"fields": [{"name": "height", "type": "number", "format": "default"}, {"name": "lenght", "type": "number", "format": "default"}, {"name": "area", "type": "number", "format": "default"}, {"name": "eccen", "type": "number", "format": "default"}, {"name": "p_black", "type": "number", "format": "default"}, {"name": "p_and", "type": "number", "format": "default"}, {"name": "mean_tr", "type": "number", "format": "default"}, {"name": "blackpix", "type": "number", "format": "default"}, {"name": "blackand", "type": "number", "format": "default"}, {"name": "wb_trans", "type": "number", "format": "default"}, {"name": "class", "type": "number", "format": "default"}], "missingValues": [""]}}], "readme": "The resources for this dataset can be found at https://www.openml.org/d/30\n\nAuthor:   \nSource: Unknown -   \nPlease cite:   \n\n1. Title of Database: Blocks Classification\n 2. Sources:\n    (a) Donato Malerba\n        Dipartimento di Informatica\n        University of Bari\n        via Orabona 4\n        70126 Bari - Italy\n        phone: +39 - 80 - 5443269\n        fax: +39 - 80 - 5443196\n        malerbad@vm.csata.it\n    (b) Donor: Donato Malerba\n    (c) Date: July 1995\n 3. Past Usage:\n    This data set have been used to try different simplification methods\n    for decision trees. A summary of the results can be found in:\n \n    Malerba, D., Esposito, F., and Semeraro, G.\n    \"A Further Comparison of Simplification Methods for Decision-Tree Induction.\"\n    In D. Fisher and H. Lenz (Eds.), \"Learning  from Data: \n    Artificial Intelligence and Statistics V\", Lecture Notes in Statistics,\n    Springer Verlag, Berlin, 1995.\n \n    The problem consists in classifying all the blocks of the page\n    layout of a document that has been detected by a segmentation\n    process. This is an essential step in document analysis\n    in order to separate text from graphic areas. Indeed, \n    the five classes are: text (1), horizontal line (2),\n    picture (3), vertical line (4) and graphic (5).\n    For a detailed presentation of the problem see:\n \n     Esposito F., Malerba D., & Semeraro G.\n   Multistrategy Learning for Document Recognition\n          Applied Artificial Intelligence, 8, pp. 33-84, 1994\n \n    All instances have been personally checked so that\n    low noise is present in the data.\n \n 4. Relevant Information Paragraph:\n \n    The 5473 examples comes from 54 distinct documents. \n    Each observation concerns one block. \n    All attributes are numeric.\n    Data are in a format readable by C4.5.\n \n 5. Number of Instances: 5473.\n \n 6. Number of Attributes \n \n    height:   integer.         | Height of the block.\n    lenght:   integer.     | Length of the block. \n    area:     integer.    | Area of the block (height * lenght);\n    eccen:    continuous.  | Eccentricity of the block (lenght / height);\n    p_black:  continuous.  | Percentage of black pixels within the block (blackpix / area);\n    p_and:    continuous.        | Percentage of black pixels after the application of the Run Length Smoothing Algorithm (RLSA) (blackand / area);\n    mean_tr:  continuous.      | Mean number of white-black transitions (blackpix / wb_trans);\n    blackpix: integer.    | Total number of black pixels in the original bitmap of the block.\n    blackand: integer.        | Total number of black pixels in the bitmap of the block after the RLSA.\n    wb_trans: integer.          | Number of white-black transitions in the original bitmap of the block.\n \n \n \n 7. Missing Attribute Values:  No missing value.\n \n 8. Class Distribution: \n \n                                            Valid    Cum\n    Class               Frequency  Percent  Percent  Percent\n  \n text                      4913     89.8     89.8     89.8\n horiz. line                329      6.0      6.0     95.8\n graphic                     28       .5       .5     96.3\n vert. line                  88      1.6      1.6     97.9\n picture                    115      2.1      2.1    100.0\n                                 -------  -------  -------\n                         TOTAL      5473    100.0    100.0\n \n Summary Statistics:\n \n Variable      Mean    Std Dev   Minimum   Maximum   Correlation \n \n HEIGHT       10.47      18.96         1       804         .3510\n LENGTH       89.57     114.72         1       553        -.0045\n AREA       1198.41    4849.38         7    143993         .2343\n ECCEN        13.75      30.70      .007    537.00         .0992\n P_BLACK        .37        .18      .052      1.00         .2130\n P_AND          .79        .17      .062      1.00        -.1771\n MEAN_TR       6.22      69.08      1.00   4955.00         .0723\n BLACKPIX    365.93    1270.33         7     33017         .1656\n BLACKAND    741.11    1881.50         7     46133         .1565\n WB_TRANS    106.66     167.31         1      3212         .0337\n \n\n Information about the dataset\n CLASSTYPE: nominal\n CLASSINDEX: last", "description": "The resources for this dataset can be found at https://www.openml.org/d/30\n\nAuthor:   \nSource: Unkno", "licenses": [{"name": "ODC-PDDL", "path": "http://opendatacommons.org/licenses/pddl/", "title": "Open Data Commons Public Domain Dedication and License"}]}
+{
+   "name": "page-blocks",
+   "title": "Page blocks",
+   "resources": [
+      {
+         "path": "page-blocks.arff",
+         "pathType": "local",
+         "name": "page-blocks",
+         "format": "arff",
+         "encoding": "ISO-8859-1"
+      },
+      {
+         "path": "page-blocks.csv",
+         "pathType": "local",
+         "name": "page-blocks",
+         "format": "csv",
+         "mediatype": "text/csv",
+         "encoding": "ISO-8859-1",
+         "dialect": {
+            "delimiter": ",",
+            "quoteChar": "\""
+         },
+         "schema": {
+            "fields": [
+               {
+                  "name": "height",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "lenght",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "area",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "eccen",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "p_black",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "p_and",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "mean_tr",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "blackpix",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "blackand",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "wb_trans",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "class",
+                  "type": "number",
+                  "format": "default"
+               }
+            ],
+            "missingValues": [
+               ""
+            ]
+         }
+      }
+   ],
+   "readme": "The resources for this dataset can be found at https://www.openml.org/d/30\n\nAuthor:   \nSource: Unknown -   \nPlease cite:   \n\n1. Title of Database: Blocks Classification\n 2. Sources:\n    (a) Donato Malerba\n        Dipartimento di Informatica\n        University of Bari\n        via Orabona 4\n        70126 Bari - Italy\n        phone: +39 - 80 - 5443269\n        fax: +39 - 80 - 5443196\n        malerbad@vm.csata.it\n    (b) Donor: Donato Malerba\n    (c) Date: July 1995\n 3. Past Usage:\n    This data set have been used to try different simplification methods\n    for decision trees. A summary of the results can be found in:\n \n    Malerba, D., Esposito, F., and Semeraro, G.\n    \"A Further Comparison of Simplification Methods for Decision-Tree Induction.\"\n    In D. Fisher and H. Lenz (Eds.), \"Learning  from Data: \n    Artificial Intelligence and Statistics V\", Lecture Notes in Statistics,\n    Springer Verlag, Berlin, 1995.\n \n    The problem consists in classifying all the blocks of the page\n    layout of a document that has been detected by a segmentation\n    process. This is an essential step in document analysis\n    in order to separate text from graphic areas. Indeed, \n    the five classes are: text (1), horizontal line (2),\n    picture (3), vertical line (4) and graphic (5).\n    For a detailed presentation of the problem see:\n \n     Esposito F., Malerba D., & Semeraro G.\n   Multistrategy Learning for Document Recognition\n          Applied Artificial Intelligence, 8, pp. 33-84, 1994\n \n    All instances have been personally checked so that\n    low noise is present in the data.\n \n 4. Relevant Information Paragraph:\n \n    The 5473 examples comes from 54 distinct documents. \n    Each observation concerns one block. \n    All attributes are numeric.\n    Data are in a format readable by C4.5.\n \n 5. Number of Instances: 5473.\n \n 6. Number of Attributes \n \n    height:   integer.         | Height of the block.\n    lenght:   integer.     | Length of the block. \n    area:     integer.    | Area of the block (height * lenght);\n    eccen:    continuous.  | Eccentricity of the block (lenght / height);\n    p_black:  continuous.  | Percentage of black pixels within the block (blackpix / area);\n    p_and:    continuous.        | Percentage of black pixels after the application of the Run Length Smoothing Algorithm (RLSA) (blackand / area);\n    mean_tr:  continuous.      | Mean number of white-black transitions (blackpix / wb_trans);\n    blackpix: integer.    | Total number of black pixels in the original bitmap of the block.\n    blackand: integer.        | Total number of black pixels in the bitmap of the block after the RLSA.\n    wb_trans: integer.          | Number of white-black transitions in the original bitmap of the block.\n \n \n \n 7. Missing Attribute Values:  No missing value.\n \n 8. Class Distribution: \n \n                                            Valid    Cum\n    Class               Frequency  Percent  Percent  Percent\n  \n text                      4913     89.8     89.8     89.8\n horiz. line                329      6.0      6.0     95.8\n graphic                     28       .5       .5     96.3\n vert. line                  88      1.6      1.6     97.9\n picture                    115      2.1      2.1    100.0\n                                 -------  -------  -------\n                         TOTAL      5473    100.0    100.0\n \n Summary Statistics:\n \n Variable      Mean    Std Dev   Minimum   Maximum   Correlation \n \n HEIGHT       10.47      18.96         1       804         .3510\n LENGTH       89.57     114.72         1       553        -.0045\n AREA       1198.41    4849.38         7    143993         .2343\n ECCEN        13.75      30.70      .007    537.00         .0992\n P_BLACK        .37        .18      .052      1.00         .2130\n P_AND          .79        .17      .062      1.00        -.1771\n MEAN_TR       6.22      69.08      1.00   4955.00         .0723\n BLACKPIX    365.93    1270.33         7     33017         .1656\n BLACKAND    741.11    1881.50         7     46133         .1565\n WB_TRANS    106.66     167.31         1      3212         .0337\n \n\n Information about the dataset\n CLASSTYPE: nominal\n CLASSINDEX: last",
+   "description": "The resources for this dataset can be found at https://www.openml.org/d/30\n\nAuthor:   \nSource: Unkno",
+   "licenses": [
+      {
+         "name": "ODC-PDDL",
+         "path": "http://opendatacommons.org/licenses/pddl/",
+         "title": "Open Data Commons Public Domain Dedication and License"
+      }
+   ]
+}

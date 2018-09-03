@@ -1,1 +1,326 @@
-{"name": "lung-cancer", "title": "Lung cancer", "resources": [{"path": "lung-cancer.arff", "pathType": "local", "name": "lung-cancer", "format": "arff", "encoding": "ISO-8859-1"}, {"path": "lung-cancer.csv", "pathType": "local", "name": "lung-cancer", "format": "csv", "mediatype": "text/csv", "encoding": "ISO-8859-1", "dialect": {"delimiter": ",", "quoteChar": "\""}, "schema": {"fields": [{"name": "class", "type": "number", "format": "default"}, {"name": "attribute2", "type": "number", "format": "default"}, {"name": "attribute3", "type": "number", "format": "default"}, {"name": "attribute4", "type": "number", "format": "default"}, {"name": "attribute5", "type": "number", "format": "default"}, {"name": "attribute6", "type": "number", "format": "default"}, {"name": "attribute7", "type": "number", "format": "default"}, {"name": "attribute8", "type": "number", "format": "default"}, {"name": "attribute9", "type": "number", "format": "default"}, {"name": "attribute10", "type": "number", "format": "default"}, {"name": "attribute11", "type": "number", "format": "default"}, {"name": "attribute12", "type": "number", "format": "default"}, {"name": "attribute13", "type": "number", "format": "default"}, {"name": "attribute14", "type": "number", "format": "default"}, {"name": "attribute15", "type": "number", "format": "default"}, {"name": "attribute16", "type": "number", "format": "default"}, {"name": "attribute17", "type": "number", "format": "default"}, {"name": "attribute18", "type": "number", "format": "default"}, {"name": "attribute19", "type": "number", "format": "default"}, {"name": "attribute20", "type": "number", "format": "default"}, {"name": "attribute21", "type": "number", "format": "default"}, {"name": "attribute22", "type": "number", "format": "default"}, {"name": "attribute23", "type": "number", "format": "default"}, {"name": "attribute24", "type": "number", "format": "default"}, {"name": "attribute25", "type": "number", "format": "default"}, {"name": "attribute26", "type": "number", "format": "default"}, {"name": "attribute27", "type": "number", "format": "default"}, {"name": "attribute28", "type": "number", "format": "default"}, {"name": "attribute29", "type": "number", "format": "default"}, {"name": "attribute30", "type": "number", "format": "default"}, {"name": "attribute31", "type": "number", "format": "default"}, {"name": "attribute32", "type": "number", "format": "default"}, {"name": "attribute33", "type": "number", "format": "default"}, {"name": "attribute34", "type": "number", "format": "default"}, {"name": "attribute35", "type": "number", "format": "default"}, {"name": "attribute36", "type": "number", "format": "default"}, {"name": "attribute37", "type": "number", "format": "default"}, {"name": "attribute38", "type": "number", "format": "default"}, {"name": "attribute39", "type": "number", "format": "default"}, {"name": "attribute40", "type": "number", "format": "default"}, {"name": "attribute41", "type": "number", "format": "default"}, {"name": "attribute42", "type": "number", "format": "default"}, {"name": "attribute43", "type": "number", "format": "default"}, {"name": "attribute44", "type": "number", "format": "default"}, {"name": "attribute45", "type": "number", "format": "default"}, {"name": "attribute46", "type": "number", "format": "default"}, {"name": "attribute47", "type": "number", "format": "default"}, {"name": "attribute48", "type": "number", "format": "default"}, {"name": "attribute49", "type": "number", "format": "default"}, {"name": "attribute50", "type": "number", "format": "default"}, {"name": "attribute51", "type": "number", "format": "default"}, {"name": "attribute52", "type": "number", "format": "default"}, {"name": "attribute53", "type": "number", "format": "default"}, {"name": "attribute54", "type": "number", "format": "default"}, {"name": "attribute55", "type": "number", "format": "default"}, {"name": "attribute56", "type": "number", "format": "default"}, {"name": "attribute57", "type": "number", "format": "default"}], "missingValues": [""]}}], "readme": "The resources for this dataset can be found at https://www.openml.org/d/163\n\nAuthor:   \nSource: Unknown -   \nPlease cite:   \n\n1. Title: Lung Cancer Data\n \n 2. Source Information:\n \t- Data was published in : \n \t  Hong, Z.Q. and Yang, J.Y. \"Optimal Discriminant Plane for a Small\n \t  Number of Samples and Design Method of Classifier on the Plane\",\n \t  Pattern Recognition, Vol. 24, No. 4, pp. 317-324, 1991.\n \t- Donor: Stefan Aeberhard, stefan@coral.cs.jcu.edu.au\n \t- Date : May, 1992\n \n 3. Past Usage:\n \t- Hong, Z.Q. and Yang, J.Y. \"Optimal Discriminant Plane for a Small\n           Number of Samples and Design Method of Classifier on the Plane\",\n           Pattern Recognition, Vol. 24, No. 4, pp. 317-324, 1991.\n \t- Aeberhard, S., Coomans, D, De Vel, O. \"Comparisons of \n \t  Classification Methods in High Dimensional Settings\", \n \t  submitted to Technometrics.\n \t- Aeberhard, S., Coomans, D, De Vel, O. \"The Dangers of \n \t  Bias in High Dimensional Settings\", submitted to\n \t  pattern Recognition.\n \n 4. Relevant Information:\n \t- This data was used by Hong and Young to illustrate the \n \t  power of the optimal discriminant plane even in ill-posed\n \t  settings. Applying the KNN method in the resulting plane\t\n \t  gave 77% accuracy. However, these results are strongly\n \t  biased (See Aeberhard's second ref. above, or email to\n \t  stefan@coral.cs.jcu.edu.au). Results obtained by\n \t  Aeberhard et al. are : \n \t  RDA : 62.5%, KNN 53.1%, Opt. Disc. Plane 59.4%\n \n \t  The data described 3 types of pathological lung cancers.\n \t  The Authors give no information on the individual\n \t  variables nor on where the data was originally used.\n \n        -  In the original data 4 values for the fifth attribute were -1.\n           These values have been changed to ? (unknown). (*)\n        -  In the original data 1 value for the 39 attribute was 4.  This\n           value has been changed to ? (unknown). (*)\n     \n \t  \n 5. Number of Instances: 32\n \n 6. Number of Attributes: 57 (1 class attribute, 56 predictive)\n \n 7. Attribute Information:\n \n \tattribute 1 is the class label.\n \t\n \t- All predictive attributes are nominal, taking on integer \n \t  values 0-3\n \n 8. Missing Attribute Values: Attributes 5 and 39 (*)\n \n 9. Class Distribution:\n \t- 3 classes, \n \t\t1.)\t9 observations\n \t\t2.)\t13     \"\n \t\t3.)\t10     \"\n \n\n Information about the dataset\n CLASSTYPE: nominal\n CLASSINDEX: first", "description": "The resources for this dataset can be found at https://www.openml.org/d/163\n\nAuthor:   \nSource: Unkn", "licenses": [{"name": "ODC-PDDL", "path": "http://opendatacommons.org/licenses/pddl/", "title": "Open Data Commons Public Domain Dedication and License"}]}
+{
+   "name": "lung-cancer",
+   "title": "Lung cancer",
+   "resources": [
+      {
+         "path": "lung-cancer.arff",
+         "pathType": "local",
+         "name": "lung-cancer",
+         "format": "arff",
+         "encoding": "ISO-8859-1"
+      },
+      {
+         "path": "lung-cancer.csv",
+         "pathType": "local",
+         "name": "lung-cancer",
+         "format": "csv",
+         "mediatype": "text/csv",
+         "encoding": "ISO-8859-1",
+         "dialect": {
+            "delimiter": ",",
+            "quoteChar": "\""
+         },
+         "schema": {
+            "fields": [
+               {
+                  "name": "class",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute2",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute3",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute4",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute5",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute6",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute7",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute8",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute9",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute10",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute11",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute12",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute13",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute14",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute15",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute16",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute17",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute18",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute19",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute20",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute21",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute22",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute23",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute24",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute25",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute26",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute27",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute28",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute29",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute30",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute31",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute32",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute33",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute34",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute35",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute36",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute37",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute38",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute39",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute40",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute41",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute42",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute43",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute44",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute45",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute46",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute47",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute48",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute49",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute50",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute51",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute52",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute53",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute54",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute55",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute56",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "attribute57",
+                  "type": "number",
+                  "format": "default"
+               }
+            ],
+            "missingValues": [
+               ""
+            ]
+         }
+      }
+   ],
+   "readme": "The resources for this dataset can be found at https://www.openml.org/d/163\n\nAuthor:   \nSource: Unknown -   \nPlease cite:   \n\n1. Title: Lung Cancer Data\n \n 2. Source Information:\n \t- Data was published in : \n \t  Hong, Z.Q. and Yang, J.Y. \"Optimal Discriminant Plane for a Small\n \t  Number of Samples and Design Method of Classifier on the Plane\",\n \t  Pattern Recognition, Vol. 24, No. 4, pp. 317-324, 1991.\n \t- Donor: Stefan Aeberhard, stefan@coral.cs.jcu.edu.au\n \t- Date : May, 1992\n \n 3. Past Usage:\n \t- Hong, Z.Q. and Yang, J.Y. \"Optimal Discriminant Plane for a Small\n           Number of Samples and Design Method of Classifier on the Plane\",\n           Pattern Recognition, Vol. 24, No. 4, pp. 317-324, 1991.\n \t- Aeberhard, S., Coomans, D, De Vel, O. \"Comparisons of \n \t  Classification Methods in High Dimensional Settings\", \n \t  submitted to Technometrics.\n \t- Aeberhard, S., Coomans, D, De Vel, O. \"The Dangers of \n \t  Bias in High Dimensional Settings\", submitted to\n \t  pattern Recognition.\n \n 4. Relevant Information:\n \t- This data was used by Hong and Young to illustrate the \n \t  power of the optimal discriminant plane even in ill-posed\n \t  settings. Applying the KNN method in the resulting plane\t\n \t  gave 77% accuracy. However, these results are strongly\n \t  biased (See Aeberhard's second ref. above, or email to\n \t  stefan@coral.cs.jcu.edu.au). Results obtained by\n \t  Aeberhard et al. are : \n \t  RDA : 62.5%, KNN 53.1%, Opt. Disc. Plane 59.4%\n \n \t  The data described 3 types of pathological lung cancers.\n \t  The Authors give no information on the individual\n \t  variables nor on where the data was originally used.\n \n        -  In the original data 4 values for the fifth attribute were -1.\n           These values have been changed to ? (unknown). (*)\n        -  In the original data 1 value for the 39 attribute was 4.  This\n           value has been changed to ? (unknown). (*)\n     \n \t  \n 5. Number of Instances: 32\n \n 6. Number of Attributes: 57 (1 class attribute, 56 predictive)\n \n 7. Attribute Information:\n \n \tattribute 1 is the class label.\n \t\n \t- All predictive attributes are nominal, taking on integer \n \t  values 0-3\n \n 8. Missing Attribute Values: Attributes 5 and 39 (*)\n \n 9. Class Distribution:\n \t- 3 classes, \n \t\t1.)\t9 observations\n \t\t2.)\t13     \"\n \t\t3.)\t10     \"\n \n\n Information about the dataset\n CLASSTYPE: nominal\n CLASSINDEX: first",
+   "description": "The resources for this dataset can be found at https://www.openml.org/d/163\n\nAuthor:   \nSource: Unkn",
+   "licenses": [
+      {
+         "name": "ODC-PDDL",
+         "path": "http://opendatacommons.org/licenses/pddl/",
+         "title": "Open Data Commons Public Domain Dedication and License"
+      }
+   ]
+}

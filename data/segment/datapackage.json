@@ -1,1 +1,141 @@
-{"name": "segment", "title": "Segment", "resources": [{"path": "segment.arff", "pathType": "local", "name": "segment", "format": "arff", "encoding": "ISO-8859-1"}, {"path": "segment.csv", "pathType": "local", "name": "segment", "format": "csv", "mediatype": "text/csv", "encoding": "ISO-8859-1", "dialect": {"delimiter": ",", "quoteChar": "\""}, "schema": {"fields": [{"name": "region-centroid-col", "type": "number", "format": "default"}, {"name": "region-centroid-row", "type": "number", "format": "default"}, {"name": "region-pixel-count", "type": "number", "format": "default"}, {"name": "short-line-density-5", "type": "number", "format": "default"}, {"name": "short-line-density-2", "type": "number", "format": "default"}, {"name": "vedge-mean", "type": "number", "format": "default"}, {"name": "vegde-sd", "type": "number", "format": "default"}, {"name": "hedge-mean", "type": "number", "format": "default"}, {"name": "hedge-sd", "type": "number", "format": "default"}, {"name": "intensity-mean", "type": "number", "format": "default"}, {"name": "rawred-mean", "type": "number", "format": "default"}, {"name": "rawblue-mean", "type": "number", "format": "default"}, {"name": "rawgreen-mean", "type": "number", "format": "default"}, {"name": "exred-mean", "type": "number", "format": "default"}, {"name": "exblue-mean", "type": "number", "format": "default"}, {"name": "exgreen-mean", "type": "number", "format": "default"}, {"name": "value-mean", "type": "number", "format": "default"}, {"name": "saturation-mean", "type": "number", "format": "default"}, {"name": "hue-mean", "type": "number", "format": "default"}, {"name": "class", "type": "string", "format": "default"}], "missingValues": [""]}}], "readme": "The resources for this dataset can be found at https://www.openml.org/d/36\n\nAuthor: University of Massachusetts Vision Group, Carla Brodley  \nSource: [UCI](http://archive.ics.uci.edu/ml/datasets/image+segmentation) - 1990  \nPlease cite: [UCI](http://archive.ics.uci.edu/ml/citation_policy.html)  \n\nImage Segmentation Data Set\nThe instances were drawn randomly from a database of 7 outdoor images. The images were hand-segmented to create a classification for every pixel. Each instance is a 3x3 region.\n \n### Attribute Information  \n\n1.  region-centroid-col:  the column of the center pixel of the region.\n2.  region-centroid-row:  the row of the center pixel of the region.\n3.  region-pixel-count:  the number of pixels in a region = 9.\n4.  short-line-density-5:  the results of a line extractoin algorithm that \n          counts how many lines of length 5 (any orientation) with\n          low contrast, less than or equal to 5, go through the region.\n5.  short-line-density-2:  same as short-line-density-5 but counts lines\n          of high contrast, greater than 5.\n6.  vedge-mean:  measure the contrast of horizontally\n          adjacent pixels in the region.  There are 6, the mean and \n          standard deviation are given.  This attribute is used as\n         a vertical edge detector.\n7.  vegde-sd:  (see 6)\n8.  hedge-mean:  measures the contrast of vertically adjacent\n           pixels. Used for horizontal line detection. \n9.  hedge-sd: (see 8).\n10. intensity-mean:  the average over the region of (R + G + B)/3\n11. rawred-mean: the average over the region of the R value.\n12. rawblue-mean: the average over the region of the B value.\n13. rawgreen-mean: the average over the region of the G value.\n14. exred-mean: measure the excess red:  (2R - (G + B))\n15. exblue-mean: measure the excess blue:  (2B - (G + R))\n16. exgreen-mean: measure the excess green:  (2G - (R + B))\n17. value-mean:  3-d nonlinear transformation\n          of RGB. (Algorithm can be found in Foley and VanDam, Fundamentals\n          of Interactive Computer Graphics)\n18. saturatoin-mean:  (see 17)\n19. hue-mean:  (see 17)\n", "description": "The resources for this dataset can be found at https://www.openml.org/d/36\n\nAuthor: University of Ma", "licenses": [{"name": "ODC-PDDL", "path": "http://opendatacommons.org/licenses/pddl/", "title": "Open Data Commons Public Domain Dedication and License"}]}
+{
+   "name": "segment",
+   "title": "Segment",
+   "resources": [
+      {
+         "path": "segment.arff",
+         "pathType": "local",
+         "name": "segment",
+         "format": "arff",
+         "encoding": "ISO-8859-1"
+      },
+      {
+         "path": "segment.csv",
+         "pathType": "local",
+         "name": "segment",
+         "format": "csv",
+         "mediatype": "text/csv",
+         "encoding": "ISO-8859-1",
+         "dialect": {
+            "delimiter": ",",
+            "quoteChar": "\""
+         },
+         "schema": {
+            "fields": [
+               {
+                  "name": "region-centroid-col",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "region-centroid-row",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "region-pixel-count",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "short-line-density-5",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "short-line-density-2",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "vedge-mean",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "vegde-sd",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "hedge-mean",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "hedge-sd",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "intensity-mean",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "rawred-mean",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "rawblue-mean",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "rawgreen-mean",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "exred-mean",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "exblue-mean",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "exgreen-mean",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "value-mean",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "saturation-mean",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "hue-mean",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "class",
+                  "type": "string",
+                  "format": "default"
+               }
+            ],
+            "missingValues": [
+               ""
+            ]
+         }
+      }
+   ],
+   "readme": "The resources for this dataset can be found at https://www.openml.org/d/36\n\nAuthor: University of Massachusetts Vision Group, Carla Brodley  \nSource: [UCI](http://archive.ics.uci.edu/ml/datasets/image+segmentation) - 1990  \nPlease cite: [UCI](http://archive.ics.uci.edu/ml/citation_policy.html)  \n\nImage Segmentation Data Set\nThe instances were drawn randomly from a database of 7 outdoor images. The images were hand-segmented to create a classification for every pixel. Each instance is a 3x3 region.\n \n### Attribute Information  \n\n1.  region-centroid-col:  the column of the center pixel of the region.\n2.  region-centroid-row:  the row of the center pixel of the region.\n3.  region-pixel-count:  the number of pixels in a region = 9.\n4.  short-line-density-5:  the results of a line extractoin algorithm that \n          counts how many lines of length 5 (any orientation) with\n          low contrast, less than or equal to 5, go through the region.\n5.  short-line-density-2:  same as short-line-density-5 but counts lines\n          of high contrast, greater than 5.\n6.  vedge-mean:  measure the contrast of horizontally\n          adjacent pixels in the region.  There are 6, the mean and \n          standard deviation are given.  This attribute is used as\n         a vertical edge detector.\n7.  vegde-sd:  (see 6)\n8.  hedge-mean:  measures the contrast of vertically adjacent\n           pixels. Used for horizontal line detection. \n9.  hedge-sd: (see 8).\n10. intensity-mean:  the average over the region of (R + G + B)/3\n11. rawred-mean: the average over the region of the R value.\n12. rawblue-mean: the average over the region of the B value.\n13. rawgreen-mean: the average over the region of the G value.\n14. exred-mean: measure the excess red:  (2R - (G + B))\n15. exblue-mean: measure the excess blue:  (2B - (G + R))\n16. exgreen-mean: measure the excess green:  (2G - (R + B))\n17. value-mean:  3-d nonlinear transformation\n          of RGB. (Algorithm can be found in Foley and VanDam, Fundamentals\n          of Interactive Computer Graphics)\n18. saturatoin-mean:  (see 17)\n19. hue-mean:  (see 17)\n",
+   "description": "The resources for this dataset can be found at https://www.openml.org/d/36\n\nAuthor: University of Ma",
+   "licenses": [
+      {
+         "name": "ODC-PDDL",
+         "path": "http://opendatacommons.org/licenses/pddl/",
+         "title": "Open Data Commons Public Domain Dedication and License"
+      }
+   ]
+}

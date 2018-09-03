@@ -1,1 +1,246 @@
-{"name": "waveform-5000", "title": "Waveform 5000", "resources": [{"path": "waveform-5000.arff", "pathType": "local", "name": "waveform-5000", "format": "arff", "encoding": "ISO-8859-1"}, {"path": "waveform-5000.csv", "pathType": "local", "name": "waveform-5000", "format": "csv", "mediatype": "text/csv", "encoding": "GB18030", "dialect": {"delimiter": ",", "quoteChar": "\""}, "schema": {"fields": [{"name": "x1", "type": "number", "format": "default"}, {"name": "x2", "type": "number", "format": "default"}, {"name": "x3", "type": "number", "format": "default"}, {"name": "x4", "type": "number", "format": "default"}, {"name": "x5", "type": "number", "format": "default"}, {"name": "x6", "type": "number", "format": "default"}, {"name": "x7", "type": "number", "format": "default"}, {"name": "x8", "type": "number", "format": "default"}, {"name": "x9", "type": "number", "format": "default"}, {"name": "x10", "type": "number", "format": "default"}, {"name": "x11", "type": "number", "format": "default"}, {"name": "x12", "type": "number", "format": "default"}, {"name": "x13", "type": "number", "format": "default"}, {"name": "x14", "type": "number", "format": "default"}, {"name": "x15", "type": "number", "format": "default"}, {"name": "x16", "type": "number", "format": "default"}, {"name": "x17", "type": "number", "format": "default"}, {"name": "x18", "type": "number", "format": "default"}, {"name": "x19", "type": "number", "format": "default"}, {"name": "x20", "type": "number", "format": "default"}, {"name": "x21", "type": "number", "format": "default"}, {"name": "x22", "type": "number", "format": "default"}, {"name": "x23", "type": "number", "format": "default"}, {"name": "x24", "type": "number", "format": "default"}, {"name": "x25", "type": "number", "format": "default"}, {"name": "x26", "type": "number", "format": "default"}, {"name": "x27", "type": "number", "format": "default"}, {"name": "x28", "type": "number", "format": "default"}, {"name": "x29", "type": "number", "format": "default"}, {"name": "x30", "type": "number", "format": "default"}, {"name": "x31", "type": "number", "format": "default"}, {"name": "x32", "type": "number", "format": "default"}, {"name": "x33", "type": "number", "format": "default"}, {"name": "x34", "type": "number", "format": "default"}, {"name": "x35", "type": "number", "format": "default"}, {"name": "x36", "type": "number", "format": "default"}, {"name": "x37", "type": "number", "format": "default"}, {"name": "x38", "type": "number", "format": "default"}, {"name": "x39", "type": "number", "format": "default"}, {"name": "x40", "type": "number", "format": "default"}, {"name": "class", "type": "number", "format": "default"}], "missingValues": [""]}}], "readme": "The resources for this dataset can be found at https://www.openml.org/d/60\n\nAuthor: Breiman,L., Friedman,J.H., Olshen,R.A., & Stone,C.J.  \nSource: [UCI](http://archive.ics.uci.edu/ml/datasets/waveform+database+generator+(version+2)) - 1988  \nPlease cite: [UCI](http://archive.ics.uci.edu/ml/citation_policy.html)    \n\nWaveform Database Generator  \nGenerator generating 3 classes of waves. Each class is generated from a combination of 2 of 3 \"base\" waves.  \n\nFor details, see Breiman,L., Friedman,J.H., Olshen,R.A., and Stone,C.J. (1984). \nClassification and Regression Trees. Wadsworth International, pp 49-55, 169. \n\nNote: There is [an earlier version](http://archive.ics.uci.edu/ml/datasets/Waveform+Database+Generator+(Version+1)) of this dataset that only has 21 attributes (it does not add the 19 noise features).\n\n### Attribute Information\n\n40 attributes describing the waveform, all of which include noise. The latter 19 attributes are all noise attributes with mean 0 and variance 1.\n", "description": "The resources for this dataset can be found at https://www.openml.org/d/60\n\nAuthor: Breiman,L., Frie", "licenses": [{"name": "ODC-PDDL", "path": "http://opendatacommons.org/licenses/pddl/", "title": "Open Data Commons Public Domain Dedication and License"}]}
+{
+   "name": "waveform-5000",
+   "title": "Waveform 5000",
+   "resources": [
+      {
+         "path": "waveform-5000.arff",
+         "pathType": "local",
+         "name": "waveform-5000",
+         "format": "arff",
+         "encoding": "ISO-8859-1"
+      },
+      {
+         "path": "waveform-5000.csv",
+         "pathType": "local",
+         "name": "waveform-5000",
+         "format": "csv",
+         "mediatype": "text/csv",
+         "encoding": "GB18030",
+         "dialect": {
+            "delimiter": ",",
+            "quoteChar": "\""
+         },
+         "schema": {
+            "fields": [
+               {
+                  "name": "x1",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x2",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x3",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x4",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x5",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x6",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x7",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x8",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x9",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x10",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x11",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x12",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x13",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x14",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x15",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x16",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x17",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x18",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x19",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x20",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x21",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x22",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x23",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x24",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x25",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x26",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x27",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x28",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x29",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x30",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x31",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x32",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x33",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x34",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x35",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x36",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x37",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x38",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x39",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "x40",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "class",
+                  "type": "number",
+                  "format": "default"
+               }
+            ],
+            "missingValues": [
+               ""
+            ]
+         }
+      }
+   ],
+   "readme": "The resources for this dataset can be found at https://www.openml.org/d/60\n\nAuthor: Breiman,L., Friedman,J.H., Olshen,R.A., & Stone,C.J.  \nSource: [UCI](http://archive.ics.uci.edu/ml/datasets/waveform+database+generator+(version+2)) - 1988  \nPlease cite: [UCI](http://archive.ics.uci.edu/ml/citation_policy.html)    \n\nWaveform Database Generator  \nGenerator generating 3 classes of waves. Each class is generated from a combination of 2 of 3 \"base\" waves.  \n\nFor details, see Breiman,L., Friedman,J.H., Olshen,R.A., and Stone,C.J. (1984). \nClassification and Regression Trees. Wadsworth International, pp 49-55, 169. \n\nNote: There is [an earlier version](http://archive.ics.uci.edu/ml/datasets/Waveform+Database+Generator+(Version+1)) of this dataset that only has 21 attributes (it does not add the 19 noise features).\n\n### Attribute Information\n\n40 attributes describing the waveform, all of which include noise. The latter 19 attributes are all noise attributes with mean 0 and variance 1.\n",
+   "description": "The resources for this dataset can be found at https://www.openml.org/d/60\n\nAuthor: Breiman,L., Frie",
+   "licenses": [
+      {
+         "name": "ODC-PDDL",
+         "path": "http://opendatacommons.org/licenses/pddl/",
+         "title": "Open Data Commons Public Domain Dedication and License"
+      }
+   ]
+}

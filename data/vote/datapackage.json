@@ -1,1 +1,126 @@
-{"name": "vote", "title": "Vote", "resources": [{"path": "vote.arff", "pathType": "local", "name": "vote", "format": "arff", "encoding": "ISO-8859-1"}, {"path": "vote.csv", "pathType": "local", "name": "vote", "format": "csv", "mediatype": "text/csv", "encoding": "ISO-8859-1", "dialect": {"delimiter": ",", "quoteChar": "'"}, "schema": {"fields": [{"name": "handicapped-infants", "type": "string", "format": "default"}, {"name": "water-project-cost-sharing", "type": "string", "format": "default"}, {"name": "adoption-of-the-budget-resolution", "type": "string", "format": "default"}, {"name": "physician-fee-freeze", "type": "string", "format": "default"}, {"name": "el-salvador-aid", "type": "string", "format": "default"}, {"name": "religious-groups-in-schools", "type": "string", "format": "default"}, {"name": "anti-satellite-test-ban", "type": "string", "format": "default"}, {"name": "aid-to-nicaraguan-contras", "type": "string", "format": "default"}, {"name": "mx-missile", "type": "string", "format": "default"}, {"name": "immigration", "type": "string", "format": "default"}, {"name": "synfuels-corporation-cutback", "type": "string", "format": "default"}, {"name": "education-spending", "type": "string", "format": "default"}, {"name": "superfund-right-to-sue", "type": "string", "format": "default"}, {"name": "crime", "type": "string", "format": "default"}, {"name": "duty-free-exports", "type": "string", "format": "default"}, {"name": "export-administration-act-south-africa", "type": "string", "format": "default"}, {"name": "Class", "type": "string", "format": "default"}], "missingValues": [""]}}], "readme": "The resources for this dataset can be found at https://www.openml.org/d/56\n\nAuthor:   \nSource: Unknown -   \nPlease cite:   \n\n1. Title: 1984 United States Congressional Voting Records Database\n \n 2. Source Information:\n     (a) Source:  Congressional Quarterly Almanac, 98th Congress, \n                  2nd session 1984, Volume XL: Congressional Quarterly Inc. \n                  Washington, D.C., 1985.\n     (b) Donor: Jeff Schlimmer (Jeffrey.Schlimmer@a.gp.cs.cmu.edu)\n     (c) Date: 27 April 1987 \n \n 3. Past Usage\n    - Publications\n      1. Schlimmer, J. C. (1987).  Concept acquisition through \n         representational adjustment.  Doctoral dissertation, Department of \n         Information and Computer Science, University of California, Irvine, CA.\n         -- Results: about 90%-95% accuracy appears to be STAGGER's asymptote\n      - Predicted attribute: party affiliation (2 classes)\n \n 4. Relevant Information:\n       This data set includes votes for each of the U.S. House of\n       Representatives Congressmen on the 16 key votes identified by the\n       CQA.  The CQA lists nine different types of votes: voted for, paired\n       for, and announced for (these three simplified to yea), voted\n       against, paired against, and announced against (these three\n       simplified to nay), voted present, voted present to avoid conflict\n       of interest, and did not vote or otherwise make a position known\n       (these three simplified to an unknown disposition).\n \n 5. Number of Instances: 435 (267 democrats, 168 republicans)\n \n 6. Number of Attributes: 16 + class name = 17 (all Boolean valued)\n \n 7. Attribute Information:\n    1. Class Name: 2 (democrat, republican)\n    2. handicapped-infants: 2 (y,n)\n    3. water-project-cost-sharing: 2 (y,n)\n    4. adoption-of-the-budget-resolution: 2 (y,n)\n    5. physician-fee-freeze: 2 (y,n)\n    6. el-salvador-aid: 2 (y,n)\n    7. religious-groups-in-schools: 2 (y,n)\n    8. anti-satellite-test-ban: 2 (y,n)\n    9. aid-to-nicaraguan-contras: 2 (y,n)\n   10. mx-missile: 2 (y,n)\n   11. immigration: 2 (y,n)\n   12. synfuels-corporation-cutback: 2 (y,n)\n   13. education-spending: 2 (y,n)\n   14. superfund-right-to-sue: 2 (y,n)\n   15. crime: 2 (y,n)\n   16. duty-free-exports: 2 (y,n)\n   17. export-administration-act-south-africa: 2 (y,n)\n \n 8. Missing Attribute Values: Denoted by \"?\"\n \n    NOTE: It is important to recognize that \"?\" in this database does \n          not mean that the value of the attribute is unknown.  It \n          means simply, that the value is not \"yea\" or \"nay\" (see \n          \"Relevant Information\" section above).\n \n    Attribute:  #Missing Values:\n            1:  0\n            2:  0\n            3:  12\n            4:  48\n            5:  11\n            6:  11\n            7:  15\n            8:  11\n            9:  14\n           10:  15\n           11:  22\n           12:  7\n           13:  21\n           14:  31\n           15:  25\n           16:  17\n           17:  28\n \n 9. Class Distribution: (2 classes)\n    1. 45.2 percent are democrat\n    2. 54.8 percent are republican\n \n Class predictiveness and predictability: Pr(C|A=V) and Pr(A=V|C)\n  Attribute 1: (A = handicapped-infants)\n   0.91;  1.21  (C=democrat; V=y)\n   0.09;  0.10  (C=republican; V=y)\n   0.43;  0.38  (C=democrat; V=n)\n   0.57;  0.41  (C=republican; V=n)\n   0.75;  0.03  (C=democrat; V=?)\n   0.25;  0.01  (C=republican; V=?)\n  Attribute 2: (A = water-project-cost-sharing)\n   0.62;  0.45  (C=democrat; V=y)\n   0.38;  0.23  (C=republican; V=y)\n   0.62;  0.45  (C=democrat; V=n)\n   0.38;  0.23  (C=republican; V=n)\n   0.58;  0.10  (C=democrat; V=?)\n   0.42;  0.06  (C=republican; V=?)\n  Attribute 3: (A = adoption-of-the-budget-resolution)\n   0.91;  0.87  (C=democrat; V=y)\n   0.09;  0.07  (C=republican; V=y)\n   0.17;  0.11  (C=democrat; V=n)\n   0.83;  0.44  (C=republican; V=n)\n   0.64;  0.03  (C=democrat; V=?)\n   0.36;  0.01  (C=republican; V=?)\n  Attribute 4: (A = physician-fee-freeze)\n   0.08;  0.05  (C=democrat; V=y)\n   0.92;  0.50  (C=republican; V=y)\n   0.99;  0.92  (C=democrat; V=n)\n   0.01;  0.01  (C=republican; V=n)\n   0.73;  0.03  (C=democrat; V=?)\n   0.27;  0.01  (C=republican; V=?)\n  Attribute 5: (A = el-salvador-aid)\n   0.26;  0.21  (C=democrat; V=y)\n   0.74;  0.48  (C=republican; V=y)\n   0.96;  0.75  (C=democrat; V=n)\n   0.04;  0.02  (C=republican; V=n)\n   0.80;  0.04  (C=democrat; V=?)\n   0.20;  0.01  (C=republican; V=?)\n  Attribute 6: (A = religious-groups-in-schools)\n   0.45;  0.46  (C=democrat; V=y)\n   0.55;  0.46  (C=republican; V=y)\n   0.89;  0.51  (C=democrat; V=n)\n   0.11;  0.05  (C=republican; V=n)\n   0.82;  0.03  (C=democrat; V=?)\n   0.18;  0.01  (C=republican; V=?)\n  Attribute 7: (A = anti-satellite-test-ban)\n   0.84;  0.75  (C=democrat; V=y)\n   0.16;  0.12  (C=republican; V=y)\n   0.32;  0.22  (C=democrat; V=n)\n   0.68;  0.38  (C=republican; V=n)\n   0.57;  0.03  (C=democrat; V=?)\n   0.43;  0.02  (C=republican; V=?)\n  Attribute 8: (A = aid-to-nicaraguan-contras)\n   0.90;  0.82  (C=democrat; V=y)\n   0.10;  0.07  (C=republican; V=y)\n   0.25;  0.17  (C=democrat; V=n)\n   0.75;  0.41  (C=republican; V=n)\n   0.27;  0.01  (C=democrat; V=?)\n   0.73;  0.03  (C=republican; V=?)\n  Attribute 9: (A = mx-missile)\n   0.91;  0.70  (C=democrat; V=y)\n   0.09;  0.06  (C=republican; V=y)\n   0.29;  0.22  (C=democrat; V=n)\n   0.71;  0.45  (C=republican; V=n)\n   0.86;  0.07  (C=democrat; V=?)\n   0.14;  0.01  (C=republican; V=?)\n  Attribute 10: (A = immigration)\n   0.57;  0.46  (C=democrat; V=y)\n   0.43;  0.28  (C=republican; V=y)\n   0.66;  0.52  (C=democrat; V=n)\n   0.34;  0.23  (C=republican; V=n)\n   0.57;  0.01  (C=democrat; V=?)\n   0.43;  0.01  (C=republican; V=?)\n  Attribute 11: (A = synfuels-corporation-cutback)\n   0.86;  0.48  (C=democrat; V=y)\n   0.14;  0.06  (C=republican; V=y)\n   0.48;  0.47  (C=democrat; V=n)\n   0.52;  0.43  (C=republican; V=n)\n   0.57;  0.04  (C=democrat; V=?)\n   0.43;  0.03  (C=republican; V=?)\n  Attribute 12: (A = education-spending)\n   0.21;  0.13  (C=democrat; V=y)\n   0.79;  0.42  (C=republican; V=y)\n   0.91;  0.80  (C=democrat; V=n)\n   0.09;  0.06  (C=republican; V=n)\n   0.58;  0.07  (C=democrat; V=?)\n   0.42;  0.04  (C=republican; V=?)\n  Attribute 13: (A = superfund-right-to-sue)\n   0.35;  0.27  (C=democrat; V=y)\n   0.65;  0.42  (C=republican; V=y)\n   0.89;  0.67  (C=democrat; V=n)\n   0.11;  0.07  (C=republican; V=n)\n   0.60;  0.06  (C=democrat; V=?)\n   0.40;  0.03  (C=republican; V=?)\n  Attribute 14: (A = crime)\n   0.36;  0.34  (C=democrat; V=y)\n   0.64;  0.49  (C=republican; V=y)\n   0.98;  0.63  (C=democrat; V=n)\n   0.02;  0.01  (C=republican; V=n)\n   0.59;  0.04  (C=democrat; V=?)\n   0.41;  0.02  (C=republican; V=?)\n  Attribute 15: (A = duty-free-exports)\n   0.92;  0.60  (C=democrat; V=y)\n   0.08;  0.04  (C=republican; V=y)\n   0.39;  0.34  (C=democrat; V=n)\n   0.61;  0.44  (C=republican; V=n)\n   0.57;  0.06  (C=democrat; V=?)\n   0.43;  0.04  (C=republican; V=?)\n  Attribute 16: (A = export-administration-act-south-africa)\n   0.64;  0.65  (C=democrat; V=y)\n   0.36;  0.30  (C=republican; V=y)\n   0.19;  0.04  (C=democrat; V=n)\n   0.81;  0.15  (C=republican; V=n)\n   0.79;  0.31  (C=democrat; V=?)\n   0.21;  0.07  (C=republican; V=?)", "description": "The resources for this dataset can be found at https://www.openml.org/d/56\n\nAuthor:   \nSource: Unkno", "licenses": [{"name": "ODC-PDDL", "path": "http://opendatacommons.org/licenses/pddl/", "title": "Open Data Commons Public Domain Dedication and License"}]}
+{
+   "name": "vote",
+   "title": "Vote",
+   "resources": [
+      {
+         "path": "vote.arff",
+         "pathType": "local",
+         "name": "vote",
+         "format": "arff",
+         "encoding": "ISO-8859-1"
+      },
+      {
+         "path": "vote.csv",
+         "pathType": "local",
+         "name": "vote",
+         "format": "csv",
+         "mediatype": "text/csv",
+         "encoding": "ISO-8859-1",
+         "dialect": {
+            "delimiter": ",",
+            "quoteChar": "'"
+         },
+         "schema": {
+            "fields": [
+               {
+                  "name": "handicapped-infants",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "water-project-cost-sharing",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "adoption-of-the-budget-resolution",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "physician-fee-freeze",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "el-salvador-aid",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "religious-groups-in-schools",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "anti-satellite-test-ban",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "aid-to-nicaraguan-contras",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "mx-missile",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "immigration",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "synfuels-corporation-cutback",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "education-spending",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "superfund-right-to-sue",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "crime",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "duty-free-exports",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "export-administration-act-south-africa",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "Class",
+                  "type": "string",
+                  "format": "default"
+               }
+            ],
+            "missingValues": [
+               ""
+            ]
+         }
+      }
+   ],
+   "readme": "The resources for this dataset can be found at https://www.openml.org/d/56\n\nAuthor:   \nSource: Unknown -   \nPlease cite:   \n\n1. Title: 1984 United States Congressional Voting Records Database\n \n 2. Source Information:\n     (a) Source:  Congressional Quarterly Almanac, 98th Congress, \n                  2nd session 1984, Volume XL: Congressional Quarterly Inc. \n                  Washington, D.C., 1985.\n     (b) Donor: Jeff Schlimmer (Jeffrey.Schlimmer@a.gp.cs.cmu.edu)\n     (c) Date: 27 April 1987 \n \n 3. Past Usage\n    - Publications\n      1. Schlimmer, J. C. (1987).  Concept acquisition through \n         representational adjustment.  Doctoral dissertation, Department of \n         Information and Computer Science, University of California, Irvine, CA.\n         -- Results: about 90%-95% accuracy appears to be STAGGER's asymptote\n      - Predicted attribute: party affiliation (2 classes)\n \n 4. Relevant Information:\n       This data set includes votes for each of the U.S. House of\n       Representatives Congressmen on the 16 key votes identified by the\n       CQA.  The CQA lists nine different types of votes: voted for, paired\n       for, and announced for (these three simplified to yea), voted\n       against, paired against, and announced against (these three\n       simplified to nay), voted present, voted present to avoid conflict\n       of interest, and did not vote or otherwise make a position known\n       (these three simplified to an unknown disposition).\n \n 5. Number of Instances: 435 (267 democrats, 168 republicans)\n \n 6. Number of Attributes: 16 + class name = 17 (all Boolean valued)\n \n 7. Attribute Information:\n    1. Class Name: 2 (democrat, republican)\n    2. handicapped-infants: 2 (y,n)\n    3. water-project-cost-sharing: 2 (y,n)\n    4. adoption-of-the-budget-resolution: 2 (y,n)\n    5. physician-fee-freeze: 2 (y,n)\n    6. el-salvador-aid: 2 (y,n)\n    7. religious-groups-in-schools: 2 (y,n)\n    8. anti-satellite-test-ban: 2 (y,n)\n    9. aid-to-nicaraguan-contras: 2 (y,n)\n   10. mx-missile: 2 (y,n)\n   11. immigration: 2 (y,n)\n   12. synfuels-corporation-cutback: 2 (y,n)\n   13. education-spending: 2 (y,n)\n   14. superfund-right-to-sue: 2 (y,n)\n   15. crime: 2 (y,n)\n   16. duty-free-exports: 2 (y,n)\n   17. export-administration-act-south-africa: 2 (y,n)\n \n 8. Missing Attribute Values: Denoted by \"?\"\n \n    NOTE: It is important to recognize that \"?\" in this database does \n          not mean that the value of the attribute is unknown.  It \n          means simply, that the value is not \"yea\" or \"nay\" (see \n          \"Relevant Information\" section above).\n \n    Attribute:  #Missing Values:\n            1:  0\n            2:  0\n            3:  12\n            4:  48\n            5:  11\n            6:  11\n            7:  15\n            8:  11\n            9:  14\n           10:  15\n           11:  22\n           12:  7\n           13:  21\n           14:  31\n           15:  25\n           16:  17\n           17:  28\n \n 9. Class Distribution: (2 classes)\n    1. 45.2 percent are democrat\n    2. 54.8 percent are republican\n \n Class predictiveness and predictability: Pr(C|A=V) and Pr(A=V|C)\n  Attribute 1: (A = handicapped-infants)\n   0.91;  1.21  (C=democrat; V=y)\n   0.09;  0.10  (C=republican; V=y)\n   0.43;  0.38  (C=democrat; V=n)\n   0.57;  0.41  (C=republican; V=n)\n   0.75;  0.03  (C=democrat; V=?)\n   0.25;  0.01  (C=republican; V=?)\n  Attribute 2: (A = water-project-cost-sharing)\n   0.62;  0.45  (C=democrat; V=y)\n   0.38;  0.23  (C=republican; V=y)\n   0.62;  0.45  (C=democrat; V=n)\n   0.38;  0.23  (C=republican; V=n)\n   0.58;  0.10  (C=democrat; V=?)\n   0.42;  0.06  (C=republican; V=?)\n  Attribute 3: (A = adoption-of-the-budget-resolution)\n   0.91;  0.87  (C=democrat; V=y)\n   0.09;  0.07  (C=republican; V=y)\n   0.17;  0.11  (C=democrat; V=n)\n   0.83;  0.44  (C=republican; V=n)\n   0.64;  0.03  (C=democrat; V=?)\n   0.36;  0.01  (C=republican; V=?)\n  Attribute 4: (A = physician-fee-freeze)\n   0.08;  0.05  (C=democrat; V=y)\n   0.92;  0.50  (C=republican; V=y)\n   0.99;  0.92  (C=democrat; V=n)\n   0.01;  0.01  (C=republican; V=n)\n   0.73;  0.03  (C=democrat; V=?)\n   0.27;  0.01  (C=republican; V=?)\n  Attribute 5: (A = el-salvador-aid)\n   0.26;  0.21  (C=democrat; V=y)\n   0.74;  0.48  (C=republican; V=y)\n   0.96;  0.75  (C=democrat; V=n)\n   0.04;  0.02  (C=republican; V=n)\n   0.80;  0.04  (C=democrat; V=?)\n   0.20;  0.01  (C=republican; V=?)\n  Attribute 6: (A = religious-groups-in-schools)\n   0.45;  0.46  (C=democrat; V=y)\n   0.55;  0.46  (C=republican; V=y)\n   0.89;  0.51  (C=democrat; V=n)\n   0.11;  0.05  (C=republican; V=n)\n   0.82;  0.03  (C=democrat; V=?)\n   0.18;  0.01  (C=republican; V=?)\n  Attribute 7: (A = anti-satellite-test-ban)\n   0.84;  0.75  (C=democrat; V=y)\n   0.16;  0.12  (C=republican; V=y)\n   0.32;  0.22  (C=democrat; V=n)\n   0.68;  0.38  (C=republican; V=n)\n   0.57;  0.03  (C=democrat; V=?)\n   0.43;  0.02  (C=republican; V=?)\n  Attribute 8: (A = aid-to-nicaraguan-contras)\n   0.90;  0.82  (C=democrat; V=y)\n   0.10;  0.07  (C=republican; V=y)\n   0.25;  0.17  (C=democrat; V=n)\n   0.75;  0.41  (C=republican; V=n)\n   0.27;  0.01  (C=democrat; V=?)\n   0.73;  0.03  (C=republican; V=?)\n  Attribute 9: (A = mx-missile)\n   0.91;  0.70  (C=democrat; V=y)\n   0.09;  0.06  (C=republican; V=y)\n   0.29;  0.22  (C=democrat; V=n)\n   0.71;  0.45  (C=republican; V=n)\n   0.86;  0.07  (C=democrat; V=?)\n   0.14;  0.01  (C=republican; V=?)\n  Attribute 10: (A = immigration)\n   0.57;  0.46  (C=democrat; V=y)\n   0.43;  0.28  (C=republican; V=y)\n   0.66;  0.52  (C=democrat; V=n)\n   0.34;  0.23  (C=republican; V=n)\n   0.57;  0.01  (C=democrat; V=?)\n   0.43;  0.01  (C=republican; V=?)\n  Attribute 11: (A = synfuels-corporation-cutback)\n   0.86;  0.48  (C=democrat; V=y)\n   0.14;  0.06  (C=republican; V=y)\n   0.48;  0.47  (C=democrat; V=n)\n   0.52;  0.43  (C=republican; V=n)\n   0.57;  0.04  (C=democrat; V=?)\n   0.43;  0.03  (C=republican; V=?)\n  Attribute 12: (A = education-spending)\n   0.21;  0.13  (C=democrat; V=y)\n   0.79;  0.42  (C=republican; V=y)\n   0.91;  0.80  (C=democrat; V=n)\n   0.09;  0.06  (C=republican; V=n)\n   0.58;  0.07  (C=democrat; V=?)\n   0.42;  0.04  (C=republican; V=?)\n  Attribute 13: (A = superfund-right-to-sue)\n   0.35;  0.27  (C=democrat; V=y)\n   0.65;  0.42  (C=republican; V=y)\n   0.89;  0.67  (C=democrat; V=n)\n   0.11;  0.07  (C=republican; V=n)\n   0.60;  0.06  (C=democrat; V=?)\n   0.40;  0.03  (C=republican; V=?)\n  Attribute 14: (A = crime)\n   0.36;  0.34  (C=democrat; V=y)\n   0.64;  0.49  (C=republican; V=y)\n   0.98;  0.63  (C=democrat; V=n)\n   0.02;  0.01  (C=republican; V=n)\n   0.59;  0.04  (C=democrat; V=?)\n   0.41;  0.02  (C=republican; V=?)\n  Attribute 15: (A = duty-free-exports)\n   0.92;  0.60  (C=democrat; V=y)\n   0.08;  0.04  (C=republican; V=y)\n   0.39;  0.34  (C=democrat; V=n)\n   0.61;  0.44  (C=republican; V=n)\n   0.57;  0.06  (C=democrat; V=?)\n   0.43;  0.04  (C=republican; V=?)\n  Attribute 16: (A = export-administration-act-south-africa)\n   0.64;  0.65  (C=democrat; V=y)\n   0.36;  0.30  (C=republican; V=y)\n   0.19;  0.04  (C=democrat; V=n)\n   0.81;  0.15  (C=republican; V=n)\n   0.79;  0.31  (C=democrat; V=?)\n   0.21;  0.07  (C=republican; V=?)",
+   "description": "The resources for this dataset can be found at https://www.openml.org/d/56\n\nAuthor:   \nSource: Unkno",
+   "licenses": [
+      {
+         "name": "ODC-PDDL",
+         "path": "http://opendatacommons.org/licenses/pddl/",
+         "title": "Open Data Commons Public Domain Dedication and License"
+      }
+   ]
+}

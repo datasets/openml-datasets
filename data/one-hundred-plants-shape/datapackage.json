@@ -1,1 +1,366 @@
-{"name": "one-hundred-plants-shape", "title": "One hundred plants shape", "resources": [{"path": "one-hundred-plants-shape.arff", "pathType": "local", "name": "one-hundred-plants-shape", "format": "arff", "encoding": "ISO-8859-1"}, {"path": "one-hundred-plants-shape.csv", "pathType": "local", "name": "one-hundred-plants-shape", "format": "csv", "mediatype": "text/csv", "encoding": "ISO-8859-2", "dialect": {"delimiter": ",", "quoteChar": "\""}, "schema": {"fields": [{"name": "V1", "type": "number", "format": "default"}, {"name": "V2", "type": "number", "format": "default"}, {"name": "V3", "type": "number", "format": "default"}, {"name": "V4", "type": "number", "format": "default"}, {"name": "V5", "type": "number", "format": "default"}, {"name": "V6", "type": "number", "format": "default"}, {"name": "V7", "type": "number", "format": "default"}, {"name": "V8", "type": "number", "format": "default"}, {"name": "V9", "type": "number", "format": "default"}, {"name": "V10", "type": "number", "format": "default"}, {"name": "V11", "type": "number", "format": "default"}, {"name": "V12", "type": "number", "format": "default"}, {"name": "V13", "type": "number", "format": "default"}, {"name": "V14", "type": "number", "format": "default"}, {"name": "V15", "type": "number", "format": "default"}, {"name": "V16", "type": "number", "format": "default"}, {"name": "V17", "type": "number", "format": "default"}, {"name": "V18", "type": "number", "format": "default"}, {"name": "V19", "type": "number", "format": "default"}, {"name": "V20", "type": "number", "format": "default"}, {"name": "V21", "type": "number", "format": "default"}, {"name": "V22", "type": "number", "format": "default"}, {"name": "V23", "type": "number", "format": "default"}, {"name": "V24", "type": "number", "format": "default"}, {"name": "V25", "type": "number", "format": "default"}, {"name": "V26", "type": "number", "format": "default"}, {"name": "V27", "type": "number", "format": "default"}, {"name": "V28", "type": "number", "format": "default"}, {"name": "V29", "type": "number", "format": "default"}, {"name": "V30", "type": "number", "format": "default"}, {"name": "V31", "type": "number", "format": "default"}, {"name": "V32", "type": "number", "format": "default"}, {"name": "V33", "type": "number", "format": "default"}, {"name": "V34", "type": "number", "format": "default"}, {"name": "V35", "type": "number", "format": "default"}, {"name": "V36", "type": "number", "format": "default"}, {"name": "V37", "type": "number", "format": "default"}, {"name": "V38", "type": "number", "format": "default"}, {"name": "V39", "type": "number", "format": "default"}, {"name": "V40", "type": "number", "format": "default"}, {"name": "V41", "type": "number", "format": "default"}, {"name": "V42", "type": "number", "format": "default"}, {"name": "V43", "type": "number", "format": "default"}, {"name": "V44", "type": "number", "format": "default"}, {"name": "V45", "type": "number", "format": "default"}, {"name": "V46", "type": "number", "format": "default"}, {"name": "V47", "type": "number", "format": "default"}, {"name": "V48", "type": "number", "format": "default"}, {"name": "V49", "type": "number", "format": "default"}, {"name": "V50", "type": "number", "format": "default"}, {"name": "V51", "type": "number", "format": "default"}, {"name": "V52", "type": "number", "format": "default"}, {"name": "V53", "type": "number", "format": "default"}, {"name": "V54", "type": "number", "format": "default"}, {"name": "V55", "type": "number", "format": "default"}, {"name": "V56", "type": "number", "format": "default"}, {"name": "V57", "type": "number", "format": "default"}, {"name": "V58", "type": "number", "format": "default"}, {"name": "V59", "type": "number", "format": "default"}, {"name": "V60", "type": "number", "format": "default"}, {"name": "V61", "type": "number", "format": "default"}, {"name": "V62", "type": "number", "format": "default"}, {"name": "V63", "type": "number", "format": "default"}, {"name": "V64", "type": "number", "format": "default"}, {"name": "Class", "type": "number", "format": "default"}], "missingValues": [""]}}], "readme": "The resources for this dataset can be found at https://www.openml.org/d/1492\n\nAuthor: James Cope, Thibaut Beghin, Paolo Remagnino, Sarah Barman.  \nSource: [UCI](https://archive.ics.uci.edu/ml/datasets/One-hundred+plant+species+leaves+data+set) - 2010   \nPlease cite: Charles Mallah, James Cope, James Orwell. Plant Leaf Classification Using Probabilistic Integration of Shape, Texture and Margin Features. Signal Processing, Pattern Recognition and Applications, in press. 2013.     \n\n### Description\n\nOne-hundred plant species leaves dataset (Class = Shape).\n \n### Sources\n```\n   (a) Original owners of colour Leaves Samples:\n\n James Cope, Thibaut Beghin, Paolo Remagnino, Sarah Barman.  \n The colour images are not included.  \n The Leaves were collected in the Royal Botanic Gardens, Kew, UK.  \n email: james.cope@kingston.ac.uk  \n   \n   (b) This dataset consists of work carried out by James Cope, Charles Mallah, and James Orwell.  \n Donor of database Charles Mallah: charles.mallah@kingston.ac.uk; James Cope:  james.cope@kingston.ac.uk  \n```\n\n### Dataset Information\n\nThe original data directory contains the binary images (masks) of the leaf samples (colour images not included).\nThere are three features for each image: Shape, Margin and Texture.\nFor each feature, a 64 element vector is given per leaf sample.\nThese vectors are taken as a contiguous descriptor (for shape) or histograms (for texture and margin).\nSo, there are three different files, one for each feature problem:  \n * 'data_Sha_64.txt' -> prediction based on shape [dataset provided here]\n * 'data_Tex_64.txt' -> prediction based on texture\n * 'data_Mar_64.txt' -> prediction based on margin  \n\nEach row has a 64-element feature vector followed by the Class label.\nThere is a total of 1600 samples with 16 samples per leaf class (100 classes), and no missing values.\n\n### Attributes Information\n\nThree 64 element feature vectors per sample.\n\n### Relevant Papers\n\nCharles Mallah, James Cope, James Orwell. \nPlant Leaf Classification Using Probabilistic Integration of Shape, Texture and Margin Features. \nSignal Processing, Pattern Recognition and Applications, in press.\n\nJ. Cope, P. Remagnino, S. Barman, and P. Wilkin.\nPlant texture classification using gabor co-occurrences.\nAdvances in Visual Computing,\npages 699-677, 2010.\n\nT. Beghin, J. Cope, P. Remagnino, and S. Barman.\nShape and texture based plant leaf classification. \nIn: Advanced Concepts for Intelligent Vision Systems,\npages 345-353. Springer, 2010.\n", "description": "The resources for this dataset can be found at https://www.openml.org/d/1492\n\nAuthor: James Cope, Th", "licenses": [{"name": "ODC-PDDL", "path": "http://opendatacommons.org/licenses/pddl/", "title": "Open Data Commons Public Domain Dedication and License"}]}
+{
+   "name": "one-hundred-plants-shape",
+   "title": "One hundred plants shape",
+   "resources": [
+      {
+         "path": "one-hundred-plants-shape.arff",
+         "pathType": "local",
+         "name": "one-hundred-plants-shape",
+         "format": "arff",
+         "encoding": "ISO-8859-1"
+      },
+      {
+         "path": "one-hundred-plants-shape.csv",
+         "pathType": "local",
+         "name": "one-hundred-plants-shape",
+         "format": "csv",
+         "mediatype": "text/csv",
+         "encoding": "ISO-8859-2",
+         "dialect": {
+            "delimiter": ",",
+            "quoteChar": "\""
+         },
+         "schema": {
+            "fields": [
+               {
+                  "name": "V1",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V2",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V3",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V4",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V5",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V6",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V7",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V8",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V9",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V10",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V11",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V12",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V13",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V14",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V15",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V16",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V17",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V18",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V19",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V20",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V21",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V22",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V23",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V24",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V25",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V26",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V27",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V28",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V29",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V30",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V31",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V32",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V33",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V34",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V35",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V36",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V37",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V38",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V39",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V40",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V41",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V42",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V43",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V44",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V45",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V46",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V47",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V48",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V49",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V50",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V51",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V52",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V53",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V54",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V55",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V56",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V57",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V58",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V59",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V60",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V61",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V62",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V63",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "V64",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "Class",
+                  "type": "number",
+                  "format": "default"
+               }
+            ],
+            "missingValues": [
+               ""
+            ]
+         }
+      }
+   ],
+   "readme": "The resources for this dataset can be found at https://www.openml.org/d/1492\n\nAuthor: James Cope, Thibaut Beghin, Paolo Remagnino, Sarah Barman.  \nSource: [UCI](https://archive.ics.uci.edu/ml/datasets/One-hundred+plant+species+leaves+data+set) - 2010   \nPlease cite: Charles Mallah, James Cope, James Orwell. Plant Leaf Classification Using Probabilistic Integration of Shape, Texture and Margin Features. Signal Processing, Pattern Recognition and Applications, in press. 2013.     \n\n### Description\n\nOne-hundred plant species leaves dataset (Class = Shape).\n \n### Sources\n```\n   (a) Original owners of colour Leaves Samples:\n\n James Cope, Thibaut Beghin, Paolo Remagnino, Sarah Barman.  \n The colour images are not included.  \n The Leaves were collected in the Royal Botanic Gardens, Kew, UK.  \n email: james.cope@kingston.ac.uk  \n   \n   (b) This dataset consists of work carried out by James Cope, Charles Mallah, and James Orwell.  \n Donor of database Charles Mallah: charles.mallah@kingston.ac.uk; James Cope:  james.cope@kingston.ac.uk  \n```\n\n### Dataset Information\n\nThe original data directory contains the binary images (masks) of the leaf samples (colour images not included).\nThere are three features for each image: Shape, Margin and Texture.\nFor each feature, a 64 element vector is given per leaf sample.\nThese vectors are taken as a contiguous descriptor (for shape) or histograms (for texture and margin).\nSo, there are three different files, one for each feature problem:  \n * 'data_Sha_64.txt' -> prediction based on shape [dataset provided here]\n * 'data_Tex_64.txt' -> prediction based on texture\n * 'data_Mar_64.txt' -> prediction based on margin  \n\nEach row has a 64-element feature vector followed by the Class label.\nThere is a total of 1600 samples with 16 samples per leaf class (100 classes), and no missing values.\n\n### Attributes Information\n\nThree 64 element feature vectors per sample.\n\n### Relevant Papers\n\nCharles Mallah, James Cope, James Orwell. \nPlant Leaf Classification Using Probabilistic Integration of Shape, Texture and Margin Features. \nSignal Processing, Pattern Recognition and Applications, in press.\n\nJ. Cope, P. Remagnino, S. Barman, and P. Wilkin.\nPlant texture classification using gabor co-occurrences.\nAdvances in Visual Computing,\npages 699-677, 2010.\n\nT. Beghin, J. Cope, P. Remagnino, and S. Barman.\nShape and texture based plant leaf classification. \nIn: Advanced Concepts for Intelligent Vision Systems,\npages 345-353. Springer, 2010.\n",
+   "description": "The resources for this dataset can be found at https://www.openml.org/d/1492\n\nAuthor: James Cope, Th",
+   "licenses": [
+      {
+         "name": "ODC-PDDL",
+         "path": "http://opendatacommons.org/licenses/pddl/",
+         "title": "Open Data Commons Public Domain Dedication and License"
+      }
+   ]
+}

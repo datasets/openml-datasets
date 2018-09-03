@@ -1,1 +1,86 @@
-{"name": "abalone", "title": "Abalone", "resources": [{"path": "abalone.arff", "pathType": "local", "name": "abalone", "format": "arff", "encoding": "ISO-8859-1"}, {"path": "abalone.csv", "pathType": "local", "name": "abalone", "format": "csv", "mediatype": "text/csv", "encoding": "ISO-8859-2", "dialect": {"delimiter": ",", "quoteChar": "\""}, "schema": {"fields": [{"name": "Sex", "type": "string", "format": "default"}, {"name": "Length", "type": "number", "format": "default"}, {"name": "Diameter", "type": "number", "format": "default"}, {"name": "Height", "type": "number", "format": "default"}, {"name": "Whole_weight", "type": "number", "format": "default"}, {"name": "Shucked_weight", "type": "number", "format": "default"}, {"name": "Viscera_weight", "type": "number", "format": "default"}, {"name": "Shell_weight", "type": "number", "format": "default"}, {"name": "Class_number_of_rings", "type": "number", "format": "default"}], "missingValues": [""]}}], "readme": "The resources for this dataset can be found at https://www.openml.org/d/183\n\nAuthor:   \nSource: Unknown -   \nPlease cite:   \n\n1. Title of Database: Abalone data\n\n 2. Sources:\n\n    (a) Original owners of database:\n \tMarine Resources Division\n \tMarine Research Laboratories - Taroona\n \tDepartment of Primary Industry and Fisheries, Tasmania\n \tGPO Box 619F, Hobart, Tasmania 7001, Australia\n \t(contact: Warwick Nash +61 02 277277, wnash@dpi.tas.gov.au)\n\n    (b) Donor of database:\n \tSam Waugh (Sam.Waugh@cs.utas.edu.au)\n \tDepartment of Computer Science, University of Tasmania\n \tGPO Box 252C, Hobart, Tasmania 7001, Australia\n\n    (c) Date received: December 1995\n\n\n 3. Past Usage:\n\n    Sam Waugh (1995) \"Extending and benchmarking Cascade-Correlation\", PhD\n    thesis, Computer Science Department, University of Tasmania.\n\n    -- Test set performance (final 1044 examples, first 3133 used for training):\n \t24.86% Cascade-Correlation (no hidden nodes)\n \t26.25% Cascade-Correlation (5 hidden nodes)\n \t21.5%  C4.5\n \t 0.0%  Linear Discriminate Analysis\n \t 3.57% k=5 Nearest Neighbour\n       (Problem encoded as a classification task)\n\n    -- Data set samples are highly overlapped.  Further information is required\n \tto separate completely using affine combinations.  Other restrictions\n \tto data set examined.\n\n    David Clark, Zoltan Schreter, Anthony Adams \"A Quantitative Comparison of\n    Dystal and Backpropagation\", submitted to the Australian Conference on\n    Neural Networks (ACNN'96). Data set treated as a 3-category classification\n    problem (grouping ring classes 1-8, 9 and 10, and 11 on).\n\n    -- Test set performance (3133 training, 1044 testing as above):\n \t64%    Backprop\n \t55%    Dystal\n    -- Previous work (Waugh, 1995) on same data set:\n \t61.40% Cascade-Correlation (no hidden nodes)\n \t65.61% Cascade-Correlation (5 hidden nodes)\n \t59.2%  C4.5\n \t32.57% Linear Discriminate Analysis\n \t62.46% k=5 Nearest Neighbour\n\n\n 4. Relevant Information Paragraph:\n\n    Predicting the age of abalone from physical measurements.  The age of\n    abalone is determined by cutting the shell through the cone, staining it,\n    and counting the number of rings through a microscope -- a boring and\n    time-consuming task.  Other measurements, which are easier to obtain, are\n    used to predict the age.  Further information, such as weather patterns\n    and location (hence food availability) may be required to solve the problem.\n\n    From the original data examples with missing values were removed (the\n    majority having the predicted value missing), and the ranges of the\n    continuous values have been scaled for use with an ANN (by dividing by 200).\n\n    Data comes from an original (non-machine-learning) study:\n\n \tWarwick J Nash, Tracy L Sellers, Simon R Talbot, Andrew J Cawthorn and\n \tWes B Ford (1994) \"The Population Biology of Abalone (_Haliotis_\n \tspecies) in Tasmania. I. Blacklip Abalone (_H. rubra_) from the North\n \tCoast and Islands of Bass Strait\", Sea Fisheries Division, Technical\n \tReport No. 48 (ISSN 1034-3288)\n\n\n 5. Number of Instances: 4177\n\n\n 6. Number of Attributes: 8\n\n\n 7. Attribute information:\n\n    Given is the attribute name, attribute type, the measurement unit and a\n    brief description.  The number of rings is the value to predict: either\n    as a continuous value or as a classification problem.\n\n \tName\t\tData Type\tMeas.\tDescription\n \t----\t\t---------\t-----\t-----------\n \tSex\t\tnominal\t\t\tM, F, and I (infant)\n \tLength\t\tcontinuous\tmm\tLongest shell measurement\n \tDiameter\tcontinuous\tmm\tperpendicular to length\n \tHeight\t\tcontinuous\tmm\twith meat in shell\n \tWhole weight\tcontinuous\tgrams\twhole abalone\n \tShucked weight\tcontinuous\tgrams\tweight of meat\n \tViscera weight\tcontinuous\tgrams\tgut weight (after bleeding)\n \tShell weight\tcontinuous\tgrams\tafter being dried\n \tRings\t\tinteger\t\t\t+1.5 gives the age in years\n\n    Statistics for numeric domains:\n\n \t\tLength\tDiam\tHeight\tWhole\tShucked\tViscera\tShell\tRings\n \tMin\t0.075\t0.055\t0.000\t0.002\t0.001\t0.001\t0.002\t    1\n \tMax\t0.815\t0.650\t1.130\t2.826\t1.488\t0.760\t1.005\t   29\n \tMean\t0.524\t0.408\t0.140\t0.829\t0.359\t0.181\t0.239\t9.934\n \tSD\t0.120\t0.099\t0.042\t0.490\t0.222\t0.110\t0.139\t3.224\n \tCorrel\t0.557\t0.575\t0.557\t0.540\t0.421\t0.504\t0.628\t  1.0\n\n\n 8. Missing Attribute Values: None\n\n\n 9. Class Distribution:\n\n \tClass\tExamples\n \t-----\t--------\n \t1\t1\n \t2\t1\n \t3\t15\n \t4\t57\n \t5\t115\n \t6\t259\n \t7\t391\n \t8\t568\n \t9\t689\n \t10\t634\n \t11\t487\n \t12\t267\n \t13\t203\n \t14\t126\n \t15\t103\n \t16\t67\n \t17\t58\n \t18\t42\n \t19\t32\n \t20\t26\n \t21\t14\n \t22\t6\n \t23\t9\n \t24\t2\n \t25\t1\n \t26\t1\n \t27\t2\n \t29\t1\n \t-----\t----\n \tTotal\t4177\n\n Num Instances:     4177\n Num Attributes:    9\n Num Continuous:    8 (Int 1 / Real 7)\n Num Discrete:      1\n Missing values:    0 /  0.0%\n\n     name                      type enum ints real     missing    distinct  (1)\n   1 'Sex'                     Enum 100%   0%   0%     0 /  0%     3 /  0%   0%\n   2 'Length'                  Real   0%   0% 100%     0 /  0%   134 /  3%   0%\n   3 'Diameter'                Real   0%   0% 100%     0 /  0%   111 /  3%   0%\n   4 'Height'                  Real   0%   0% 100%     0 /  0%    51 /  1%   0%\n   5 'Whole weight'            Real   0%   0% 100%     0 /  0%  2429 / 58%  31%\n   6 'Shucked weight'          Real   0%   0% 100%     0 /  0%  1515 / 36%  10%\n   7 'Viscera weight'          Real   0%   0% 100%     0 /  0%   880 / 21%   3%\n   8 'Shell weight'            Real   0%   0% 100%     0 /  0%   926 / 22%   8%\n   9 'Class_Rings'             Int    0% 100%   0%     0 /  0%    28 /  1%   0%", "description": "The resources for this dataset can be found at https://www.openml.org/d/183\n\nAuthor:   \nSource: Unkn", "licenses": [{"name": "ODC-PDDL", "path": "http://opendatacommons.org/licenses/pddl/", "title": "Open Data Commons Public Domain Dedication and License"}]}
+{
+   "name": "abalone",
+   "title": "Abalone",
+   "resources": [
+      {
+         "path": "abalone.arff",
+         "pathType": "local",
+         "name": "abalone",
+         "format": "arff",
+         "encoding": "ISO-8859-1"
+      },
+      {
+         "path": "abalone.csv",
+         "pathType": "local",
+         "name": "abalone",
+         "format": "csv",
+         "mediatype": "text/csv",
+         "encoding": "ISO-8859-2",
+         "dialect": {
+            "delimiter": ",",
+            "quoteChar": "\""
+         },
+         "schema": {
+            "fields": [
+               {
+                  "name": "Sex",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "Length",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "Diameter",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "Height",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "Whole_weight",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "Shucked_weight",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "Viscera_weight",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "Shell_weight",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "Class_number_of_rings",
+                  "type": "number",
+                  "format": "default"
+               }
+            ],
+            "missingValues": [
+               ""
+            ]
+         }
+      }
+   ],
+   "readme": "The resources for this dataset can be found at https://www.openml.org/d/183\n\nAuthor:   \nSource: Unknown -   \nPlease cite:   \n\n1. Title of Database: Abalone data\n\n 2. Sources:\n\n    (a) Original owners of database:\n \tMarine Resources Division\n \tMarine Research Laboratories - Taroona\n \tDepartment of Primary Industry and Fisheries, Tasmania\n \tGPO Box 619F, Hobart, Tasmania 7001, Australia\n \t(contact: Warwick Nash +61 02 277277, wnash@dpi.tas.gov.au)\n\n    (b) Donor of database:\n \tSam Waugh (Sam.Waugh@cs.utas.edu.au)\n \tDepartment of Computer Science, University of Tasmania\n \tGPO Box 252C, Hobart, Tasmania 7001, Australia\n\n    (c) Date received: December 1995\n\n\n 3. Past Usage:\n\n    Sam Waugh (1995) \"Extending and benchmarking Cascade-Correlation\", PhD\n    thesis, Computer Science Department, University of Tasmania.\n\n    -- Test set performance (final 1044 examples, first 3133 used for training):\n \t24.86% Cascade-Correlation (no hidden nodes)\n \t26.25% Cascade-Correlation (5 hidden nodes)\n \t21.5%  C4.5\n \t 0.0%  Linear Discriminate Analysis\n \t 3.57% k=5 Nearest Neighbour\n       (Problem encoded as a classification task)\n\n    -- Data set samples are highly overlapped.  Further information is required\n \tto separate completely using affine combinations.  Other restrictions\n \tto data set examined.\n\n    David Clark, Zoltan Schreter, Anthony Adams \"A Quantitative Comparison of\n    Dystal and Backpropagation\", submitted to the Australian Conference on\n    Neural Networks (ACNN'96). Data set treated as a 3-category classification\n    problem (grouping ring classes 1-8, 9 and 10, and 11 on).\n\n    -- Test set performance (3133 training, 1044 testing as above):\n \t64%    Backprop\n \t55%    Dystal\n    -- Previous work (Waugh, 1995) on same data set:\n \t61.40% Cascade-Correlation (no hidden nodes)\n \t65.61% Cascade-Correlation (5 hidden nodes)\n \t59.2%  C4.5\n \t32.57% Linear Discriminate Analysis\n \t62.46% k=5 Nearest Neighbour\n\n\n 4. Relevant Information Paragraph:\n\n    Predicting the age of abalone from physical measurements.  The age of\n    abalone is determined by cutting the shell through the cone, staining it,\n    and counting the number of rings through a microscope -- a boring and\n    time-consuming task.  Other measurements, which are easier to obtain, are\n    used to predict the age.  Further information, such as weather patterns\n    and location (hence food availability) may be required to solve the problem.\n\n    From the original data examples with missing values were removed (the\n    majority having the predicted value missing), and the ranges of the\n    continuous values have been scaled for use with an ANN (by dividing by 200).\n\n    Data comes from an original (non-machine-learning) study:\n\n \tWarwick J Nash, Tracy L Sellers, Simon R Talbot, Andrew J Cawthorn and\n \tWes B Ford (1994) \"The Population Biology of Abalone (_Haliotis_\n \tspecies) in Tasmania. I. Blacklip Abalone (_H. rubra_) from the North\n \tCoast and Islands of Bass Strait\", Sea Fisheries Division, Technical\n \tReport No. 48 (ISSN 1034-3288)\n\n\n 5. Number of Instances: 4177\n\n\n 6. Number of Attributes: 8\n\n\n 7. Attribute information:\n\n    Given is the attribute name, attribute type, the measurement unit and a\n    brief description.  The number of rings is the value to predict: either\n    as a continuous value or as a classification problem.\n\n \tName\t\tData Type\tMeas.\tDescription\n \t----\t\t---------\t-----\t-----------\n \tSex\t\tnominal\t\t\tM, F, and I (infant)\n \tLength\t\tcontinuous\tmm\tLongest shell measurement\n \tDiameter\tcontinuous\tmm\tperpendicular to length\n \tHeight\t\tcontinuous\tmm\twith meat in shell\n \tWhole weight\tcontinuous\tgrams\twhole abalone\n \tShucked weight\tcontinuous\tgrams\tweight of meat\n \tViscera weight\tcontinuous\tgrams\tgut weight (after bleeding)\n \tShell weight\tcontinuous\tgrams\tafter being dried\n \tRings\t\tinteger\t\t\t+1.5 gives the age in years\n\n    Statistics for numeric domains:\n\n \t\tLength\tDiam\tHeight\tWhole\tShucked\tViscera\tShell\tRings\n \tMin\t0.075\t0.055\t0.000\t0.002\t0.001\t0.001\t0.002\t    1\n \tMax\t0.815\t0.650\t1.130\t2.826\t1.488\t0.760\t1.005\t   29\n \tMean\t0.524\t0.408\t0.140\t0.829\t0.359\t0.181\t0.239\t9.934\n \tSD\t0.120\t0.099\t0.042\t0.490\t0.222\t0.110\t0.139\t3.224\n \tCorrel\t0.557\t0.575\t0.557\t0.540\t0.421\t0.504\t0.628\t  1.0\n\n\n 8. Missing Attribute Values: None\n\n\n 9. Class Distribution:\n\n \tClass\tExamples\n \t-----\t--------\n \t1\t1\n \t2\t1\n \t3\t15\n \t4\t57\n \t5\t115\n \t6\t259\n \t7\t391\n \t8\t568\n \t9\t689\n \t10\t634\n \t11\t487\n \t12\t267\n \t13\t203\n \t14\t126\n \t15\t103\n \t16\t67\n \t17\t58\n \t18\t42\n \t19\t32\n \t20\t26\n \t21\t14\n \t22\t6\n \t23\t9\n \t24\t2\n \t25\t1\n \t26\t1\n \t27\t2\n \t29\t1\n \t-----\t----\n \tTotal\t4177\n\n Num Instances:     4177\n Num Attributes:    9\n Num Continuous:    8 (Int 1 / Real 7)\n Num Discrete:      1\n Missing values:    0 /  0.0%\n\n     name                      type enum ints real     missing    distinct  (1)\n   1 'Sex'                     Enum 100%   0%   0%     0 /  0%     3 /  0%   0%\n   2 'Length'                  Real   0%   0% 100%     0 /  0%   134 /  3%   0%\n   3 'Diameter'                Real   0%   0% 100%     0 /  0%   111 /  3%   0%\n   4 'Height'                  Real   0%   0% 100%     0 /  0%    51 /  1%   0%\n   5 'Whole weight'            Real   0%   0% 100%     0 /  0%  2429 / 58%  31%\n   6 'Shucked weight'          Real   0%   0% 100%     0 /  0%  1515 / 36%  10%\n   7 'Viscera weight'          Real   0%   0% 100%     0 /  0%   880 / 21%   3%\n   8 'Shell weight'            Real   0%   0% 100%     0 /  0%   926 / 22%   8%\n   9 'Class_Rings'             Int    0% 100%   0%     0 /  0%    28 /  1%   0%",
+   "description": "The resources for this dataset can be found at https://www.openml.org/d/183\n\nAuthor:   \nSource: Unkn",
+   "licenses": [
+      {
+         "name": "ODC-PDDL",
+         "path": "http://opendatacommons.org/licenses/pddl/",
+         "title": "Open Data Commons Public Domain Dedication and License"
+      }
+   ]
+}

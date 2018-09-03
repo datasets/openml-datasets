@@ -1,1 +1,91 @@
-{"name": "profb", "title": "Profb", "resources": [{"path": "profb.arff", "pathType": "local", "name": "profb", "format": "arff", "encoding": "ISO-8859-1"}, {"path": "profb.csv", "pathType": "local", "name": "profb", "format": "csv", "mediatype": "text/csv", "encoding": "ISO-8859-1", "dialect": {"delimiter": ",", "quoteChar": "\""}, "schema": {"fields": [{"name": "Home/Away", "type": "string", "format": "default"}, {"name": "Favorite_Points", "type": "number", "format": "default"}, {"name": "Underdog_Points", "type": "number", "format": "default"}, {"name": "Pointspread", "type": "number", "format": "default"}, {"name": "Favorite_Name", "type": "string", "format": "default"}, {"name": "Underdog_name", "type": "string", "format": "default"}, {"name": "Year", "type": "number", "format": "default"}, {"name": "Week", "type": "number", "format": "default"}, {"name": "Weekday", "type": "string", "format": "default"}, {"name": "Overtime", "type": "string", "format": "default"}], "missingValues": [""]}}], "readme": "The resources for this dataset can be found at https://www.openml.org/d/470\n\nAuthor: Hal Stern, Robin Lock  \nSource: [StatLib](http://lib.stat.cmu.edu/datasets/profb)   \nPlease cite:   \n\nPRO FOOTBALL SCORES  (raw data appears after the description below)\n\nHow well do the oddsmakers of Las Vegas predict the outcome of\nprofessional football games?  Is there really a home field advantage - if\nso how large is it?  Are teams that play the Monday Night game at a\ndisadvantage when they play again the following Sunday?  Do teams benefit\nfrom having a \"bye\" week off in the current schedule?  These questions and\na host of others can be investigated using this data set.\n\nHal Stern from the Statistics Department at Harvard University has\nmade available his compilation of scores for all National Football League\ngames from the 1989, 1990, and 1991 seasons.  Dr. Stern used these data as\npart of his presentation \"Who's Number One?\" in the special \"Best of\nBoston\" session at the 1992 Joint Statistics Meetings.\n\nSeveral variables in the data are keyed to the oddsmakers \"point\nspread\" for each game.  The point spread is a value assigned before each\ngame to serve as a handicap for whichever is perceived to be the better\nteam.  Thus, to win against the point spread, the \"favorite\" team must beat\nthe \"underdog\" team by more points than the spread.  The underdog \"wins\"\nagainst the spread if it wins the game outright or manages to lose by fewer\npoints than the spread.  In theory, the point spread should represent the\n\"expert\" prediction as to the game's outcome.  In practice, it more usually\ndenotes a point at which an equal amount of money will be wagered both for\nand against the favored team.\n\nRaw data below contains 672 cases (all 224 regular season games in\neach season and informatino on the following 9 varialbes:     .\n\nHome/Away       = Favored team is at home (1) or away (0)\nFavorite Points = Points scored by the favored team\nUnderdog Points = Points scored by the underdog team\nPointspread     = Oddsmaker's points to handicap the favored team\nFavorite Name   = Code for favored team's name\nUnderdog name   = Code for underdog's name\nYear            = 89, 90, or 91\nWeek            = 1, 2, ... 17\nSpecial         = Mon.night (M), Sat. (S), Thur. (H), Sun. night (N)\not - denotes an overtime game", "description": "The resources for this dataset can be found at https://www.openml.org/d/470\n\nAuthor: Hal Stern, Robi", "licenses": [{"name": "ODC-PDDL", "path": "http://opendatacommons.org/licenses/pddl/", "title": "Open Data Commons Public Domain Dedication and License"}]}
+{
+   "name": "profb",
+   "title": "Profb",
+   "resources": [
+      {
+         "path": "profb.arff",
+         "pathType": "local",
+         "name": "profb",
+         "format": "arff",
+         "encoding": "ISO-8859-1"
+      },
+      {
+         "path": "profb.csv",
+         "pathType": "local",
+         "name": "profb",
+         "format": "csv",
+         "mediatype": "text/csv",
+         "encoding": "ISO-8859-1",
+         "dialect": {
+            "delimiter": ",",
+            "quoteChar": "\""
+         },
+         "schema": {
+            "fields": [
+               {
+                  "name": "Home/Away",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "Favorite_Points",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "Underdog_Points",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "Pointspread",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "Favorite_Name",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "Underdog_name",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "Year",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "Week",
+                  "type": "number",
+                  "format": "default"
+               },
+               {
+                  "name": "Weekday",
+                  "type": "string",
+                  "format": "default"
+               },
+               {
+                  "name": "Overtime",
+                  "type": "string",
+                  "format": "default"
+               }
+            ],
+            "missingValues": [
+               ""
+            ]
+         }
+      }
+   ],
+   "readme": "The resources for this dataset can be found at https://www.openml.org/d/470\n\nAuthor: Hal Stern, Robin Lock  \nSource: [StatLib](http://lib.stat.cmu.edu/datasets/profb)   \nPlease cite:   \n\nPRO FOOTBALL SCORES  (raw data appears after the description below)\n\nHow well do the oddsmakers of Las Vegas predict the outcome of\nprofessional football games?  Is there really a home field advantage - if\nso how large is it?  Are teams that play the Monday Night game at a\ndisadvantage when they play again the following Sunday?  Do teams benefit\nfrom having a \"bye\" week off in the current schedule?  These questions and\na host of others can be investigated using this data set.\n\nHal Stern from the Statistics Department at Harvard University has\nmade available his compilation of scores for all National Football League\ngames from the 1989, 1990, and 1991 seasons.  Dr. Stern used these data as\npart of his presentation \"Who's Number One?\" in the special \"Best of\nBoston\" session at the 1992 Joint Statistics Meetings.\n\nSeveral variables in the data are keyed to the oddsmakers \"point\nspread\" for each game.  The point spread is a value assigned before each\ngame to serve as a handicap for whichever is perceived to be the better\nteam.  Thus, to win against the point spread, the \"favorite\" team must beat\nthe \"underdog\" team by more points than the spread.  The underdog \"wins\"\nagainst the spread if it wins the game outright or manages to lose by fewer\npoints than the spread.  In theory, the point spread should represent the\n\"expert\" prediction as to the game's outcome.  In practice, it more usually\ndenotes a point at which an equal amount of money will be wagered both for\nand against the favored team.\n\nRaw data below contains 672 cases (all 224 regular season games in\neach season and informatino on the following 9 varialbes:     .\n\nHome/Away       = Favored team is at home (1) or away (0)\nFavorite Points = Points scored by the favored team\nUnderdog Points = Points scored by the underdog team\nPointspread     = Oddsmaker's points to handicap the favored team\nFavorite Name   = Code for favored team's name\nUnderdog name   = Code for underdog's name\nYear            = 89, 90, or 91\nWeek            = 1, 2, ... 17\nSpecial         = Mon.night (M), Sat. (S), Thur. (H), Sun. night (N)\not - denotes an overtime game",
+   "description": "The resources for this dataset can be found at https://www.openml.org/d/470\n\nAuthor: Hal Stern, Robi",
+   "licenses": [
+      {
+         "name": "ODC-PDDL",
+         "path": "http://opendatacommons.org/licenses/pddl/",
+         "title": "Open Data Commons Public Domain Dedication and License"
+      }
+   ]
+}
