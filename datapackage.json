@@ -1,0 +1,647 @@
+{
+  "name": "openml-datasets",
+  "title": "OpenML Datasets",
+  "description": "A curated collection of tabular machine learning datasets sourced from OpenML.",
+  "profile": "data-package",
+  "homepage": "https://www.openml.org/",
+  "licenses": [
+    {
+      "name": "ODC-PDDL-1.0",
+      "path": "http://opendatacommons.org/licenses/pddl/",
+      "title": "Open Data Commons Public Domain Dedication and License v1.0"
+    }
+  ],
+  "sources": [
+    {
+      "name": "OpenML",
+      "path": "https://www.openml.org/search?type=data",
+      "title": "OpenML Data Repository"
+    }
+  ],
+  "resources": [
+    {
+      "name": "abalone",
+      "path": "data/abalone/abalone.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "adult",
+      "path": "data/adult/adult.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "airlines",
+      "path": "data/airlines/airlines.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "amazon-commerce-reviews",
+      "path": "data/amazon-commerce-reviews/amazon-commerce-reviews.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "anneal",
+      "path": "data/anneal/anneal.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "arrhythmia",
+      "path": "data/arrhythmia/arrhythmia.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "autos",
+      "path": "data/autos/autos.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "autoUniv-au6-1000",
+      "path": "data/autoUniv-au6-1000/autoUniv-au6-1000.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "bank-marketing",
+      "path": "data/bank-marketing/bank-marketing.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "banknote-authentication",
+      "path": "data/banknote-authentication/banknote-authentication.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "Bioresponse",
+      "path": "data/Bioresponse/Bioresponse.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "blood-transfusion-service-center",
+      "path": "data/blood-transfusion-service-center/blood-transfusion-service-center.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "breast-cancer",
+      "path": "data/breast-cancer/breast-cancer.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "breast-w",
+      "path": "data/breast-w/breast-w.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "cardiotocography",
+      "path": "data/cardiotocography/cardiotocography.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "Click_prediction_small",
+      "path": "data/Click_prediction_small/Click_prediction_small.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "climate-model-simulation-crashes",
+      "path": "data/climate-model-simulation-crashes/climate-model-simulation-crashes.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "cmc",
+      "path": "data/cmc/cmc.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "credit-approval",
+      "path": "data/credit-approval/credit-approval.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "credit-g",
+      "path": "data/credit-g/credit-g.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "diabetes",
+      "path": "data/diabetes/diabetes.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "eeg-eye-state",
+      "path": "data/eeg-eye-state/eeg-eye-state.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "electricity",
+      "path": "data/electricity/electricity.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "fbis.wc",
+      "path": "data/fbis.wc/fbis.wc.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "first-order-theorem-proving",
+      "path": "data/first-order-theorem-proving/first-order-theorem-proving.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "gas-drift",
+      "path": "data/gas-drift/gas-drift.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "gina_agnostic",
+      "path": "data/gina_agnostic/gina_agnostic.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "gina_prior2",
+      "path": "data/gina_prior2/gina_prior2.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "glass",
+      "path": "data/glass/glass.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "haberman",
+      "path": "data/haberman/haberman.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "heart-statlog",
+      "path": "data/heart-statlog/heart-statlog.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "hill-valley",
+      "path": "data/hill-valley/hill-valley.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "ilpd",
+      "path": "data/ilpd/ilpd.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "IMDB.drama",
+      "path": "data/IMDB.drama/IMDB.drama.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "ionosphere",
+      "path": "data/ionosphere/ionosphere.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "iris",
+      "path": "data/iris/iris.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "isolet",
+      "path": "data/isolet/isolet.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "jm1",
+      "path": "data/jm1/jm1.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "kc1",
+      "path": "data/kc1/kc1.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "kc2",
+      "path": "data/kc2/kc2.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "kr-vs-kp",
+      "path": "data/kr-vs-kp/kr-vs-kp.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "kropt",
+      "path": "data/kropt/kropt.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "letter",
+      "path": "data/letter/letter.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "liver-disorders",
+      "path": "data/liver-disorders/liver-disorders.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "lung-cancer",
+      "path": "data/lung-cancer/lung-cancer.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "lymph",
+      "path": "data/lymph/lymph.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "madelon",
+      "path": "data/madelon/madelon.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "MagicTelescope",
+      "path": "data/MagicTelescope/MagicTelescope.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "mammography",
+      "path": "data/mammography/mammography.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "mfeat-factors",
+      "path": "data/mfeat-factors/mfeat-factors.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "mfeat-karhunen",
+      "path": "data/mfeat-karhunen/mfeat-karhunen.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "mfeat-morphological",
+      "path": "data/mfeat-morphological/mfeat-morphological.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "mfeat-pixel",
+      "path": "data/mfeat-pixel/mfeat-pixel.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "mfeat-zernike",
+      "path": "data/mfeat-zernike/mfeat-zernike.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "mozilla4",
+      "path": "data/mozilla4/mozilla4.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "mushroom",
+      "path": "data/mushroom/mushroom.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "musk",
+      "path": "data/musk/musk.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "nursery",
+      "path": "data/nursery/nursery.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "oil_spill",
+      "path": "data/oil_spill/oil_spill.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "one-hundred-plants-shape",
+      "path": "data/one-hundred-plants-shape/one-hundred-plants-shape.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "one-hundred-plants-texture",
+      "path": "data/one-hundred-plants-texture/one-hundred-plants-texture.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "optdigits",
+      "path": "data/optdigits/optdigits.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "page-blocks",
+      "path": "data/page-blocks/page-blocks.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "pc1",
+      "path": "data/pc1/pc1.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "pc3",
+      "path": "data/pc3/pc3.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "pendigits",
+      "path": "data/pendigits/pendigits.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "phoneme",
+      "path": "data/phoneme/phoneme.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "profb",
+      "path": "data/profb/profb.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "qsar-biodeg",
+      "path": "data/qsar-biodeg/qsar-biodeg.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "Satellite",
+      "path": "data/Satellite/Satellite.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "satimage",
+      "path": "data/satimage/satimage.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "scene",
+      "path": "data/scene/scene.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "segment",
+      "path": "data/segment/segment.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "seismic-bumps",
+      "path": "data/seismic-bumps/seismic-bumps.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "semeion",
+      "path": "data/semeion/semeion.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "sick",
+      "path": "data/sick/sick.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "sonar",
+      "path": "data/sonar/sonar.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "soybean",
+      "path": "data/soybean/soybean.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "spambase",
+      "path": "data/spambase/spambase.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "spectrometer",
+      "path": "data/spectrometer/spectrometer.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "SpeedDating",
+      "path": "data/SpeedDating/SpeedDating.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "steel-plates-fault",
+      "path": "data/steel-plates-fault/steel-plates-fault.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "tic-tac-toe",
+      "path": "data/tic-tac-toe/tic-tac-toe.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "vehicle",
+      "path": "data/vehicle/vehicle.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "vote",
+      "path": "data/vote/vote.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "wall-robot-navigation",
+      "path": "data/wall-robot-navigation/wall-robot-navigation.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "waveform-5000",
+      "path": "data/waveform-5000/waveform-5000.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "wdbc",
+      "path": "data/wdbc/wdbc.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    },
+    {
+      "name": "yeast",
+      "path": "data/yeast/yeast.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "profile": "tabular-data-resource"
+    }
+  ],
+  "version": "0.1.0"
+}
